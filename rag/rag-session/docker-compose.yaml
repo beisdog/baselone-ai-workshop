@@ -3,26 +3,16 @@ version: '3.8'
 services:
   pgvector:
     image: pgvector/pgvector:pg16
-    container_name: edd_rag_pgvector
+    container_name: erni_rag_pgvector
     restart: always
     environment:
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: test
-      POSTGRES_DB: test
+      POSTGRES_USER: baselone
+      POSTGRES_PASSWORD: baselone
+      POSTGRES_DB: baselone
     ports:
-      - "5432:5432"
+      - "8432:5432"
     volumes:
       - pgvector_data:/var/lib/postgresql/data
 
-  ollama:
-    image: ollama/ollama
-    container_name: edd_rag_ollama
-    restart: always
-    ports:
-      - "11434:11434"
-    volumes:
-      - ollama_data:/root/.ollama
-
 volumes:
   pgvector_data:
-  ollama_data:
