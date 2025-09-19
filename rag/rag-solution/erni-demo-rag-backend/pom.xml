@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.4</version>
+        <version>3.5.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ch.erni.edd</groupId>
@@ -17,8 +17,8 @@
 
     <properties>
         <java.version>21</java.version>
-        <spring-boot.version>3.2.4</spring-boot.version>
-        <springdoc-openapi.version>2.2.0</springdoc-openapi.version>
+        <spring-boot.version>3.5.5</spring-boot.version>
+        <springdoc-openapi.version>2.8.13</springdoc-openapi.version>
         <langchain4j.version>1.5.0</langchain4j.version>
         <langchain4j.beta.version>1.5.0-beta11</langchain4j.beta.version>
         <lombok.version>1.18.38</lombok.version>
@@ -54,12 +54,6 @@
             <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j-open-ai-spring-boot-starter</artifactId>
             <version>${langchain4j.beta.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>dev.langchain4j</groupId>
-            <artifactId>langchain4j-open-ai</artifactId>
-            <version>${langchain4j.version}</version>
         </dependency>
 
         <!-- pg vector -->
