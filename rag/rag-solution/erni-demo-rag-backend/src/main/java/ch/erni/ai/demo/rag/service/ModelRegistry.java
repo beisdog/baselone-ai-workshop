@@ -1,8 +1,10 @@
 package ch.erni.ai.demo.rag.service;
 
 
+import ai.djl.huggingface.tokenizers.HuggingFaceTokenizer;
 import ch.erni.ai.demo.rag.config.TokenizerConfig;
 import ch.erni.ai.demo.rag.model.ModelData;
+import ch.erni.ai.demo.rag.util.MyHuggingFaceTokenEstimator;
 import dev.langchain4j.model.TokenCountEstimator;
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.embedding.EmbeddingModel;
@@ -10,6 +12,7 @@ import dev.langchain4j.model.embedding.onnx.HuggingFaceTokenCountEstimator;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -44,8 +47,7 @@ public class ModelRegistry {
     public TokenCountEstimator getTokenCountEstimator(String model) {
         var tokenizer = tokenizerConfig.getTokenizer().stream().filter(t -> t.getName().equals(model)).findFirst();
         if (tokenizer.isPresent()) {
-            var counter = new HuggingFaceTokenCountEstimator(tokenizer.get().getPath());
-            return counter;
+            return MyHuggingFaceTokenEstimator.get(tokenizer.get().getPath());
         } else {
             throw new IllegalArgumentException("no tokenizer for model configured. Found tokenizers: " + tokenizerConfig.getTokenizer());
         }

@@ -1,6 +1,7 @@
 package ch.erni.ai.demo.rag.rest;
 
 import ch.erni.ai.demo.rag.service.LmStudioModelService;
+import ch.erni.ai.demo.rag.service.ModelRegistry;
 import lombok.*;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 public class EmbeddingModelController {
 
     private final LmStudioModelService lmStudioModelService;
+    private final ModelRegistry modelRegistry;
 
     @Data
     @NoArgsConstructor
@@ -32,5 +34,11 @@ public class EmbeddingModelController {
                 .dimensions(embedding.dimension())
                 .vector(embedding.vector())
                 .build();
+    }
+
+    @PostMapping("/{model}/count-tokens")
+    public int countTokens(@PathVariable String model, @RequestBody String text) {
+        var estimator = modelRegistry.getTokenCountEstimator(model);
+        return estimator.estimateTokenCountInText(text);
     }
 }

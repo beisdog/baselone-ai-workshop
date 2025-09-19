@@ -56,6 +56,12 @@
             <version>${langchain4j.beta.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>ai.djl.huggingface</groupId>
+            <artifactId>tokenizers</artifactId>
+            <version>0.34.0</version>
+        </dependency>
+
         <!-- pg vector -->
         <dependency>
             <groupId>dev.langchain4j</groupId>

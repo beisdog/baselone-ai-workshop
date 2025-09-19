@@ -26,7 +26,7 @@ application:
       database: baselone
   tokenizer:
     - name: text-embedding-nomic-embed-text-v2
-      path: ../nomic-embed-text-v2-moe
+      path: nomic-ai/nomic-embed-text-v2-moe
 
 
 
