@@ -1,0 +1,6 @@
+Hier ist die Frage: {{question}}
+
+Hier ist der CV:
+{{cv_content}}
+
+Stelle sicher, dass Du in der gleichen Sprache antwortest in der die Frage gestellt wurde.

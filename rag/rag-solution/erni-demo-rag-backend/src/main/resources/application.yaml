@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: erni-demo-rag
+
+springdoc:
+  swagger-ui.path: /swagger
+  api-docs.path: /api-docs
+  packages-to-scan: ch.erni.ai.demo.rag
+  swagger-ui:
+    tryItOutEnabled: true
+    operationsSorter: method
+    tagsSorter: alpha
+    filter: true
+
+application:
+  resources.dir: ./src/main/resources #can be overridden in application.properties
+  llm:
+    openai:
+      api-key: test
+  vector_store:
+    pgvector:
+      host: localhost
+      user: baselone
+      port: 8543
+      password: baselone
+      database: baselone
+  tokenizer:
+    - name: text-embedding-nomic-embed-text-v2
+      path: ../nomic-embed-text-v2-moe
+
+
+
+langchain4j:
+  open-ai:
+    embedding-model:
+      api-key: ${application.llm.openai.api-key}
+      model-name: text-embedding-nomic-embed-text-v2
+    chat-model:
+      api-key: ${application.llm.openai.api-key}
+      model-name: openai/gpt-oss-120b
+      log-requests: true
+      log-responses: true
+      base-url: http://localhost:1234/v1
+
+
+logging:
+  level:
+    dev.langchain4j: DEBUG
+    dev.ai4j.openai4j: DEBUG

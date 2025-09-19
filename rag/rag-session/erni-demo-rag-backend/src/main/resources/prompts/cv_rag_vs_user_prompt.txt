@@ -1,0 +1,4 @@
+Hier ist die Liste der CV:
+{{cv_list}}
+
+Hier die Frage: {{question}}
