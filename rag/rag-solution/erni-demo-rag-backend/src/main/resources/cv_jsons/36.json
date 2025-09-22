@@ -1,0 +1,408 @@
+{
+  "name" : "Cassian Rook",
+  "careerinfo" : {
+    "AdvertisingText" : "Cassian Rook ist Elektroingenieur HTL mit über 35 Jahren Berufserfahrung als Projektleiter, Berater und früherer Software Engineer bei zwei verschiedenen Software-Dienstleistern. Momentan arbeitet er in zwei parallelen Mandaten in der Medizinaltechnik und im Transportwesen. Dank seiner langjährigen Projekt- und Führungserfahrung und seinen guten Kommunikations- und Soft Skills sind auch seine aktuellen Mandate sehr erfolgreich. Regelmässig erhält er dafür Lob von seinen Auftraggebern.",
+    "LongAdvertisingText" : "",
+    "PreferredFunctions" : "Project Management",
+    "PreferredFunctionsList" : [ {
+      "CodeListValueId" : 14302,
+      "CodeListValueCaptionId" : 0,
+      "CodeListId" : 122,
+      "FunctionName" : "Project Management"
+    } ],
+    "PreferredSkills" : "PJM",
+    "CareerSummaryLabel" : "Bisheriger Werdegang & Bevorzugtes Einsatzgebiet",
+    "HighlightsTextLabel" : "Highlights",
+    "AdvertisingTextLabel" : "Werbetext für kurzer Lebenslauf",
+    "LongAdvertisingTextLabel" : "Advertising Text Legacy",
+    "PreferredFunctionsLabel" : "Bevorzugte Funktion",
+    "PreferredSkillsLabel" : "Preferred skills"
+  },
+  "skills" : [ {
+    "name" : "Project Management level: Advanced"
+  }, {
+    "name" : "Software-Engineering level: Advanced"
+  }, {
+    "name" : "MS Office level: Advanced"
+  }, {
+    "name" : "PC level: Advanced"
+  }, {
+    "name" : "Stakeholder Management level: Advanced"
+  }, {
+    "name" : "MS Windows level: Advanced"
+  }, {
+    "name" : "Atlassian Confluence level: Intermediate"
+  }, {
+    "name" : "MS Visual C++ level: Intermediate"
+  }, {
+    "name" : "HP ALM level: Intermediate"
+  }, {
+    "name" : "MS Access level: Intermediate"
+  }, {
+    "name" : "OOA/OOD mit UML level: Intermediate"
+  }, {
+    "name" : "Qualitätsmanagement  level: Intermediate"
+  }, {
+    "name" : "Resource Planning level: Intermediate"
+  }, {
+    "name" : " DMS level: Intermediate"
+  }, {
+    "name" : "C level: Intermediate"
+  }, {
+    "name" : "IBM Rational ClearQuest level: Intermediate"
+  }, {
+    "name" : "Interviews mit Fragekatalog level: Intermediate"
+  }, {
+    "name" : "PowerHouse level: Intermediate"
+  }, {
+    "name" : "Produktrisiko-Management level: Intermediate"
+  }, {
+    "name" : "Produktbetreuung level: Intermediate"
+  }, {
+    "name" : "PVCS level: Intermediate"
+  }, {
+    "name" : "Rational Rose level: Intermediate"
+  }, {
+    "name" : "Rdb/VMS level: Intermediate"
+  }, {
+    "name" : "Scrum  level: Intermediate"
+  }, {
+    "name" : "VAX level: Intermediate"
+  }, {
+    "name" : "VAX/VMS level: Intermediate"
+  }, {
+    "name" : "Atlassian Jira Service Management level: Novice"
+  }, {
+    "name" : "Azure DevOps level: Novice"
+  }, {
+    "name" : "Cornerstone level: Novice"
+  }, {
+    "name" : "DCOM level: Novice"
+  }, {
+    "name" : "GitLab level: Novice"
+  }, {
+    "name" : "GUI Tool Gpf level: Novice"
+  }, {
+    "name" : "Interviews & Workshops level: Novice"
+  }, {
+    "name" : "Know-How Transfer level: Novice"
+  }, {
+    "name" : "MOSY level: Novice"
+  }, {
+    "name" : "MS Visual SourceSafe level: Novice"
+  }, {
+    "name" : "OS/2 level: Novice"
+  }, {
+    "name" : "Pascal level: Novice"
+  }, {
+    "name" : "PL/M-86 level: Novice"
+  }, {
+    "name" : "Product Management level: Novice"
+  }, {
+    "name" : "RMX level: Novice"
+  }, {
+    "name" : "Sparx Enterprise Architect level: Novice"
+  }, {
+    "name" : "SQL level: Novice"
+  }, {
+    "name" : "Stakeholdermanagement level: Novice"
+  }, {
+    "name" : "TFS level: Novice"
+  }, {
+    "name" : "Visual Basic level: Novice"
+  }, {
+    "name" : "VxWorks 6.7 level: Novice"
+  }, {
+    "name" : "Wind River Tornado C++ level: Novice"
+  }, {
+    "name" : "Wind River Workbench level: Novice"
+  } ],
+  "education" : [ {
+    "Title" : "Studium an der  zum Elektroingenieur",
+    "InstitutionTitle" : "",
+    "Start" : "1983",
+    "End" : "1986"
+  } ],
+  "certificates" : [ {
+    "Title" : "HERMES 2022 Foundation",
+    "InstitutionTitle" : "",
+    "Start" : "2024",
+    "End" : "2024"
+  }, {
+    "Title" : "Leading SAFe®",
+    "InstitutionTitle" : "",
+    "Start" : "2019",
+    "End" : "2019"
+  }, {
+    "Title" : "PMP Certification",
+    "InstitutionTitle" : "",
+    "Start" : "2018",
+    "End" : "2018"
+  }, {
+    "Title" : "Software Architecture Foundation",
+    "InstitutionTitle" : "",
+    "Start" : "2015",
+    "End" : "2015"
+  }, {
+    "Title" : "Software Testing Foundation",
+    "InstitutionTitle" : "",
+    "Start" : "2014",
+    "End" : "2014"
+  }, {
+    "Title" : "Scrum",
+    "InstitutionTitle" : "",
+    "Start" : "2010",
+    "End" : "2010"
+  }, {
+    "Title" : "Requirements Engineering Foundation",
+    "InstitutionTitle" : "",
+    "Start" : "2010",
+    "End" : "2010"
+  }, {
+    "Title" : "IPMA Projektmanagement",
+    "InstitutionTitle" : "",
+    "Start" : "2007",
+    "End" : "2007"
+  } ],
+  "projects" : [ {
+    "Name" : "Human Machine Interface für Pulverpressen",
+    "Start" : "04.2024",
+    "End" : "",
+    "Description" : "Weiterentwicklung einer neuen und einheitlichen Human-Machine-Interface-Applikation für mehrere Typen von Pulverpressen. Die wichtigsten Ziele und Merkmale der Software sind Erweiterbarkeit (Plugin-basierte Architektur), Interaktion mit industriellen SPS, Anpassbarkeit an unterschiedliche Kundenbedürfnisse und Bedienung über einen Touch Screen. Entwicklung durch Kundenteam zusammen mit -Team in der Slowakei.",
+    "Role" : "Projektleiter",
+    "Industry" : "Maschinenindustrie",
+    "Tasks" : [ "Erstellung des Projekthandbuchs", "Aufsetzen des Projekts", "Know-How Transfer vom Kunden zu ", "Statusrapportierung" ],
+    "Methods" : [ "Project Management", "Stakeholdermanagement" ],
+    "Technologies" : [ "Atlassian Confluence", "MS Office" ]
+  }, {
+    "Name" : "Entwicklung von Web-Applikationen für Strassenverkehrsämter",
+    "Start" : "04.2023",
+    "End" : "",
+    "Description" : "Neuentwicklung von vier Web-Applikationen und zwei Schnittstellen für Strassenverkehrsämter in mehreren Schweizer Kantonen, inklusive Tests auf Stufe Entwicklung. Entwicklung durch -Team in der Slowakei.",
+    "Role" : "Projektleiter",
+    "Industry" : "Transportwesen",
+    "Tasks" : [ "Übernahme des laufenden Projekts", "Projektplanung", "Projektcontrolling", "Steuerung der Projektaktivitäten", "Koordination verschiedener Stakeholder", "Internationale Kommunikation", "Erstellen des Projekthandbuchs" ],
+    "Methods" : [ "Project Management", "Scrum ", "Stakeholder Management" ],
+    "Technologies" : [ "MS Office", "Azure DevOps", "Atlassian Jira Service Management" ]
+  }, {
+    "Name" : "Produktbetreuung Blutanalysesystem",
+    "Start" : "03.2017",
+    "End" : "",
+    "Description" : "Führung eines Software Maintenance Teams in Spanien. Betrieb eines Labors mit zwei Diagnose-Instrumentenlinien für Investigationen und Supportanfragen. Entwicklung eines Software Updates im Kontext der Instrumentenupdates für IEC 61010-Konformität. Dienstleistung als Managed Services mit Service Level Agreements.",
+    "Role" : "Software Project Leader",
+    "Industry" : "Medizinaltechnik",
+    "Tasks" : [ "Single Point of Contact für Kunde", "Führung Software Maintenance Team", "3rd Level Support", "Know-How-Erhalt", "Aufrechterhaltung Entwicklungsumgebung", "Software Updates" ],
+    "Methods" : [ "Project Management", "Product Management", "Stakeholder Management", "Produktrisiko-Management" ],
+    "Technologies" : [ "Atlassian Confluence", "HP ALM", " DMS", "MS Office" ]
+  }, {
+    "Name" : "Integration Algorithmus Blutgasanalysator",
+    "Start" : "06.2021",
+    "End" : "06.2022",
+    "Description" : "Führung eines verteilten Software-Entwicklungsteams (Softwarearchitekt, 3 Softwareentwickler). Integration eines innovativen Algorithmus in eine bestehende Legacy-Instrumentensoftware im regulierten Umfeld. Unterstützung bei der Anforderungserstellung. Erstellung von Unit-Spezifikationen und automatisierten Unit Tests. Demonstration von Softwareversionen für Business und Linie.",
+    "Role" : "Software Project Leader",
+    "Industry" : "Medizinaltechnik",
+    "Tasks" : [ "Software-Projektleitung", "Verantwortung Software & Dokumentation", "Einhaltung Entwicklungprozesse", "Interaktion mit vielen Stakeholdern", "Methodische Aufwandschätzung", "Planung", "Unterstützung Requirements Engineering" ],
+    "Methods" : [ "Project Management", "Stakeholder Management", "Resource Planning" ],
+    "Technologies" : [ "GitLab" ]
+  }, {
+    "Name" : "Training Management",
+    "Start" : "09.2018",
+    "End" : "04.2021",
+    "Description" : "Erarbeitung und Umsetzung eines Migrationskonzepts. Regelmässige Anpassungen von Schulungsdaten und -zuweisungen. Unterstützung der Manager und Lerner.",
+    "Role" : "Consultant",
+    "Industry" : "Medizinaltechnik",
+    "Tasks" : [ "Migration Schulungsmatrix", "Unterhalt Schulungsmatrix", "Implementierung Schulungsmatrix", "Datenpflege für hohe Datenqualität", "Einforderung/Prüfung Einarbeitspläne", "Unterstützung Manager und Lerner", "Auswertung Schulungsstatus", "Statusrapportierung für Leadership Team", "Unterstützung bei Audits", "Ursachenanalysen bei Problemen", "Abstimmung mit Fachkollegen aus anderen Bereichen", "Unterstützung Updates Prozessbeschreibungungen" ],
+    "Methods" : [ "Project Management", "Stakeholder Management", "Resource Planning" ],
+    "Technologies" : [ "Cornerstone", " DMS", "MS Office" ]
+  }, {
+    "Name" : "Technology Radar",
+    "Start" : "05.2017",
+    "End" : "03.2018",
+    "Description" : "Aufnahme des Technologie-Istbestands. Recherche aktueller Technologien und Umfrage bei Fachexperten von Kunde und . Erarbeitung von Darstellungsarten und Spezifikation des gewünschten Technologieberichts. Erarbeitung von Bewertungskriterien mit Gewichtung. Umsetzung in MS Excel mit automatischer Erzeugung einer MS PowerPoint-Präsentation.",
+    "Role" : "Consultant",
+    "Industry" : "Medizinaltechnik",
+    "Tasks" : [ "Interviews und Workshops mit Kunde", "Analyze verwendeter Technologien", "Identifikation relevanter Technologien", "Technologie-Recherche und -Umfrage", "Spezifikation Technologiebericht", "Erarbeitung Bewertungskriterien", "Gewichtung Bewertungskriterien", "Automatische Erzeugung PowerPoint-Präsentation", "Prozessbeschreibung für Datenpflege", "Erstellung Schulungsunterlagen und Anwenderschulung" ],
+    "Methods" : [ "Project Management", "Stakeholder Management", "Resource Planning", "Interviews & Workshops" ],
+    "Technologies" : [ "Visual Basic", "MS Office" ]
+  }, {
+    "Name" : "Transition & Transfer Blutanalysesystem",
+    "Start" : "06.2016",
+    "End" : "02.2017",
+    "Description" : "Aufbau eines Labors mit Diagnose-Instrumenten. Parallele Aufrechterhaltung des 3rd Level Support. Dienstleistung als Managed Services mit Service Level Agreements.",
+    "Role" : "Software Project Leader",
+    "Industry" : "Medizinaltechnik",
+    "Tasks" : [ "Rekrutierung SW-Entwickler in Spanien", "Know-How Transfer Schweiz => Spanien", "Paralleler 3rd Level Support", "Single Point of Contact für Kunde", "Aufbau und Betrieb Betrieb eines Labors mit zwei Diagnose-Instrumentenlinien" ],
+    "Methods" : [ "Project Management", "Stakeholder Management", "Produktbetreuung", "Produktrisiko-Management", "Know-How Transfer", "Interviews mit Fragekatalog" ],
+    "Technologies" : [ "Atlassian Confluence", "HP ALM", " DMS", "MS Office" ]
+  }, {
+    "Name" : "Blutanalysesystem für Virologie und Blood Screening",
+    "Start" : "01.2010",
+    "End" : "05.2016",
+    "Description" : "Interdisziplinäre Produktentwicklung (Software/Elektronik/Mechanik) in stark reguliertem Umfeld (in vitro Diagnostics). Erstellung von mehreren Software Releases (Produktupdates, Maintenance Releases). Schaffen der Basis für die zukünftige Wartbarkeit bis zum Ende des Lebenszyklus des Systems. Parallele Produktbetreuung für mehrere Softwareversionen im Feld (3rd Level Support).",
+    "Role" : "Software Project Leader",
+    "Industry" : "Medizinaltechnik",
+    "Tasks" : [ "Software-Projektleitung (8 Entwickler)", "Verantwortung Software & Dokumentation", "Einhaltung Entwicklungprozesse", "Rekrutierung von Teammitgliedern", "Interaktion mit vielen Stakeholders", "Gewährleistung des 3rd Level Supports (Investigationen und Supportanfragen) für Softwareversionen im Feld", "Methodische Aufwandschätzung", "Schulung des globalen Kundensupports", "Einführung von agilen Methoden (Scrum)", "Führung und Priorisierung des Product Backlogs (Product Owner)", "Einführung und Pflege eines Projekt-Wikis" ],
+    "Methods" : [ "Project Management", "Scrum ", "Stakeholder Management", "Produktbetreuung" ],
+    "Technologies" : [ "Atlassian Confluence", "TFS", "HP ALM", "MS Office" ]
+  }, {
+    "Name" : "Panzersimulator",
+    "Start" : "09.2009",
+    "End" : "12.2009",
+    "Description" : "",
+    "Role" : "Quality Manager",
+    "Industry" : "Rüstungsindustrie",
+    "Tasks" : [ "Leitung interne Abnahmetests", "Rapportierung offener Punkte", "Koordination & Tracking Fehlerbehebung", "Unterstützung bei Kundenabnahme" ],
+    "Methods" : [ "Project Management", "Qualitätsmanagement " ],
+    "Technologies" : [ ]
+  }, {
+    "Name" : "Architekturprinzipien",
+    "Start" : "08.2009",
+    "End" : "10.2009",
+    "Description" : "",
+    "Role" : "Projektleitung",
+    "Industry" : "Medizinaltechnik",
+    "Tasks" : [ "Erarbeitung Interviewleitfaden", "Interviews mit Softwarearchitekten", "Dokumentation Architekturprinzipien", "Ergänzung mit Best Practices" ],
+    "Methods" : [ "Interviews mit Fragekatalog" ],
+    "Technologies" : [ ]
+  }, {
+    "Name" : "Abbildung Software-Entwicklungsprozess",
+    "Start" : "04.2009",
+    "End" : "09.2009",
+    "Description" : "Beschreibung der Abwicklung von Projektmanagement und Requirements Engineering On-Site, und Architektur, Design & Implementierung, sowie Tests, Offshore.",
+    "Role" : "Process Improvement",
+    "Industry" : "Dienstleistung",
+    "Tasks" : [ "Rollenbeschreibungen", "Beschreibung Aktivitäten & Artefakte", "Reviews mit Stakeholdern", "Grafische Prozessabbildung im Intranet" ],
+    "Methods" : [ "Software-Engineering" ],
+    "Technologies" : [ ]
+  }, {
+    "Name" : "Häuserkampfsimulation",
+    "Start" : "06.2009",
+    "End" : "07.2009",
+    "Description" : "",
+    "Role" : "Quality Manager",
+    "Industry" : "Rüstungsindustrie",
+    "Tasks" : [ "Leitung interne Abnahmetests", "Rapportierung offener Punkte", "Verbesserung der Akzeptanztestfälle" ],
+    "Methods" : [ "Project Management", "Qualitätsmanagement " ],
+    "Technologies" : [ ]
+  }, {
+    "Name" : "QMS-Systemaudit",
+    "Start" : "11.2008",
+    "End" : "04.2009",
+    "Description" : "",
+    "Role" : "Quality Manager",
+    "Industry" : "Dienstleistung",
+    "Tasks" : [ " Erstellung Audit-Programm/-Checkliste", "Durchführung Auditierung", "Interviews mit Prozesseignern", "Erstellung Audit-Bericht", "Prüfung in Folge angeordneter Umsetzungsmassnahmen", "Rapportierung via Umsetzungsbericht an den Qualitätsbeauftragten" ],
+    "Methods" : [ "Project Management", "Qualitätsmanagement " ],
+    "Technologies" : [ ]
+  }, {
+    "Name" : "Blood Screening Instrument",
+    "Start" : "01.2007",
+    "End" : "10.2008",
+    "Description" : "Entwicklung der Software zur Instrumentensteuerung als Systemkomponente.",
+    "Role" : "Teilprojektleiter",
+    "Industry" : "Medizinaltechnik",
+    "Tasks" : [ "Planung, Teamkoordination und Tracking", "Weiterentwicklung der Software", "Gesamtverantwortung für Software-Module (Design/Implementierung/Unit Test)", "Verantwortung für Behandlung von Change Requests und Issue Tracking" ],
+    "Methods" : [ "Software-Engineering" ],
+    "Technologies" : [ "PC", "IBM Rational ClearQuest", "Rational Rose", "Sparx Enterprise Architect", "PVCS", "Wind River Workbench", "MS Windows" ]
+  }, {
+    "Name" : "Blood Screening Instrument",
+    "Start" : "01.2003",
+    "End" : "12.2006",
+    "Description" : "Entwicklung der Software zur Instrumentensteuerung als Systemkomponente.",
+    "Role" : "Softwareentwickler",
+    "Industry" : "Medizinaltechnik",
+    "Tasks" : [ "Aufbau generische Instrumentsteuerung", "Erstellung von Unit-Spezifikationen", "XML-Spezifikation Controller/Module", "Kommunikation mit Hardware-Modulen", "Implementierung von automatisierten Unit Tests", "Unterstützung der Integrationstests im Labor" ],
+    "Methods" : [ "Software-Engineering" ],
+    "Technologies" : [ "PC", "Wind River Tornado C++", "VxWorks 6.7", "IBM Rational ClearQuest", "Rational Rose", "PVCS", "MS Windows" ]
+  }, {
+    "Name" : "Digitales Fotolabor",
+    "Start" : "07.2000",
+    "End" : "12.2002",
+    "Description" : "",
+    "Role" : "Softwareentwickler",
+    "Industry" : "Photofinishing",
+    "Tasks" : [ "Spezifikation, Design, Implementierung", "Ansteuerung des Negativfilm-Scanners", "Einsatz Multiprocessing/Multithreading", "Interprozesskommunikation mit DCOM" ],
+    "Methods" : [ "Software-Engineering" ],
+    "Technologies" : [ "MS Visual C++", "DCOM", "PC", "MS Visual SourceSafe", "MS Windows" ]
+  }, {
+    "Name" : "Plant Description Tool",
+    "Start" : "07.1994",
+    "End" : "06.2000",
+    "Description" : "",
+    "Role" : "Softwareentwickler",
+    "Industry" : "Gebäudeleittechnik",
+    "Tasks" : [ "Entwicklung Graphik-Editor", "Spezifikation, Design, Implementierung", "Evaluation/Integration Graphik-Library" ],
+    "Methods" : [ "Software-Engineering", "OOA/OOD mit UML" ],
+    "Technologies" : [ "MS Visual C++", "PC", "MS Windows", "MS Access" ]
+  }, {
+    "Name" : "System Design Tool",
+    "Start" : "01.1998",
+    "End" : "12.1998",
+    "Description" : "",
+    "Role" : "Softwareentwickler",
+    "Industry" : "Gebäudeleittechnik",
+    "Tasks" : [ "Spezifikation, Design, Implementierung" ],
+    "Methods" : [ "Software-Engineering", "OOA/OOD mit UML" ],
+    "Technologies" : [ "MS Visual C++", "PC", "MS Windows", "MS Access" ]
+  }, {
+    "Name" : "HLK Generator",
+    "Start" : "01.1997",
+    "End" : "12.1997",
+    "Description" : "",
+    "Role" : "Softwareentwickler",
+    "Industry" : "Gebäudeleittechnik",
+    "Tasks" : [ "Spezifikation, Design, Implementierung", "Datenabbildung mit Generatorregeln" ],
+    "Methods" : [ "Software-Engineering", "OOA/OOD mit UML" ],
+    "Technologies" : [ "MS Visual C++", "PC", "MS Windows", "MS Access" ]
+  }, {
+    "Name" : "Prüfanlage",
+    "Start" : "04.1993",
+    "End" : "12.1995",
+    "Description" : "",
+    "Role" : "Projektleiter/Softwareentwickler",
+    "Industry" : "Elektroindustrie",
+    "Tasks" : [ "Projektleitung", "Ersatz veralteter Hardware", "Portierung auf neues Betriebssystem", "Definition/Umsetzung EMV-Massnahmen", "Unterstützung bei Problemen im operativen Einsatz" ],
+    "Methods" : [ "Project Management", "C", "Software-Engineering" ],
+    "Technologies" : [ "PC", "GUI Tool Gpf", "OS/2" ]
+  }, {
+    "Name" : "Management-Informationssystem (MIS)",
+    "Start" : "04.1992",
+    "End" : "03.1993",
+    "Description" : "",
+    "Role" : "Projektleiter/Requirements Engineer",
+    "Industry" : "Dienstleistung",
+    "Tasks" : [ "Projektleitung", "Spezifikation von Requirements" ],
+    "Methods" : [ "Project Management", "Software-Engineering" ],
+    "Technologies" : [ "VAX", "PowerHouse", "VAX/VMS", "Rdb/VMS" ]
+  }, {
+    "Name" : "PPS-System",
+    "Start" : "01.1990",
+    "End" : "03.1992",
+    "Description" : "",
+    "Role" : "Softwareentwickler",
+    "Industry" : "Elektroindustrie",
+    "Tasks" : [ "Systemeinführung", "Datenübernahmen", "Kundenspezifische Software-Anpassungen" ],
+    "Methods" : [ "Software-Engineering" ],
+    "Technologies" : [ "VAX", "PowerHouse", "VAX/VMS", "SQL", "Rdb/VMS" ]
+  }, {
+    "Name" : "Automatisches Transportsystem",
+    "Start" : "11.1988",
+    "End" : "12.1989",
+    "Description" : "",
+    "Role" : "Softwareentwickler",
+    "Industry" : "Maschinenindustrie",
+    "Tasks" : [ "Teilprojektleitung Softwarentwicklung", "Erarbeitung Elektrokonzept" ],
+    "Methods" : [ "Project Management", "C", "Software-Engineering" ],
+    "Technologies" : [ "MOSY" ]
+  }, {
+    "Name" : "Maschinensteuerung",
+    "Start" : "12.1986",
+    "End" : "10.1988",
+    "Description" : "",
+    "Role" : "Softwareentwickler",
+    "Industry" : "Maschinenindustrie",
+    "Tasks" : [ "Ablage Maschinenfunktionen in DB", "Automatische Software-Erzeugung aus DB" ],
+    "Methods" : [ "Software-Engineering" ],
+    "Technologies" : [ "RMX", "PL/M-86", "Pascal" ]
+  } ]
+}

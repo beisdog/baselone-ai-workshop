@@ -1,0 +1,330 @@
+{
+  "name" : "Lucian Hart",
+  "careerinfo" : {
+    "AdvertisingText" : "I enjoy working on complex problems, until the solution become clear and easy to implement. As such, I continue developing on several personal projects in my free time.\nMy praise is 12+ years of happy customers. I like having a deeper understanding of my clients needs, because this is how we can find optimal solutions together.\nI enjoy sharing my experience with my colleagues, through webinars or small get-togethers, because such formats allow better knowledge sharing.",
+    "LongAdvertisingText" : "",
+    "PreferredFunctions" : "Senior Software Developer, Product Owner, Team Lead",
+    "PreferredFunctionsList" : [ {
+      "CodeListValueId" : 12180,
+      "CodeListValueCaptionId" : 20104,
+      "CodeListId" : 122,
+      "FunctionName" : "Senior Software Developer"
+    }, {
+      "CodeListValueId" : 8239,
+      "CodeListValueCaptionId" : 18303,
+      "CodeListId" : 115,
+      "FunctionName" : "Product Owner"
+    }, {
+      "CodeListValueId" : 11029,
+      "CodeListValueCaptionId" : 18849,
+      "CodeListId" : 122,
+      "FunctionName" : "Team Lead"
+    } ],
+    "PreferredSkills" : "",
+    "CareerSummaryLabel" : "Career Summary & Preferred Domain",
+    "HighlightsTextLabel" : "Highlights",
+    "AdvertisingTextLabel" : "Advertising Text Short CV",
+    "LongAdvertisingTextLabel" : "Advertising Text Legacy",
+    "PreferredFunctionsLabel" : "Preferred functions",
+    "PreferredSkillsLabel" : "Preferred skills"
+  },
+  "skills" : [ {
+    "name" : "SCRUM, Continuous Integration level: Advanced"
+  }, {
+    "name" : "C# level: Advanced"
+  }, {
+    "name" : "Git level: Advanced"
+  }, {
+    "name" : "JSON level: Intermediate"
+  }, {
+    "name" : "Moq level: Intermediate"
+  }, {
+    "name" : "Database migrations level: Intermediate"
+  }, {
+    "name" : "Docker level: Intermediate"
+  }, {
+    "name" : "Docker Compose level: Intermediate"
+  }, {
+    "name" : "NUnit level: Intermediate"
+  }, {
+    "name" : "Sprint planning and review level: Intermediate"
+  }, {
+    "name" : "Test Drive Development (TDD) level: Intermediate"
+  }, {
+    "name" : "Acceptance and Approvaltests level: Intermediate"
+  }, {
+    "name" : "Acceptance Criteria level: Intermediate"
+  }, {
+    "name" : "Automapper level: Intermediate"
+  }, {
+    "name" : "Azure DevOps level: Intermediate"
+  }, {
+    "name" : "Budget estimates level: Intermediate"
+  }, {
+    "name" : "Code first Database level: Intermediate"
+  }, {
+    "name" : "Definition of requirements (RUP: business modeling and requirements engineering) level: Intermediate"
+  }, {
+    "name" : "Documentation of business process level: Intermediate"
+  }, {
+    "name" : "DTO generator level: Intermediate"
+  }, {
+    "name" : "Entity Framework level: Intermediate"
+  }, {
+    "name" : "Entity-Framework level: Intermediate"
+  }, {
+    "name" : "Microservices level: Intermediate"
+  }, {
+    "name" : "Technical Documentation level: Intermediate"
+  }, {
+    "name" : "Visual Studio 2022 level: Intermediate"
+  }, {
+    "name" : "WPF level: Intermediate"
+  }, {
+    "name" : ".NET 6 level: Novice"
+  }, {
+    "name" : ".net 7 level: Novice"
+  }, {
+    "name" : ".NET 8 level: Novice"
+  }, {
+    "name" : ".NET Core 5 level: Novice"
+  }, {
+    "name" : ".NET Core 6 level: Novice"
+  }, {
+    "name" : ".Net Framework 4.8 level: Novice"
+  }, {
+    "name" : "AJAX level: Novice"
+  }, {
+    "name" : "Amazon AMI level: Novice"
+  }, {
+    "name" : "Amazon EC2 level: Novice"
+  }, {
+    "name" : "Amazon SQS level: Novice"
+  }, {
+    "name" : "Angular 11 level: Novice"
+  }, {
+    "name" : "Angular 12 level: Novice"
+  }, {
+    "name" : "ASP.NET 4.5 level: Novice"
+  }, {
+    "name" : "C# 11 level: Novice"
+  }, {
+    "name" : "C# async/await level: Novice"
+  }, {
+    "name" : "CSS level: Novice"
+  }, {
+    "name" : "Dapper level: Novice"
+  }, {
+    "name" : "Data collection level: Novice"
+  }, {
+    "name" : "DDD level: Novice"
+  }, {
+    "name" : "Decision Tree level: Novice"
+  }, {
+    "name" : "Delphi level: Novice"
+  }, {
+    "name" : "Dependency Injection level: Novice"
+  }, {
+    "name" : "Dependency Injection (Unity) level: Novice"
+  }, {
+    "name" : "DevExpress level: Novice"
+  }, {
+    "name" : "Digital certificates  level: Novice"
+  }, {
+    "name" : "Drupal CMS level: Novice"
+  }, {
+    "name" : "Event Driven Architecture (EDA) level: Novice"
+  }, {
+    "name" : "FoxPro ODBC level: Novice"
+  }, {
+    "name" : "gRPC level: Novice"
+  }, {
+    "name" : "HTML level: Novice"
+  }, {
+    "name" : "HTML (5) level: Novice"
+  }, {
+    "name" : "IIS 6 level: Novice"
+  }, {
+    "name" : "Jenkins CI level: Novice"
+  }, {
+    "name" : "JQuery, JQuery Mobile level: Novice"
+  }, {
+    "name" : "MVC Pattern level: Novice"
+  }, {
+    "name" : "MySQL 5 level: Novice"
+  }, {
+    "name" : "Rabbit MQ level: Novice"
+  }, {
+    "name" : "Rebex SFTP level: Novice"
+  }, {
+    "name" : "Release  level: Novice"
+  }, {
+    "name" : "ReSharper level: Novice"
+  }, {
+    "name" : "Sass level: Novice"
+  }, {
+    "name" : "SpecFlow level: Novice"
+  }, {
+    "name" : "SQL level: Novice"
+  }, {
+    "name" : "SQL Server level: Novice"
+  }, {
+    "name" : "SQL Server 2012 level: Novice"
+  }, {
+    "name" : "SQL Server Management Studio level: Novice"
+  }, {
+    "name" : "SQLite3 level: Novice"
+  }, {
+    "name" : "Stored Procedures level: Novice"
+  }, {
+    "name" : "StyleCop level: Novice"
+  }, {
+    "name" : "SvelteKit level: Novice"
+  }, {
+    "name" : "Test Driven Development (TDD) level: Novice"
+  }, {
+    "name" : "TFS 2015 level: Novice"
+  }, {
+    "name" : "TortoiseSVN level: Novice"
+  }, {
+    "name" : "TypeScript level: Novice"
+  }, {
+    "name" : "UML (use case, class, activity and state diagrams) level: Novice"
+  }, {
+    "name" : "Visual Studio level: Novice"
+  }, {
+    "name" : "Visual Studio 2015 level: Novice"
+  }, {
+    "name" : "Visual Studio 2017 level: Novice"
+  }, {
+    "name" : "Visual Studio Code level: Novice"
+  }, {
+    "name" : "Wasserfall level: Novice"
+  }, {
+    "name" : "Windows Services level: Novice"
+  }, {
+    "name" : "Wix Toolset level: Novice"
+  }, {
+    "name" : "XML level: Novice"
+  }, {
+    "name" : "xUnit.net level: Novice"
+  } ],
+  "education" : [ {
+    "Title" : "MSc. Software Engineering",
+    "InstitutionTitle" : "Eldoria Technological Institute",
+    "Start" : "2010",
+    "End" : "2012"
+  }, {
+    "Title" : "BSc. ETTI Cluj",
+    "InstitutionTitle" : "Eldoria Technological Institute",
+    "Start" : "2006",
+    "End" : "2010"
+  } ],
+  "certificates" : [ {
+    "Title" : "Professional Scrum Master 1 (PSM 1)",
+    "InstitutionTitle" : "Arcane Guild of Scrum Masters",
+    "Start" : "2022",
+    "End" : "2022"
+  }, {
+    "Title" : "Professional Scrum Product Owner 1 (PSPO 1)",
+    "InstitutionTitle" : "Arcane Guild of Scrum Masters",
+    "Start" : "2022",
+    "End" : "2022"
+  }, {
+    "Title" : "Oberstufe Deutsch",
+    "InstitutionTitle" : "Sylvanic Institute of Languages",
+    "Start" : "2005",
+    "End" : "2005"
+  } ],
+  "projects" : [ {
+    "Name" : "Medical device",
+    "Start" : "08.2023",
+    "End" : "",
+    "Description" : "The goal of the first project is the design, development and testing of the business logic units for a PCR device, handling dozens of samples at the same time.\nThe second projects required the design, development and testing of a sample preparation device for a DNA sequencing device.\n\nBoth projects feature a .net microservice architecture, based on several units, each handling a very specific goal. Each unit was then deployed as a container on the instrument. The communication between the units is done using events, sent through RabbitMq, which acts as a central messaging bus. The event-driven architecture was also reflected in the development of the application, as well as in the unit and acceptance and integration tests. Mainly asynchronously executed functions were developed and tested. In addition, compliance with regulatory requirements was always in view, which was ensured by means of special test frameworks and methods linked to a requirements system. The projects features very good documentation, including business, architecture, requirements and how these changed during the projects lifespans.",
+    "Role" : "Senior Software Developoer",
+    "Industry" : "MedTech",
+    "Tasks" : [ "Co-write technical design documents", "Orchestrated microservices", "Iterated through arch designs", "Challenge business decisions", "Software developing in .net 8", "Worked with Aggregates, ProcessManagers, Entities and ValueObjects." ],
+    "Methods" : [ "Test Driven Development (TDD)", "DDD", "SCRUM, Continuous Integration", "Acceptance Criteria", "Technical Documentation", "Event Driven Architecture (EDA)" ],
+    "Technologies" : [ "Moq", "SpecFlow", "Git", "Docker Compose", "Microservices", "Rabbit MQ", "Docker", "Azure DevOps", "C# 11", ".NET 8" ]
+  }, {
+    "Name" : "Personal project: website for managing recipes",
+    "Start" : "10.2021",
+    "End" : "",
+    "Description" : "The goal of the platform is to show users recipes with selected ingredients. The recipes should contain easy to follow steps, with explanatory images. Recipes should be moderated to ensure quality.\n\nBeing a small website, it features 2 environments: one for staging and one for production.\nThe API is based on Domain Driven Design, with a clear separation between the core, business and API layers.\nThe business logic was tested using unit and integration tests.\nThe GitHub pipeline run the tests before each merge to main.\nThere is a changelog where all relevant changes are documented and the platform contains both a business and a technical documentation.\n\nThe architecture is split in Database, API, Backend for Frontend and finally, UI. The UI is mobile-friendly to ensure a maximum reach.",
+    "Role" : "Product Owner; Architect; Senior Software Developer",
+    "Industry" : "Food Industry",
+    "Tasks" : [ "Design platform", "Budgeting and planning", "Software development in .NET 5 to 8", "Define database structure", "Software development in SvelteKit", "Create endpoints, models, DTOs", "Write unit and integration tests", "Create UI components", "Create stories, tasks", "CSS Design" ],
+    "Methods" : [ "Definition of requirements (RUP: business modeling and requirements engineering)", "Acceptance and Approvaltests", "SCRUM, Continuous Integration", "Sprint planning and review", "Budget estimates", "Test Drive Development (TDD)", "Code first Database", "Documentation of business process" ],
+    "Technologies" : [ "C#", "Moq", "NUnit", "JSON", "Sass", "Automapper", "Git", "DTO generator", "Angular 12", "Database migrations", ".NET Core 5", ".NET Core 6", "Visual Studio Code", "Dependency Injection", "SvelteKit" ]
+  }, {
+    "Name" : "Platform for a mounteneering club",
+    "Start" : "04.2019",
+    "End" : "",
+    "Description" : "Create a vision for how the platform should look like, what services it needs and how these services should be connected.\nWrite and refine requirements with a team of developers, so that the vision can be implemented.\nConsult with stakeholders, gather feedback from clients and translate this feedback back into requirements.\nKeep an up to date documentation of what was implemented and the business decisions behind them.",
+    "Role" : "Product Owner",
+    "Industry" : "Turismus",
+    "Tasks" : [ "Budgeting and planning", "Assign and manage priorities", "Create stories, tasks", "Collect and apply feedback from stakeholders", "Create documentation", "Conduct acceptance tests", "Define criteria for user import", "Define criteria for blog import", "Manage data migration" ],
+    "Methods" : [ "Definition of requirements (RUP: business modeling and requirements engineering)", "Acceptance and Approvaltests", "SCRUM, Continuous Integration", "Sprint planning and review", "Budget estimates", "Documentation of business process" ],
+    "Technologies" : [ "Drupal CMS", "Git" ]
+  }, {
+    "Name" : "Telemedical platform",
+    "Start" : "06.2022",
+    "End" : "08.2023",
+    "Description" : "The platform features a large ecosystem with multiple microservices like book a doc, external appointment booking, pharmacy consultation, branded mobile apps and several APIs.\nThis whole ecosystem is deployed in the Azure cloud.\nThe team is currently on their way to build the 3rd iteration of the main API, now with focus on domains and creating native cloud projects.",
+    "Role" : "Senior Software Developer",
+    "Industry" : "MedTech",
+    "Tasks" : [ "Software developing in .net 6 & 7", "Write controllers, endpoints, DTOs", "Developed EAB API", "Compose Docker containers for APIs", "Extended DB localization", "Migrated projects from .net 3.1 to .net 7", "Integrated Duende Identity" ],
+    "Methods" : [ "Release ", "SCRUM, Continuous Integration", "Sprint planning and review", "Test Drive Development (TDD)", "Acceptance Criteria", "Code first Database", "Technical Documentation" ],
+    "Technologies" : [ "C#", "Moq", "WPF", "Entity Framework", "Stored Procedures", "xUnit.net", "Git", "HTML (5)", "Visual Studio 2022", "Docker Compose", "Microservices", "SQL Server 2012", "Angular 11", "Database migrations", "Docker", ".NET 6", "Azure DevOps", ".net 7", ".Net Framework 4.8", "TypeScript" ]
+  }, {
+    "Name" : "Bioinformatics Software Suite",
+    "Start" : "02.2019",
+    "End" : "12.2021",
+    "Description" : "The platform features a desktop WPF client which could be connect either to an on-prem server, on-prem server array or an Amazon VM with configurable hardware specs. The servers and cloud applications provide possibilities for computing complex data models. \nThe desktop platform is used for handling visualization of interactions between molecules and various agents.\nThe communication between the desktop client and the servers was done using GRPC.\nUnlike many other platforms, this platform had its databases as curated SQLite3 databases, without an ORM. The application licenses highly curated databases for specific genomes to paying customers. The platform provides Big data support, allowing to work, synthetize and sample hundreds of data points.\nThe testing was done using unit, E2E and smoke tests.",
+    "Role" : "Senior Software Developer",
+    "Industry" : "MedTech",
+    "Tasks" : [ "Develop components in C#", "Create Docker images", "Create custom Amazon Cloud Images", "Refactor cloud applications", "Refactor SFTP server", "Develop technical documentation", "Write server components", "Performance optimizations" ],
+    "Methods" : [ "SCRUM, Continuous Integration", "UML (use case, class, activity and state diagrams)" ],
+    "Technologies" : [ "C#", "SQLite3", "JSON", "Git", "Dapper", "Visual Studio 2022", "Docker Compose", "gRPC", "Rebex SFTP", "Amazon AMI", "Amazon EC2", "Amazon SQS", "Jenkins CI", "Docker" ]
+  }, {
+    "Name" : "Reinsurance platform",
+    "Start" : "05.2017",
+    "End" : "02.2019",
+    "Description" : "The platform is based on several WPF clients accessing a single SQL database. The monolithic application was developed based on modules, each module handling a specific task and being independent of the other modules.\nThe application was required to be extensible, so that future modules could easily be added or existing modules replaced or removed.\nThe platform was required to be optimized for a high volume of data, featured audit logs and was highly regulated considering that it belongs to the insurance industry.\nThe application integrates with SAP.\nIt works with client-specific sensible data.",
+    "Role" : "Senior Software Engineer",
+    "Industry" : "Insurance",
+    "Tasks" : [ "Develop software in C#", "Integrate SAP services", "Lead technical meetings", "Performance optimizations", "Write unit and integration tests", "Write technical documentation", "Apply design-patterns" ],
+    "Methods" : [ "SCRUM, Continuous Integration" ],
+    "Technologies" : [ "Dependency Injection (Unity)", "XML", "C#", "SQL", "Moq", "WPF", "DevExpress", "NUnit", "ReSharper", "StyleCop", "JSON", "Entity-Framework", "C# async/await", "Automapper", "Git", "Visual Studio 2017", "Wix Toolset", "Database migrations" ]
+  }, {
+    "Name" : "Platform for special needs insured people",
+    "Start" : "06.2013",
+    "End" : "05.2017",
+    "Description" : "The goal of the project was to allow insurance companies to contract drivers for special needs persons, without having to resort to ambulances.\nThe platform features an API connected to a SQL database. The API is both self-hosted and is run as is by the client I worked for at that time. \nThe platform supports requests from more insurance companies and displays all request for drivers on a common webpage or Android/IOS app.",
+    "Role" : "TeamLead; Senior Software Developer",
+    "Industry" : "MedTech",
+    "Tasks" : [ "Develop software in C#", "Wireframes", "Develop Model-View-Controller", "Adapt the Database", "Create microservice architechture", "HTML and CSS design", "Manage Stakeholders and clients", "Coordonate software engineers" ],
+    "Methods" : [ "MVC Pattern", "SCRUM, Continuous Integration", "Test Drive Development (TDD)" ],
+    "Technologies" : [ "Windows Services", "C#", "AJAX", "NUnit", "MySQL 5", "Entity Framework", "JSON", "IIS 6", "ASP.NET 4.5", "JQuery, JQuery Mobile", "TFS 2015", "Visual Studio 2015", "DTO generator", "CSS", "HTML" ]
+  }, {
+    "Name" : "Application for lawyers",
+    "Start" : "09.2011",
+    "End" : "06.2013",
+    "Description" : "Lawyers should be able to bundle documents together for their clients and digitally sign them.\nThey should be able to easily import and export documents.\nThe documents should all be maintained in a common database.",
+    "Role" : "Software Engineer",
+    "Industry" : "Legal",
+    "Tasks" : [ "Develop software in C#", "Design windows forms", "Create and design Databases", "Export and import of Documents", "Digitally sign documents", "Create technical documentation" ],
+    "Methods" : [ "Wasserfall" ],
+    "Technologies" : [ "C#", "Visual Studio", "Digital certificates ", "Entity-Framework", "TortoiseSVN", "SQL Server Management Studio", "SQL Server" ]
+  }, {
+    "Name" : "Language Application",
+    "Start" : "08.2008",
+    "End" : "02.2011",
+    "Description" : "Create an application which analyses a text morphologically and syntactically. The application is also available as a Microsoft Office plugin.\nThe application should also be capable of analyzing the grammar of a text.\nThe application used complex decision trees to determine the grammatical structure to be analyzed. It was capable of processing large text in milliseconds. \n\nA second application was developed to digitalize a lexicon of the Romanian language.",
+    "Role" : "Software Engineer",
+    "Industry" : "Governamental",
+    "Tasks" : [ "Algorithm Optimization", "Write components in Delphi", "Write software design (Windows Forms)", "Analyze language structures", "Develop binary-tree language decision trees", "Data classification" ],
+    "Methods" : [ "Data collection", "Decision Tree" ],
+    "Technologies" : [ "Delphi", "FoxPro ODBC" ]
+  } ]
+}

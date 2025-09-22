@@ -1,0 +1,239 @@
+{
+  "name" : "Silas Mercer",
+  "careerinfo" : {
+    "AdvertisingText" : "Ich bin ein erfahrener Software Engineer mit technischen Schwerpunkten im Bereich Problemanalyse, Design, Datenbankmodellierung und -management, und der Software-Entwicklung in komplexen technischen Umfeldern. Aufgrund meiner kooperativen Arbeitsweise und Verhalten kann ich in Projekten an vielen Stellen und in vielen Rollen auch in politisch anspruchsvollen Umfeldern eingesetzt werden.",
+    "LongAdvertisingText" : "",
+    "PreferredFunctions" : "",
+    "PreferredFunctionsList" : [ ],
+    "PreferredSkills" : "",
+    "CareerSummaryLabel" : "Bisheriger Werdegang & Bevorzugtes Einsatzgebiet",
+    "HighlightsTextLabel" : "Highlights",
+    "AdvertisingTextLabel" : "Werbetext für kurzer Lebenslauf",
+    "LongAdvertisingTextLabel" : "Advertising Text Legacy",
+    "PreferredFunctionsLabel" : "Bevorzugte Funktion",
+    "PreferredSkillsLabel" : "Preferred skills"
+  },
+  "skills" : [ {
+    "name" : "PL/SQL level: Advanced"
+  }, {
+    "name" : "Oracle 10 level: Advanced"
+  }, {
+    "name" : "J2EE level: Intermediate"
+  }, {
+    "name" : "Java 1.6 level: Intermediate"
+  }, {
+    "name" : "Bea Weblogic level: Intermediate"
+  }, {
+    "name" : "HTML level: Intermediate"
+  }, {
+    "name" : "Java level: Intermediate"
+  }, {
+    "name" : "Kettle (EDI) level: Intermediate"
+  }, {
+    "name" : "Oracle level: Intermediate"
+  }, {
+    "name" : "Oracle CASE level: Intermediate"
+  }, {
+    "name" : "Webobjects level: Intermediate"
+  }, {
+    "name" : "Access level: Novice"
+  }, {
+    "name" : "Crystal Reports level: Novice"
+  }, {
+    "name" : "Excel level: Novice"
+  }, {
+    "name" : "Forms 6 level: Novice"
+  }, {
+    "name" : "Java 1.5 level: Novice"
+  }, {
+    "name" : "JavaScript level: Novice"
+  }, {
+    "name" : "JBoss level: Novice"
+  }, {
+    "name" : "Lucene level: Novice"
+  }, {
+    "name" : "MS SQL Server level: Novice"
+  }, {
+    "name" : "MySQL level: Novice"
+  }, {
+    "name" : "Oracle 10g level: Novice"
+  }, {
+    "name" : "Oracle 8 level: Novice"
+  }, {
+    "name" : "Oracle 9 level: Novice"
+  }, {
+    "name" : "Perl level: Novice"
+  }, {
+    "name" : "Report 6 level: Novice"
+  }, {
+    "name" : "SQL Server level: Novice"
+  }, {
+    "name" : "Talent level: Novice"
+  }, {
+    "name" : "Teradata level: Novice"
+  }, {
+    "name" : "VBA level: Novice"
+  }, {
+    "name" : "Visual Basic level: Novice"
+  }, {
+    "name" : "XML level: Novice"
+  } ],
+  "education" : [ {
+    "Title" : "Theoretische Ausbildung / Abschlüsse",
+    "InstitutionTitle" : "Informatikstudium an der Wizard Academy of Eldoria mit erfolgreichem Abschluss",
+    "Start" : "1988",
+    "End" : "1993"
+  } ],
+  "certificates" : [ ],
+  "projects" : [ {
+    "Name" : "Interne Projekte",
+    "Start" : "01.2013",
+    "End" : "10.2015",
+    "Description" : "Diverse kleine und mittlere Arbeiten",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Software Engineer", "Projektleiter" ],
+    "Methods" : [ ],
+    "Technologies" : [ "MySQL", "Oracle", "SQL Server", "Java", "Talent" ]
+  }, {
+    "Name" : "Arcane Guild of Healers",
+    "Start" : "01.2010",
+    "End" : "12.2013",
+    "Description" : "Projekteinsatz ( bereits früher ab 2001 bis 2007)",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Weiterententwicklung eines Leitsystems", "für die Qualitätskontrolle in der", "Farbstoffherstellung" ],
+    "Methods" : [ ],
+    "Technologies" : [ "VBA", "Oracle 8", "Forms 6", "Report 6", "Oracle CASE" ]
+  }, {
+    "Name" : "Enchanted Trade School of St. Gallen: Adressabgleich",
+    "Start" : "01.2009",
+    "End" : "12.2013",
+    "Description" : "Integration des Adressabgleich-Moduls für das Kampagnen\nManagement der Enchanted Trade School of St. Gallen",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Parametrierung der Abgleichskriterien", "Unterstützung bei Kampagnen" ],
+    "Methods" : [ ],
+    "Technologies" : [ "PL/SQL", "J2EE", "Bea Weblogic", "Oracle 10", "Kettle (EDI)", "Java 1.6" ]
+  }, {
+    "Name" : "Mystic Collegium of Saint Michael: Produkt ServiceGate / CRM",
+    "Start" : "01.2008",
+    "End" : "12.2012",
+    "Description" : "Business Analysen und fachlicher Lösungsdesign im Bereich\nPartner",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Applikatorische Erweiterungen im", "Bereich Partner- und Adress-management", "Konzeption, Implementierung und", "Management der Datenbank" ],
+    "Methods" : [ ],
+    "Technologies" : [ "PL/SQL", "J2EE", "Bea Weblogic", "Oracle 10", "Java 1.6" ]
+  }, {
+    "Name" : "CSS",
+    "Start" : "01.2012",
+    "End" : "05.2012",
+    "Description" : "Collaborator on data warehouse project",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Software Engineer", "Projektleiter" ],
+    "Methods" : [ ],
+    "Technologies" : [ "Teradata" ]
+  }, {
+    "Name" : "Centris / Migration ÖKK",
+    "Start" : "01.2011",
+    "End" : "12.2011",
+    "Description" : "Migration von Krankenkassen Leistungsdaten aus einem Altsystem in\nSYRIUS ASE",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Migration from a legacy system", "to SYRIUS ASE" ],
+    "Methods" : [ ],
+    "Technologies" : [ "PL/SQL", "Oracle 10", "Kettle (EDI)" ]
+  }, {
+    "Name" : "Enchanted Trade School of St. Gallen: Krankenversicherungs-Verkaufsplattform (ServiceGate)",
+    "Start" : "01.2010",
+    "End" : "12.2011",
+    "Description" : "Migration SYRIUS SE auf SYRIUS ASE",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Migration von ServiceGate", "von SYRIUS SE auf SYRIUS ASE" ],
+    "Methods" : [ ],
+    "Technologies" : [ "PL/SQL", "Oracle 10", "Java 1.6" ]
+  }, {
+    "Name" : "Enchanted Trade School of St. Gallen: Krankenversicherungs-Verkaufsplattform (ServiceGate)",
+    "Start" : "01.2007",
+    "End" : "12.2011",
+    "Description" : "Weiterentwicklung und Support der\nOnline-Verkaufsplattform",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Zuständig für alle Datenbankthemen", "Erstellen diverser", "Reportinganwendungen" ],
+    "Methods" : [ ],
+    "Technologies" : [ "Lucene", "XML", "PL/SQL", "J2EE", "Bea Weblogic", "HTML", "Oracle 10", "Java 1.6" ]
+  }, {
+    "Name" : "Switch in Zürich",
+    "Start" : "01.2005",
+    "End" : "12.2009",
+    "Description" : "Mitarbeit an Java/J2EE-Applikation für die\nDomainnamen-verwaltung der Schweiz und Liechtenstein. FlexibleDefinition der Geschäftsprozesse inklusive Mandantsfähigkeit",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Implementierung des Data Access Layer" ],
+    "Methods" : [ ],
+    "Technologies" : [ "PL/SQL", "J2EE", "JBoss", "Oracle 10", "Java 1.5" ]
+  }, {
+    "Name" : "Concordia / Projekt CONCIFIT: Datawarehouse",
+    "Start" : "01.2008",
+    "End" : "05.2008",
+    "Description" : "Unterstützung beim Proof of Concept für das neue Datawarehouse",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Aufnahme von Anforderungen", "Implementierung eines Prototypen", "Generator für die bitemporale", "Historisierung erstellen" ],
+    "Methods" : [ ],
+    "Technologies" : [ "PL/SQL", "Oracle 10" ]
+  }, {
+    "Name" : "Crystal Tower University",
+    "Start" : "01.2006",
+    "End" : "12.2007",
+    "Description" : "Projekteinsatz 2006-2007",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Betreuung und Weiterentwicklung einer", "Finanzapplikation" ],
+    "Methods" : [ ],
+    "Technologies" : [ "Oracle 10g" ]
+  }, {
+    "Name" : "Crystal Tower University",
+    "Start" : "01.2005",
+    "End" : "12.2007",
+    "Description" : "Projekteinsatz 2005-2007",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Weiterentwicklung einer validierten", "Applikation zur Verwaltung von", "chemischen „Formulierungen“", "(Formulations)" ],
+    "Methods" : [ ],
+    "Technologies" : [ "Webobjects", "Oracle", "Crystal Reports", "Java" ]
+  }, {
+    "Name" : "Dragonfire High School in Basel",
+    "Start" : "01.2004",
+    "End" : "12.2004",
+    "Description" : "Technische Unterstützung zur Verwaltung und Umstellung von\nDomainnamen",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Software Engineer", "Projektleiter" ],
+    "Methods" : [ ],
+    "Technologies" : [ "Webobjects", "Perl", "Oracle 9" ]
+  }, {
+    "Name" : "Emerald Grove Institute in Basel",
+    "Start" : "01.2001",
+    "End" : "12.2003",
+    "Description" : "Entwicklung diverser Intranet-Applikationen mit Oracle-Webserver\nfür das „Chain Management“, Erweiterung diverser Schnittstellen",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Software Engineer", "Projektleiter" ],
+    "Methods" : [ ],
+    "Technologies" : [ "PL/SQL", "HTML", "JavaScript", "Oracle CASE" ]
+  }, {
+    "Name" : "Sylvanic Institute of Languages in Bottmingen/BL",
+    "Start" : "01.2000",
+    "End" : "12.2001",
+    "Description" : "Technischer Verantwortlicher für die Umsetzung der Aktienzuteilung\nbei der Umwandlung von einer Genossenschaft zu einer AG",
+    "Role" : "Software Engineeer,, Projektleiter",
+    "Industry" : "IT",
+    "Tasks" : [ "Software Engineer", "Projektleiter" ],
+    "Methods" : [ ],
+    "Technologies" : [ "MS SQL Server", "Visual Basic", "Excel", "Access" ]
+  } ]
+}

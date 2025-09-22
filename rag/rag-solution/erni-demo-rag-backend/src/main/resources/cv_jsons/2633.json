@@ -1,0 +1,462 @@
+{
+  "name" : "Avery Kellan",
+  "careerinfo" : {
+    "AdvertisingText" : "Avery Kellan has a strong analytical mindset, problem-solving skills and great attention to detail and accuracy. He has over 15 years of experience in various fields such as administrative and public administration, insurance, as well as public and private transportation. He is proficient in areas such as backend applications, DevOps, as well as quality management, and he recognizes the needs of his clients, whom he places at the center of his focus.",
+    "LongAdvertisingText" : "",
+    "PreferredFunctions" : "",
+    "PreferredFunctionsList" : [ ],
+    "PreferredSkills" : "",
+    "CareerSummaryLabel" : "Career Summary & Preferred Domain",
+    "HighlightsTextLabel" : "Highlights",
+    "AdvertisingTextLabel" : "Advertising Text Short CV",
+    "LongAdvertisingTextLabel" : "Advertising Text Legacy",
+    "PreferredFunctionsLabel" : "Preferred functions",
+    "PreferredSkillsLabel" : "Preferred skills"
+  },
+  "skills" : [ {
+    "name" : "Confluence level: Advanced"
+  }, {
+    "name" : "Scrum  level: Advanced"
+  }, {
+    "name" : "Agile level: Advanced"
+  }, {
+    "name" : "CI/CD level: Advanced"
+  }, {
+    "name" : "Docker level: Advanced"
+  }, {
+    "name" : "JUnit level: Advanced"
+  }, {
+    "name" : "Maven level: Advanced"
+  }, {
+    "name" : "Shell Scripting level: Advanced"
+  }, {
+    "name" : "SoapUI level: Advanced"
+  }, {
+    "name" : "DevOps level: Intermediate"
+  }, {
+    "name" : "Git level: Intermediate"
+  }, {
+    "name" : "IntelliJ IDEA level: Intermediate"
+  }, {
+    "name" : "Jira level: Intermediate"
+  }, {
+    "name" : "Spring Boot level: Intermediate"
+  }, {
+    "name" : "Bitbucket level: Intermediate"
+  }, {
+    "name" : "Hibernate level: Intermediate"
+  }, {
+    "name" : "Java level: Intermediate"
+  }, {
+    "name" : "Java 8 level: Intermediate"
+  }, {
+    "name" : "SonarQube level: Intermediate"
+  }, {
+    "name" : "Business Analyse level: Intermediate"
+  }, {
+    "name" : "CentOS level: Intermediate"
+  }, {
+    "name" : "Eclipse level: Intermediate"
+  }, {
+    "name" : "JPA level: Intermediate"
+  }, {
+    "name" : "MariaDB level: Intermediate"
+  }, {
+    "name" : "Spring Framework level: Intermediate"
+  }, {
+    "name" : "Team Leading level: Intermediate"
+  }, {
+    "name" : "Consul level: Intermediate"
+  }, {
+    "name" : "CVS level: Intermediate"
+  }, {
+    "name" : "Dropwizard level: Intermediate"
+  }, {
+    "name" : "ELK (Elasticsearch, Logstash, Kibana) level: Intermediate"
+  }, {
+    "name" : "Gauge level: Intermediate"
+  }, {
+    "name" : "JBoss Application Server level: Intermediate"
+  }, {
+    "name" : "Jenkins level: Intermediate"
+  }, {
+    "name" : "JSF level: Intermediate"
+  }, {
+    "name" : "Marathon level: Intermediate"
+  }, {
+    "name" : "Mesos level: Intermediate"
+  }, {
+    "name" : "Office 365 level: Intermediate"
+  }, {
+    "name" : "Oracle DBMS level: Intermediate"
+  }, {
+    "name" : "REST level: Intermediate"
+  }, {
+    "name" : "Teamcity level: Intermediate"
+  }, {
+    "name" : "Vault level: Intermediate"
+  }, {
+    "name" : "WebSphere Application Server level: Intermediate"
+  }, {
+    "name" : "Agile Development Practices  level: Novice"
+  }, {
+    "name" : "Agile Entwicklung level: Novice"
+  }, {
+    "name" : "Angular level: Novice"
+  }, {
+    "name" : "Angular (Web Application Framework) level: Novice"
+  }, {
+    "name" : "AngularJS level: Novice"
+  }, {
+    "name" : "Ansible level: Novice"
+  }, {
+    "name" : "Ant level: Novice"
+  }, {
+    "name" : "ANT-Scripts level: Novice"
+  }, {
+    "name" : "Apache Camel level: Novice"
+  }, {
+    "name" : "Apache Webserver level: Novice"
+  }, {
+    "name" : "ARC42 level: Novice"
+  }, {
+    "name" : "ArgoCD level: Novice"
+  }, {
+    "name" : "Artifactory level: Novice"
+  }, {
+    "name" : "AWS S3 level: Novice"
+  }, {
+    "name" : "Azure AD level: Novice"
+  }, {
+    "name" : "Bamboo level: Novice"
+  }, {
+    "name" : "Clean Coding level: Novice"
+  }, {
+    "name" : "Cloud Service level: Novice"
+  }, {
+    "name" : "Cucumber level: Novice"
+  }, {
+    "name" : "DataGrip level: Novice"
+  }, {
+    "name" : "DDD level: Novice"
+  }, {
+    "name" : "Debian System level: Novice"
+  }, {
+    "name" : "Docker Compose level: Novice"
+  }, {
+    "name" : "Docker Trusted Registry level: Novice"
+  }, {
+    "name" : "DOM4J level: Novice"
+  }, {
+    "name" : "Dropbox level: Novice"
+  }, {
+    "name" : "Eclipse RCP level: Novice"
+  }, {
+    "name" : "Elasticsearch level: Novice"
+  }, {
+    "name" : "GitLab level: Novice"
+  }, {
+    "name" : "Glassfish Server level: Novice"
+  }, {
+    "name" : "Grafana level: Novice"
+  }, {
+    "name" : "Hazelcast level: Novice"
+  }, {
+    "name" : "Helm level: Novice"
+  }, {
+    "name" : "HTML/CSS level: Novice"
+  }, {
+    "name" : "J2EE level: Novice"
+  }, {
+    "name" : "J2EE 1.6 level: Novice"
+  }, {
+    "name" : "Java 6+ level: Novice"
+  }, {
+    "name" : "Java 8-17 level: Novice"
+  }, {
+    "name" : "Java SE/EE/Servlet/JSP level: Novice"
+  }, {
+    "name" : "Java/J2EE(Liferay,JSP,Servlets,EJB, Struts), HTML,CSS, Javascript,XML,XSD level: Novice"
+  }, {
+    "name" : "Jenkins CI level: Novice"
+  }, {
+    "name" : "JMeter level: Novice"
+  }, {
+    "name" : "JSP level: Novice"
+  }, {
+    "name" : "Kafka level: Novice"
+  }, {
+    "name" : "Kanban level: Novice"
+  }, {
+    "name" : "Keycloak level: Novice"
+  }, {
+    "name" : "Kibana level: Novice"
+  }, {
+    "name" : "Kong / Konga level: Novice"
+  }, {
+    "name" : "Kubernetes level: Novice"
+  }, {
+    "name" : "Linux (SUSE, Debian, Redhat, CentOS) level: Novice"
+  }, {
+    "name" : "Logstash level: Novice"
+  }, {
+    "name" : "Miro level: Novice"
+  }, {
+    "name" : "Mongo DB level: Novice"
+  }, {
+    "name" : "MQTT level: Novice"
+  }, {
+    "name" : "MS SQL Server level: Novice"
+  }, {
+    "name" : "Nexus level: Novice"
+  }, {
+    "name" : "Nginx Proxy Manager level: Novice"
+  }, {
+    "name" : "Nginx Webserver level: Novice"
+  }, {
+    "name" : "npm level: Novice"
+  }, {
+    "name" : "OpenApi level: Novice"
+  }, {
+    "name" : "OpenShift level: Novice"
+  }, {
+    "name" : "Oracle level: Novice"
+  }, {
+    "name" : "Oracle DB level: Novice"
+  }, {
+    "name" : "Oracle SQL/PL/SQL level: Novice"
+  }, {
+    "name" : "PHP level: Novice"
+  }, {
+    "name" : "Postgres level: Novice"
+  }, {
+    "name" : "PostrgeSQL level: Novice"
+  }, {
+    "name" : "Prometheus level: Novice"
+  }, {
+    "name" : "Python level: Novice"
+  }, {
+    "name" : "RESTful API level: Novice"
+  }, {
+    "name" : "RichFaces level: Novice"
+  }, {
+    "name" : "RMI level: Novice"
+  }, {
+    "name" : "RPM level: Novice"
+  }, {
+    "name" : "SAFe® level: Novice"
+  }, {
+    "name" : "SAML level: Novice"
+  }, {
+    "name" : "sFTP level: Novice"
+  }, {
+    "name" : "Shell-Scripting level: Novice"
+  }, {
+    "name" : "SOAP level: Novice"
+  }, {
+    "name" : "Splunk level: Novice"
+  }, {
+    "name" : "Spring Security level: Novice"
+  }, {
+    "name" : "SQuirreL SQL level: Novice"
+  }, {
+    "name" : "Swagger REST-API-Doc level: Novice"
+  }, {
+    "name" : "Swing level: Novice"
+  }, {
+    "name" : "Tekton level: Novice"
+  }, {
+    "name" : "Thymeleaf level: Novice"
+  }, {
+    "name" : "Traefik level: Novice"
+  }, {
+    "name" : "UML level: Novice"
+  }, {
+    "name" : "Vaadin Flow level: Novice"
+  }, {
+    "name" : "VBA level: Novice"
+  }, {
+    "name" : "VSS level: Novice"
+  }, {
+    "name" : "WDSL level: Novice"
+  }, {
+    "name" : "Weblogic level: Novice"
+  }, {
+    "name" : "WebSocket level: Novice"
+  }, {
+    "name" : "WildFly Application Server level: Novice"
+  }, {
+    "name" : "Windows (alle) level: Novice"
+  }, {
+    "name" : "Windows Server Operating System level: Novice"
+  }, {
+    "name" : "XML level: Novice"
+  }, {
+    "name" : "Xpath level: Novice"
+  }, {
+    "name" : "XStream level: Novice"
+  } ],
+  "education" : [ {
+    "Title" : "Dipl. Informatiktechniker HF Software Entwicklung",
+    "InstitutionTitle" : "Wizard Institute of Eldoria",
+    "Start" : "2007",
+    "End" : "2010"
+  }, {
+    "Title" : "Informatiktechniker HF (Vordiplom)",
+    "InstitutionTitle" : "Arcane Academy of Hagen",
+    "Start" : "2005",
+    "End" : "2007"
+  }, {
+    "Title" : "Eidg. Dipl. Werkzeugmacher",
+    "InstitutionTitle" : "Mystic Forge Industries",
+    "Start" : "1992",
+    "End" : "1997"
+  } ],
+  "certificates" : [ {
+    "Title" : "HERMES Foundation",
+    "InstitutionTitle" : "Crystal Tower University",
+    "Start" : "2024",
+    "End" : "2024"
+  }, {
+    "Title" : "OpenShift Basics",
+    "InstitutionTitle" : "Enchanted Techworks",
+    "Start" : "2023",
+    "End" : "2023"
+  }, {
+    "Title" : "Certified SAFe 5 Agilist",
+    "InstitutionTitle" : "Scaled Agile",
+    "Start" : "2022",
+    "End" : "2022"
+  }, {
+    "Title" : "Professional Scrum Master (PSM I)",
+    "InstitutionTitle" : "Arcane Guild of Healers",
+    "Start" : "2019",
+    "End" : "2019"
+  }, {
+    "Title" : "IREB Certified Professional for Requirements Engineering – Foundation Level",
+    "InstitutionTitle" : "Mystic Collegium of Saint Michael",
+    "Start" : "2016",
+    "End" : "2016"
+  }, {
+    "Title" : "Oracle Certified Professional, Java SE 6 Programmer",
+    "InstitutionTitle" : "Arcane Guild of Healers",
+    "Start" : "2012",
+    "End" : "2012"
+  }, {
+    "Title" : "«Professional» Studiengang Softwareentwicklung",
+    "InstitutionTitle" : "Wizard Institute of Eldoria",
+    "Start" : "2009",
+    "End" : "2010"
+  }, {
+    "Title" : "«Advanced» Studiengang Softwareentwicklung",
+    "InstitutionTitle" : "Wizard Institute of Eldoria",
+    "Start" : "2008",
+    "End" : "2009"
+  }, {
+    "Title" : "«Junior» Studiengang Softwareentwicklung",
+    "InstitutionTitle" : "Wizard Institute of Eldoria",
+    "Start" : "2007",
+    "End" : "2008"
+  } ],
+  "projects" : [ {
+    "Name" : "Document Management",
+    "Start" : "02.2024",
+    "End" : "",
+    "Description" : "The current legacy document storage system is used by many clients and is increasingly reaching its limits due to the constant growth of requirements (performance, storage, etc.). Until it gets replaced by a new product, it needs to be documented, stabilized, and expanded to ensure uninterrupted operation. To facilitate the transition from legacy components to a new product, the current and new technology environment will be analyzed, existing and new requirements will be captured, solution strategies will be defined based on business goals, and technological processes will be described and managed using the necessary frameworks. Furthermore, support for project management will be provided, as well as collaboration with IT project managers and development teams.",
+    "Role" : "Senior Solution Architect",
+    "Industry" : "Public Administration",
+    "Tasks" : [ "Technology environment analysis ", "Gather requirements", "Documentation and analysis", "Development of solution and strategies", "Creation of complex architecture", "Analysis of frameworks and platforms", "Communication", "Support in project management" ],
+    "Methods" : [ "Scrum ", "Agile", "Agile", "Kanban", "CI/CD", "DevOps", "ARC42" ],
+    "Technologies" : [ "Oracle DBMS", "Oracle SQL/PL/SQL", "Shell Scripting", "IntelliJ IDEA", "Debian System", "WDSL", "Spring Framework", "PostrgeSQL", "Java/J2EE(Liferay,JSP,Servlets,EJB, Struts), HTML,CSS, Javascript,XML,XSD", "Spring Boot", "Git", "Jira", "Confluence", "Office 365", "Splunk", "Bitbucket", "Docker", "SoapUI", "Weblogic", "Windows Server Operating System", "DataGrip", "Java 6+" ]
+  }, {
+    "Name" : "Topology Data Management",
+    "Start" : "11.2021",
+    "End" : "12.2023",
+    "Description" : "Maintain, expand, and document the existing application environment as the central object of the topology data management. The application environment captures topology data from various sources, standardizes it, and provides it to internal customers through various means such as interfaces and databases. Support includes server and frontend application management, infrastructure expansion, and maintenance. Additionally, existing legacy components are systematically migrating to newer, highly maintainable, and robust applications within a cloud-based environment.",
+    "Role" : "Senior Software Engineer",
+    "Industry" : "Transportation",
+    "Tasks" : [ "Software Engineering", "Legacy Systems Transformation", "Define and finalize architecture", "Conceptualize, develop, and test microservices", "Requirements Analysis", "Conceptualize and document system architectures", "Technical and operational documentation", "Testing (manual / automated)", "Requirements Engineering", "Quality Management", "Maintenance of CI/CD in a DevOps team", "Conduct rollouts/releases", "Quality Management", "Quality Gate", "Maintenance and support", "Conduct Workshops" ],
+    "Methods" : [ "Clean Coding", "Agile Entwicklung", "Scrum ", "RESTful API", "SAFe®", "Cloud Service", "Angular (Web Application Framework)", "CI/CD", "DevOps" ],
+    "Technologies" : [ "Oracle DBMS", "Shell Scripting", "Linux (SUSE, Debian, Redhat, CentOS)", "Java SE/EE/Servlet/JSP", "JUnit", "Eclipse", "RMI", "Glassfish Server", "IntelliJ IDEA", "JMeter", "Cucumber", "WebSphere Application Server", "OpenShift", "SQuirreL SQL", "Eclipse RCP", "Spring Boot", "Spring Security", "Git", "Maven", "Thymeleaf", "Azure AD", "npm", "Kubernetes", "Jira", "Helm", "OpenApi", "Confluence", "Office 365", "Bitbucket", "Tekton", "Miro", "Windows (alle)", "Java 8-17", "Jenkins CI", "Docker", "SoapUI", "Vaadin Flow", "Swagger REST-API-Doc", "ArgoCD", "SonarQube" ]
+  }, {
+    "Name" : "Traffic Data Collection for Individual Traffic",
+    "Start" : "06.2020",
+    "End" : "05.2021",
+    "Description" : "Traffic data collection, analysis, and documentation for individual traffic through the development of an expandable, scalable, and distributed application infrastructure. Traffic data from various sources were processed and made available to administrative staff through a frontend, as well as automatically transferred to other public service providers.",
+    "Role" : "Senior / Lead Software Engineer, Scrum Master",
+    "Industry" : "Public Administration",
+    "Tasks" : [ "Software Engineering", "Team Lead", "Scrum Master", "CI/CD in a DevOps Team", "Architecture and Design", "Setting up the Quality Gate", "Maintenance and Support", "Organize Rollouts", "Create User and Operations Manuals", "Organizing and leading Scrum Meeting", "Organizing and leading Stakeholder Meetings" ],
+    "Methods" : [ "Scrum", "Team Leading", "Agile", "Business Analyse", "CI/CD", "DevOps" ],
+    "Technologies" : [ "Shell Scripting", "JUnit", "IntelliJ IDEA", "sFTP", "Apache Camel", "Mongo DB", "Nginx Webserver", "Elasticsearch", "CentOS", "Spring Boot", "Git", "Maven", "Ansible", "SAML", "GitLab", "Jira", "Kibana", "Angular", "Traefik", "Logstash", "Jenkins", "Confluence", "Keycloak", "Consul", "Mesos", "Marathon", "ELK (Elasticsearch, Logstash, Kibana)", "Docker", "SoapUI", "Java 8", "Vault", "Kong / Konga", "Nginx Proxy Manager", "MQTT", "SonarQube" ]
+  }, {
+    "Name" : "Big Data Plattform",
+    "Start" : "01.2018",
+    "End" : "04.2021",
+    "Description" : "A distributed big data platform was created for the customer over several requirement iterations, which can collect, process and store data from various sources. At the customer's request, all necessary systems for operational use were defined, created, configured, operated and maintained. In addition, the software functionalities to be created were developed, implemented, verified and delivered using CI/CD in close contact with the customer through requirement analysis and requirements engineering.",
+    "Role" : "Senior Software Engineer, Scrum Master",
+    "Industry" : "Administrative Management",
+    "Tasks" : [ "Software Engineering", "Team Lead", "Scrum Master", "Setting up/organizing a DevOps team", "Requirement Analysis", "Aufbau eines DevOps Teams", "Introduction of Scrum in the team", "Requirements Engineering", "Conceptualizing and documenting system architectures", "Conceptualizing, developing, and testing microservices", "Deputy Product Owner ", "Testing ", "Einführung von Scrum im Team", "Conducting load and performance tests", "Delivering artifacts", "Organizing and leading client Meetings", "Organizing and leading Scrum Meetings", "End-User training", "Maintenance and support", "Technical and operational documentation" ],
+    "Methods" : [ "Scrum ", "Team Leading", "Agile", "Business Analyse", "CI/CD", "Nexus", "DevOps" ],
+    "Technologies" : [ "Shell Scripting", "JUnit", "Oracle", "Postgres", "IntelliJ IDEA", "Teamcity", "Grafana", "Artifactory", "CentOS", "Spring Boot", "Python", "Git", "Maven", "Dropwizard", "Dropbox", "MariaDB", "Kafka", "Prometheus", "Hibernate", "Jira", "JPA", "Confluence", "Consul", "Mesos", "Marathon", "Gauge", "Docker Trusted Registry", "ELK (Elasticsearch, Logstash, Kibana)", "Bitbucket", "Docker", "SoapUI", "Java 8", "AWS S3", "Vault", "Agile Development Practices ", "SonarQube" ]
+  }, {
+    "Name" : "Performance and Fault Tolerance Enhancement for Emergency Services",
+    "Start" : "03.2020",
+    "End" : "06.2020",
+    "Description" : "An existing distributed application was augmented with an in-memory database, significantly enhancing the performance of data flow (response and throughput times) and ensuring data synchronization in the event of a data center failure.",
+    "Role" : "Senior Software Engineer, Scrum Master",
+    "Industry" : "Telekommunikation",
+    "Tasks" : [ "Software Engineering", "Team Lead", "Scrum Master", "Define and provide architecture", "Conceptualizing, developing, and testing microservices", "Load and Performance Testing", "Quality Management", "Organizing and leading stakeholder Meetings", "Organizing and leading Scrum Meetings", "Maintenance and support", "Testing (manual / automated)", "Technical and operational documentation " ],
+    "Methods" : [ "Scrum ", "Team Leading", "Agile", "Business Analyse", "CI/CD", "DevOps" ],
+    "Technologies" : [ "Shell Scripting", "ANT-Scripts", "JUnit", "IntelliJ IDEA", "Bamboo", "Teamcity", "CentOS", "Oracle DB", "Spring Boot", "Git", "Maven", "Hazelcast", "Hibernate", "Jira", "RPM", "JPA", "Confluence", "Gauge", "Bitbucket", "Docker", "SoapUI", "Java 8", "SonarQube" ]
+  }, {
+    "Name" : "Test Framework for Advertising and Demonstrations",
+    "Start" : "10.2017",
+    "End" : "12.2017",
+    "Description" : "A portable application environment was developed for the client, which had to encompass various types of interface technologies and frontend applications. For the user, he environment needed to be easily installed, launched, and reset.",
+    "Role" : "Software Engineer",
+    "Industry" : "Marketing, Sales",
+    "Tasks" : [ "Requirements Engineering", "Software Engineering", "Creating installation routines", "Create automated tests", "Conducting training sessions with users", "Maintenance and Support", "Conceptualizing, developing and testing microservices", "Define architecture" ],
+    "Methods" : [ "Agile" ],
+    "Technologies" : [ "Shell Scripting", "JUnit", "Eclipse", "XStream", "WebSocket", "WildFly Application Server", "CVS", "JSF", "Maven", "Dropwizard", "MariaDB", "Hibernate", "Docker Compose", "JPA", "Jenkins", "Scrum ", "REST", "SOAP", "Docker", "SoapUI", "Java 8", "JSP", "AngularJS" ]
+  }, {
+    "Name" : "Architecture - Transformation from Monolith to Microservice Environment",
+    "Start" : "07.2016",
+    "End" : "10.2017",
+    "Description" : "The client had a monolithic software architecture that had grown significantly over the past years and needed to be divided into individual domains. These domains were identified, analyzed, and documented so that the development departments could separate them from the existing structures. The client's goal was to migrate individual domains into a fast, maintainable, and testable CI/CD environment.",
+    "Role" : "Software Engineer, Architect",
+    "Industry" : "Insurance",
+    "Tasks" : [ "Requirement Analysis", "Adapting existing documentation", "Conceptualizing and documenting system", "Conducting workshops" ],
+    "Methods" : [ "UML", "DDD", "CI/CD" ],
+    "Technologies" : [ "J2EE", "Confluence", "Java" ]
+  }, {
+    "Name" : "Rule Parameter",
+    "Start" : "01.2011",
+    "End" : "10.2017",
+    "Description" : "An application was developed for the client, capable of capturing, copying, analyzing, converting, and exporting rule parameters. The application was continually expanded over multiple orders. Some of the expansions included: GUI and web representations, format control, generation of the DOM structure for export, verification of the resulting XML files, pre-compilation with error control, final compilation and deployment, local deployment of compiled parameters, version control, and more.",
+    "Role" : "Software Engineer",
+    "Industry" : "Insurance",
+    "Tasks" : [ "Requirements Engineering", "Software Engineering", "Conducting workshops with stakeholders", "Conducting training sessions", "Maintenance and Support" ],
+    "Methods" : [ "Scrum " ],
+    "Technologies" : [ "XML", "JUnit", "Eclipse", "JBoss Application Server", "RichFaces", "Ant", "J2EE 1.6", "WebSphere Application Server", "VBA", "Spring Framework", "CVS", "Xpath", "JSF", "Maven", "Confluence", "Shell-Scripting", "Java", "DOM4J" ]
+  }, {
+    "Name" : "Event Capture for Emergency Services",
+    "Start" : "10.2009",
+    "End" : "06.2011",
+    "Description" : "The client aimed to reduce the significant paperwork and centrally manage information through a software solution. To achieve this, a client/server infrastructure was developed, incorporating aspects such as event logging, triage, and map management.",
+    "Role" : "Software Engineer",
+    "Industry" : "Administrative Services",
+    "Tasks" : [ "The client aimed to reduce the signifi", "Architecture", "Implementation", "Creating the server infrastructure", "Automated testing", "Deployment and training", "Maintenance and Support", "Documentation" ],
+    "Methods" : [ ],
+    "Technologies" : [ "JBoss Application Server", "Spring Framework", "MariaDB", "Hibernate", "REST", "Java" ]
+  }, {
+    "Name" : "Task Management for Industrial Machinery",
+    "Start" : "07.2008",
+    "End" : "06.2009",
+    "Description" : "Analysis, documentation, and implementation of a ticketing and task management system for internal use. The application enabled cross-company and per-product management of information such as current production statuses, blockages, files, todos, etc.",
+    "Role" : "Software Engineer",
+    "Industry" : "Machine Industry",
+    "Tasks" : [ "Requirement analysis", "Implementation", "End-User training", "Maintenance and Support" ],
+    "Methods" : [ ],
+    "Technologies" : [ "Swing", "MS SQL Server", "VSS", "Apache Webserver", "HTML/CSS", "PHP", "Java" ]
+  } ]
+}

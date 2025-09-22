@@ -1,0 +1,297 @@
+{
+  "name" : "Ezra Blaine",
+  "careerinfo" : {
+    "AdvertisingText" : "Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in WinForms, Integrated Marketing, Application Programming Interfaces, SOLID Principles, and jQuery. Strong engineering professional with a Bachelor's degree focused in Computer Science from Scuola universitaria professionale della Svizzera italiana (SUPSI).",
+    "LongAdvertisingText" : "",
+    "PreferredFunctions" : "Software Engineer (including functions such as Requirements Engineer, Analyst, S, Scrum Master",
+    "PreferredFunctionsList" : [ {
+      "CodeListValueId" : 760,
+      "CodeListValueCaptionId" : 733,
+      "CodeListId" : 122,
+      "FunctionName" : "Software Engineer (including functions such as Requirements Engineer, Analyst, S"
+    }, {
+      "CodeListValueId" : 4776,
+      "CodeListValueCaptionId" : 9805,
+      "CodeListId" : 123,
+      "FunctionName" : "Scrum Master"
+    } ],
+    "PreferredSkills" : "SWE",
+    "CareerSummaryLabel" : "Career Summary & Preferred Domain",
+    "HighlightsTextLabel" : "Highlights",
+    "AdvertisingTextLabel" : "Advertising Text Short CV",
+    "LongAdvertisingTextLabel" : "Advertising Text Legacy",
+    "PreferredFunctionsLabel" : "Preferred functions",
+    "PreferredSkillsLabel" : "Preferred skills"
+  },
+  "skills" : [ {
+    "name" : "Scrum  level: Advanced"
+  }, {
+    "name" : "UML level: Advanced"
+  }, {
+    "name" : "Design Patterns level: Advanced"
+  }, {
+    "name" : "C# level: Advanced"
+  }, {
+    "name" : "MS Office automation level: Intermediate"
+  }, {
+    "name" : "Agile Development level: Intermediate"
+  }, {
+    "name" : "SOLID Prinzipien level: Intermediate"
+  }, {
+    "name" : "VBA level: Intermediate"
+  }, {
+    "name" : "ASP.NET level: Intermediate"
+  }, {
+    "name" : "Entity Framework level: Intermediate"
+  }, {
+    "name" : "Silverlight level: Intermediate"
+  }, {
+    "name" : "Test Driven Development (TDD) level: Intermediate"
+  }, {
+    "name" : "Oracle level: Intermediate"
+  }, {
+    "name" : "SQL Server level: Intermediate"
+  }, {
+    "name" : "VB .NET level: Intermediate"
+  }, {
+    "name" : "WPF level: Intermediate"
+  }, {
+    "name" : ".NET Framework level: Novice"
+  }, {
+    "name" : "ASP.NET MVC level: Novice"
+  }, {
+    "name" : "CSS level: Novice"
+  }, {
+    "name" : "Design Pattern level: Novice"
+  }, {
+    "name" : "Docker level: Novice"
+  }, {
+    "name" : "HTML level: Novice"
+  }, {
+    "name" : "Intersystems Cache level: Novice"
+  }, {
+    "name" : "JavaScript level: Novice"
+  }, {
+    "name" : "jQuery level: Novice"
+  }, {
+    "name" : "MS Access level: Novice"
+  }, {
+    "name" : "MS Exchange Server level: Novice"
+  }, {
+    "name" : "MS Office level: Novice"
+  }, {
+    "name" : "MS Outlook level: Novice"
+  }, {
+    "name" : "MS Test level: Novice"
+  }, {
+    "name" : "NetCore 3 level: Novice"
+  }, {
+    "name" : "SQL level: Novice"
+  }, {
+    "name" : "SqlLite level: Novice"
+  }, {
+    "name" : "UWP level: Novice"
+  }, {
+    "name" : "V-Modell level: Novice"
+  }, {
+    "name" : "Wasserfall level: Novice"
+  }, {
+    "name" : "Web Services level: Novice"
+  }, {
+    "name" : "WebForms level: Novice"
+  }, {
+    "name" : "Windows Embedded Compact 7 level: Novice"
+  }, {
+    "name" : "Windows IoT level: Novice"
+  }, {
+    "name" : "XAML (WPF) level: Novice"
+  } ],
+  "education" : [ {
+    "Title" : "CAS Data Engineering and Applied Data Science",
+    "InstitutionTitle" : "Crystal Tower University",
+    "Start" : "2022",
+    "End" : "2023"
+  }, {
+    "Title" : "CAS Artificial Intelligence",
+    "InstitutionTitle" : "HSLU Crystal Tower University",
+    "Start" : "2019",
+    "End" : "2020"
+  }, {
+    "Title" : "Bachelor in Computer Science",
+    "InstitutionTitle" : "Emerald Grove Institute",
+    "Start" : "2006",
+    "End" : "2010"
+  }, {
+    "Title" : "Exchange semester",
+    "InstitutionTitle" : "Sapphire Realm University",
+    "Start" : "2001",
+    "End" : "2001"
+  }, {
+    "Title" : "Master in Communication Sciences",
+    "InstitutionTitle" : "Emerald Grove Institute",
+    "Start" : "1998",
+    "End" : "2003"
+  }, {
+    "Title" : "Highschool in science",
+    "InstitutionTitle" : "Dragonfire High School",
+    "Start" : "1993",
+    "End" : "1997"
+  }, {
+    "Title" : "Elementary and middle school",
+    "InstitutionTitle" : "Griffin Valley Elementary, Griffin Valley Middle School",
+    "Start" : "1984",
+    "End" : "1993"
+  } ],
+  "certificates" : [ {
+    "Title" : "Certified SAFe 5 Agilist",
+    "InstitutionTitle" : "Enchanted Ventures GmbH",
+    "Start" : "2023",
+    "End" : "2023"
+  }, {
+    "Title" : "Designing and Implementing a Microsoft Azure AI Solution, Microsoft Exam AI-102",
+    "InstitutionTitle" : "Microsoft",
+    "Start" : "2022",
+    "End" : "2022"
+  }, {
+    "Title" : "Certified Professional for Medical Software",
+    "InstitutionTitle" : "Arcane Guild of Healers",
+    "Start" : "2021",
+    "End" : "2021"
+  }, {
+    "Title" : "Developing ASP.NET MVC Web Applications, Microsoft Exam 486",
+    "InstitutionTitle" : "Microsoft",
+    "Start" : "2019",
+    "End" : "2019"
+  }, {
+    "Title" : "Programming in c#, Microsoft Exam 483",
+    "InstitutionTitle" : "Microsoft",
+    "Start" : "2018",
+    "End" : "2018"
+  }, {
+    "Title" : "First Certificate of Cambridge",
+    "InstitutionTitle" : "Celestial Academy of Lore",
+    "Start" : "1998",
+    "End" : "1998"
+  } ],
+  "projects" : [ {
+    "Name" : "Calculations for medical diagnostics",
+    "Start" : "04.2019",
+    "End" : "",
+    "Description" : "In the area of PCR (Polymerase Chain Reaction) diagnostics, the project is about transforming instrumental raw  data into a diagnostic result. Raw data is provided by the diagnostic instrument that analyzes human samples. The diagnostic results are obtained by processing the raw data with different algorithms and parameters depending on the type of test. The system is modular and generic enough to interface with different instruments and different test types.",
+    "Role" : "Developer, Tester, Scrum Master",
+    "Industry" : "MedTech",
+    "Tasks" : [ "Development", "Testing", "Planning", "Code review", "Documentation" ],
+    "Methods" : [ "UML", "SOLID Prinzipien", "Agile Development", "Scrum", "Design Pattern" ],
+    "Technologies" : [ "MS Test", "C#", ".NET Framework", "NetCore 3", "Docker" ]
+  }, {
+    "Name" : "Software for high precision balances",
+    "Start" : "01.2018",
+    "End" : "03.2019",
+    "Description" : "This project is about the development of the software necessary for the management and controlling of high precision balances. This laboratory balances have a precision up to 6 decimals (grams). Their usage is highly customizible through a touch screen connected via cable to the balance. To avoid interferences of moving air (from breath for example), this balances have automated doors that allows to perform weighing in an isolated context. Some weighing actions can be remotely performed.",
+    "Role" : "Developer",
+    "Industry" : "Weighing Industry",
+    "Tasks" : [ "Development", "Testing", "Planning", "Code review", "Documentation" ],
+    "Methods" : [ "Design Patterns", "UML", "SOLID Prinzipien", "Agile Development", "Scrum" ],
+    "Technologies" : [ "C#", "WPF", "XAML (WPF)", "UWP", "Windows IoT", "Windows Embedded Compact 7", "Silverlight", "SqlLite" ]
+  }, {
+    "Name" : "Web solution for company resources management",
+    "Start" : "01.2015",
+    "End" : "12.2018",
+    "Description" : "This solution consists of a web application and an Outlook addin. The application was born with the aim of managing the company meeting rooms with the possibility to reserve them. Later the application has grown to become a system for the management of many corporate resources: equipment, parking, catering, rooms. It is a solution used by several Swiss companies for the management and creation of events or for the management of resources. The application consists of a central core and several additional modules that can be customized for each client.",
+    "Role" : "Developer",
+    "Industry" : "Software",
+    "Tasks" : [ "Development", "Testing", "Planning", "Code review", "Documentation" ],
+    "Methods" : [ "Design Patterns", "UML", "SOLID Prinzipien", "Agile Development", "Scrum" ],
+    "Technologies" : [ "ASP.NET MVC", "jQuery", "Entity Framework", "MS Outlook", "MS Exchange Server", "SQL Server", "JavaScript" ]
+  }, {
+    "Name" : "Web solution for a medical diagnostics insturment",
+    "Start" : "01.2013",
+    "End" : "12.2015",
+    "Description" : "",
+    "Role" : "Development",
+    "Industry" : "MedTech",
+    "Tasks" : [ "Development", "Testing", "Planning", "Code review", "Documentation" ],
+    "Methods" : [ "Design Patterns", "UML", "SOLID Prinzipien", "Agile Development", "Scrum" ],
+    "Technologies" : [ "C#", "Oracle", "Entity Framework", "Silverlight" ]
+  }, {
+    "Name" : "Web solution for point of care management",
+    "Start" : "01.2010",
+    "End" : "12.2013",
+    "Description" : "",
+    "Role" : "Developer",
+    "Industry" : "MedTech",
+    "Tasks" : [ "Development", "Testing", "Planning", "Code review", "Documentation" ],
+    "Methods" : [ "Design Patterns", "UML", "Scrum", "Test Driven Development (TDD)", "WebForms", "V-Modell" ],
+    "Technologies" : [ "C#", "Oracle", "Entity Framework", "ASP.NET", "Intersystems Cache", "VB .NET", "Silverlight" ]
+  }, {
+    "Name" : "Documents Template Tool",
+    "Start" : "01.2010",
+    "End" : "12.2010",
+    "Description" : "",
+    "Role" : "Developer",
+    "Industry" : "Insurance",
+    "Tasks" : [ "Development", "Testing", "Planning", "Code review", "Documentation" ],
+    "Methods" : [ "Design Patterns", "UML", "Scrum" ],
+    "Technologies" : [ "VBA", "MS Office automation", "SQL Server" ]
+  }, {
+    "Name" : "Excel Reports Project",
+    "Start" : "01.2009",
+    "End" : "12.2009",
+    "Description" : "",
+    "Role" : "Developer",
+    "Industry" : "Finance",
+    "Tasks" : [ ],
+    "Methods" : [ "Design Patterns", "UML", "Scrum" ],
+    "Technologies" : [ "C#", "ASP.NET", "MS Office automation" ]
+  }, {
+    "Name" : "Events Database",
+    "Start" : "01.2009",
+    "End" : "12.2009",
+    "Description" : "",
+    "Role" : "Developer",
+    "Industry" : "Public administration",
+    "Tasks" : [ ],
+    "Methods" : [ "UML", "Scrum" ],
+    "Technologies" : [ "VBA", "MS Access" ]
+  }, {
+    "Name" : "IPowerBilling",
+    "Start" : "01.2008",
+    "End" : "12.2009",
+    "Description" : "",
+    "Role" : "Developer",
+    "Industry" : "Finance",
+    "Tasks" : [ ],
+    "Methods" : [ "Design Patterns", "UML", "Scrum", "Test Driven Development (TDD)" ],
+    "Technologies" : [ "MS Office automation", "VB .NET" ]
+  }, {
+    "Name" : "BoxBrain",
+    "Start" : "01.2008",
+    "End" : "12.2009",
+    "Description" : "",
+    "Role" : "Developer",
+    "Industry" : "Industry",
+    "Tasks" : [ ],
+    "Methods" : [ "Design Patterns", "Scrum", "Test Driven Development (TDD)" ],
+    "Technologies" : [ "C#", "WPF", "MS Office automation" ]
+  }, {
+    "Name" : "MTDC Accreditation Project",
+    "Start" : "01.2009",
+    "End" : "01.2009",
+    "Description" : "",
+    "Role" : "Developer",
+    "Industry" : "Finance",
+    "Tasks" : [ ],
+    "Methods" : [ "Design Patterns", "UML", "Scrum" ],
+    "Technologies" : [ "Web Services", "C#", "MS Office automation", "VBA" ]
+  }, {
+    "Name" : "S-Dev Geneva, ICT for all, ICT4D",
+    "Start" : "01.2003",
+    "End" : "12.2006",
+    "Description" : "",
+    "Role" : "ICT Specialist",
+    "Industry" : "Event Management",
+    "Tasks" : [ ],
+    "Methods" : [ "Wasserfall", "UML" ],
+    "Technologies" : [ "SQL", "ASP.NET", "VBA", "CSS", "HTML", "MS Office" ]
+  } ]
+}

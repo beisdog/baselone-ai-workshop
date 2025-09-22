@@ -88,7 +88,7 @@ public class CVController {
             @RequestBody SearchInput searchInput) {
         log.info("*** vectorSearch: {}: for query '{}' ...", namespace, searchInput.question);
         ContentRetriever contentRetriever = EmbeddingStoreContentRetriever.builder()
-                .embeddingStore(this.vectorStoreFactory.createEmbeddingStore(namespace.getType(), 786))
+                .embeddingStore(this.vectorStoreFactory.createEmbeddingStore(namespace.getType(), 768))
                 .embeddingModel(this.modelRegistry.getEmbeddingModel(model))
                 .maxResults(searchInput.maxResults)
                 //.minScore(0.75)

@@ -1,0 +1,244 @@
+{
+  "name" : "Kade Whitlock",
+  "careerinfo" : {
+    "AdvertisingText" : "Mit über zwanzig Jahren Tätigkeit in der Softwareentwicklung in Projekten aller Grössen hat Frau Whitlock eine breite Erfahrung bezüglich der Entwicklung und Architektur von Applikationen mit .NET und C#. \n\nIn all seinen Projekten im Microsoft-Umfeld hat er mit seinem fundierten Wissen im Bereich Entwicklung und Architektur massgeblich zum Projekterfolg beigetragen. Seine Erfahrung als Software Architekt wird durch seine Zertifizierung als Professional Software Architekt nach iSAQB abgerundet.",
+    "LongAdvertisingText" : "",
+    "PreferredFunctions" : "Software-Ingenieur, Software Architekt",
+    "PreferredFunctionsList" : [ {
+      "CodeListValueId" : 4235,
+      "CodeListValueCaptionId" : 8193,
+      "CodeListId" : 122,
+      "FunctionName" : "Software-Ingenieur"
+    }, {
+      "CodeListValueId" : 10313,
+      "CodeListValueCaptionId" : 17854,
+      "CodeListId" : 122,
+      "FunctionName" : "Software Architekt"
+    } ],
+    "PreferredSkills" : "SWE",
+    "CareerSummaryLabel" : "Bisheriger Werdegang & Bevorzugtes Einsatzgebiet",
+    "HighlightsTextLabel" : "Highlights",
+    "AdvertisingTextLabel" : "Werbetext für kurzer Lebenslauf",
+    "LongAdvertisingTextLabel" : "Advertising Text Legacy",
+    "PreferredFunctionsLabel" : "Bevorzugte Funktion",
+    "PreferredSkillsLabel" : "Preferred skills"
+  },
+  "skills" : [ {
+    "name" : "C# level: Advanced"
+  }, {
+    "name" : "Continuous Integration  level: Advanced"
+  }, {
+    "name" : "Iterative Softwareentwicklung level: Intermediate"
+  }, {
+    "name" : "Architektur level: Intermediate"
+  }, {
+    "name" : "Scrum  level: Intermediate"
+  }, {
+    "name" : "Unit Testing level: Intermediate"
+  }, {
+    "name" : ".NET Framework level: Intermediate"
+  }, {
+    "name" : "Docker level: Intermediate"
+  }, {
+    "name" : "Entity Framework level: Intermediate"
+  }, {
+    "name" : "Git level: Intermediate"
+  }, {
+    "name" : "MS Visual Studio 2019 level: Intermediate"
+  }, {
+    "name" : "Requirements Analysis level: Intermediate"
+  }, {
+    "name" : "Visual Studio 2015 level: Intermediate"
+  }, {
+    "name" : "Visual Studio Code level: Intermediate"
+  }, {
+    "name" : "WCF Webservices level: Intermediate"
+  }, {
+    "name" : ".NET Compact Framework 2.0 level: Novice"
+  }, {
+    "name" : ".NET Core 3.1 level: Novice"
+  }, {
+    "name" : ".NET Core 6 level: Novice"
+  }, {
+    "name" : "Amazon DocumentDB level: Novice"
+  }, {
+    "name" : "Amazon Elastic Container Service level: Novice"
+  }, {
+    "name" : "Amazon SQS level: Novice"
+  }, {
+    "name" : "ASP.NET MVC 3 level: Novice"
+  }, {
+    "name" : "AWS Lambda functions level: Novice"
+  }, {
+    "name" : "Azure DevOps level: Novice"
+  }, {
+    "name" : "Cypress level: Novice"
+  }, {
+    "name" : "Java 8 level: Novice"
+  }, {
+    "name" : "JavaScript (JQuery) level: Novice"
+  }, {
+    "name" : "Material Design level: Novice"
+  }, {
+    "name" : "Microservice Architektur level: Novice"
+  }, {
+    "name" : "Microsoft SharePoint  level: Novice"
+  }, {
+    "name" : "MongoDB level: Novice"
+  }, {
+    "name" : "MS Office Automation level: Novice"
+  }, {
+    "name" : "MS Visual Studio 2008 level: Novice"
+  }, {
+    "name" : "MS Visual Studio 2013 level: Novice"
+  }, {
+    "name" : "Node.js level: Novice"
+  }, {
+    "name" : "Performance Optimization level: Novice"
+  }, {
+    "name" : "React level: Novice"
+  }, {
+    "name" : "Silverlight level: Novice"
+  }, {
+    "name" : "Specflow (Integrationstests) level: Novice"
+  }, {
+    "name" : "Test Driven Development (TDD) level: Novice"
+  }, {
+    "name" : "TypeScript level: Novice"
+  }, {
+    "name" : "yarn level: Novice"
+  } ],
+  "education" : [ {
+    "Title" : "Dipl. Ing. FH Informatik",
+    "InstitutionTitle" : "Eldoria Technological Institute",
+    "Start" : "2002",
+    "End" : "2006"
+  }, {
+    "Title" : "Gelernter Elektroniker",
+    "InstitutionTitle" : "Arcane Guild of Healers",
+    "Start" : "1998",
+    "End" : "2002"
+  }, {
+    "Title" : "Berufsmaturität",
+    "InstitutionTitle" : "Wizard Gymnasium",
+    "Start" : "1998",
+    "End" : "2002"
+  } ],
+  "certificates" : [ {
+    "Title" : "Certified Professional for Software Architecture - Advanced",
+    "InstitutionTitle" : "iSAQB",
+    "Start" : "2021",
+    "End" : "2022"
+  }, {
+    "Title" : "Certified Professional for Software Architecture",
+    "InstitutionTitle" : "iSAQB",
+    "Start" : "2014",
+    "End" : "2014"
+  }, {
+    "Title" : "Microsoft Certified Technology Specialist",
+    "InstitutionTitle" : "",
+    "Start" : "2009",
+    "End" : "2009"
+  }, {
+    "Title" : "Microsoft Certified Technology Specialist",
+    "InstitutionTitle" : "",
+    "Start" : "2008",
+    "End" : "2008"
+  }, {
+    "Title" : "Microsoft Certified Technology Specialist",
+    "InstitutionTitle" : "",
+    "Start" : "2007",
+    "End" : "2007"
+  } ],
+  "projects" : [ {
+    "Name" : "Entwicklung der Steuerungssoftware eines Verbindungsmoduls für ein analytisches Instrument",
+    "Start" : "09.2023",
+    "End" : "",
+    "Description" : "Entwicklung der Steuerungssoftware eines Verbindungsmoduls, mit dem ein Analyzer an ein Transportsystem für Proben angeschlossen werden kann, welches andere Gestelle für die Proben verwendet als der Analyzer. Die Proben werden dabei einzeln aus dem Gestell des Transportsystem entnommen und in ein neues Gestell abgelegt, welches dem Analyzer weitergegeben werden kann.",
+    "Role" : "Software Engineer",
+    "Industry" : "Medizinaltechnik",
+    "Tasks" : [ "Entwicklung geplanter Features", "Testen von Features auf dem Instrument", "Regulatorische Dokumentation schreiben" ],
+    "Methods" : [ "Continuous Integration ", "Scrum ", "Iterative Softwareentwicklung" ],
+    "Technologies" : [ "Node.js", "React", "yarn", "Docker", "Cypress", "Visual Studio Code", "TypeScript" ]
+  }, {
+    "Name" : "Unterstützung bei der Neukonzeptionierung eines Hämatologie-Analyzers",
+    "Start" : "05.2019",
+    "End" : "08.2023",
+    "Description" : "Wartung und Anpassung der bestehenden Java Software zur Unterstützung von Experimenten auf den alten Instrumenten.\nEntwicklung einer Webapplikation basierend auf .NET, React und Amazon Web Services zur Klassifizierung von Blutzellen. Die Klassifizierungen werden anschliessend für das Training von verschiedenen Machine Learning Algorithmen verwendet.",
+    "Role" : "Software Engineer, Architekt",
+    "Industry" : "Medizinaltechnik",
+    "Tasks" : [ "Architektur für Cloud erstellen", "Umsetzung geplanter Features", "Support für alte Instrumente", "Wartung bestehender Java Software" ],
+    "Methods" : [ "Architektur", "Continuous Integration ", "Iterative Softwareentwicklung" ],
+    "Technologies" : [ "C#", "MongoDB", "Git", "Microservice Architektur", "Material Design", "MS Visual Studio 2019", "Amazon SQS", ".NET Core 6", "Docker", "Visual Studio Code", "Amazon DocumentDB", "Amazon Elastic Container Service", "Java 8", "AWS Lambda functions" ]
+  }, {
+    "Name" : "Verarbeitung und Weiterleitung von Instrumentendaten",
+    "Start" : "11.2019",
+    "End" : "04.2020",
+    "Description" : "Die Pakete werden dafür entschlüsselt, entpackt und anonymisiert. Anschliessend werden die Inhalte wieder verpackt und an verschiedene Empfänger weitergeleitet. \nAusgangspunkt der Entwicklung war ein Prototyp, welcher unter hohem Zeitdruck so verändert werden musste, dass zukünftige Änderungen einfacher zu integrieren sind.",
+    "Role" : "Software Engineer",
+    "Industry" : "Medizinaltechnik",
+    "Tasks" : [ "Entwicklung einer neuen Architektur ", "Planung neuer Features", "Umsetzung und Testing neuer Features ", "Implementierung SpecFlow Tests" ],
+    "Methods" : [ "Continuous Integration ", "Iterative Softwareentwicklung" ],
+    "Technologies" : [ "C#", "Specflow (Integrationstests)", "Git", ".NET Core 3.1", "MS Visual Studio 2019", "Azure DevOps" ]
+  }, {
+    "Name" : "Steuerung von Präzisionswaagen",
+    "Start" : "12.2016",
+    "End" : "03.2019",
+    "Description" : "In einem anderen Projekt des Kunden wurde eine Schnittstelle entwickelt, um die Waagen fernsteuern zu können. Dabei musste sichergestellt werden, dass die Anforderungen und Konzepte der beiden Projekte miteinander vereinbar waren.",
+    "Role" : "Software Engineer",
+    "Industry" : "Industrie",
+    "Tasks" : [ "Review Requirements Schnittstelle", "Architektur Schnittstellen-Integration", "Umsetzung der Schnittstelle", "Testen der Schnittstellen Funktionen", "Aufwandschätzung und Arbeitsplanung der Tasks" ],
+    "Methods" : [ "Architektur", "Continuous Integration ", "Iterative Softwareentwicklung" ],
+    "Technologies" : [ "C#", "MS Visual Studio 2008", "Visual Studio 2015", ".NET Compact Framework 2.0" ]
+  }, {
+    "Name" : "Performance Optimierung für Management Software",
+    "Start" : "08.2016",
+    "End" : "11.2016",
+    "Description" : "Optimierung der Datenbank Performance einer WPF basierte Windows Applikation, welche die Daten eines Zutrittssystems verwaltet. Dazu mussten die verschiedenen Zugriffe voneinander getrennt werden, damit jeder einzelne optimiert werden konnte.\nAusserdem wurde der Data Access Layer angepasst, damit er in einem Folgeprojekt auf einen eigenen Server ausgelagert werden konnte.",
+    "Role" : "Software Engineer",
+    "Industry" : "Industrie",
+    "Tasks" : [ "Analyse und Behebung von Performance Problemen", "Optimierung des Datenbank Zugriffs", "Design Architektur für spätere Anpassungen" ],
+    "Methods" : [ "Architektur", "Performance Optimization" ],
+    "Technologies" : [ "C#", "Entity Framework", ".NET Framework", "Visual Studio 2015" ]
+  }, {
+    "Name" : "Management Software Coagulation Instrument",
+    "Start" : "03.2015",
+    "End" : "06.2016",
+    "Description" : "Entwicklung einer Management Software für ein klinisches Diagnosegerät im Bereich Blut Koagulation welches für das Management der Reagenzien, der Test Tasks, der Kalibrationen sowie der Quality Control Tasks zuständig ist.\nAn der Entwicklung waren sechs Teams an zwei verschiedenen Standorten (Schweiz, Spanien) beteiligt. Um die Qualität des Codes zu erhalten wurde mit Pair Programming entwickelt oder Pair Reviews durchgeführt.",
+    "Role" : "Software Engineer",
+    "Industry" : "Medizinaltechnik",
+    "Tasks" : [ "Implementation von neuen Funktionen", "Machbarkeit neuer Funktionalitäten und Frameworks testen", "Evaluation neuer Frameworks und Tools", "Erstellen von Prototypen für neue Funktionen", "Entwicklung von Developer Tools" ],
+    "Methods" : [ "Test Driven Development (TDD)", "Continuous Integration ", "Scrum" ],
+    "Technologies" : [ "C#", "Entity Framework", ".NET Framework", "MS Visual Studio 2013", "WCF Webservices" ]
+  }, {
+    "Name" : "Service und Diagnose Software",
+    "Start" : "09.2013",
+    "End" : "02.2015",
+    "Description" : "Die zu entwickelnde Service und Diagnose Software wurde für die Produktion, Installation und Wartung eines klinischen Diagnosegeräts verwendet. Die gleiche Software wurde sowohl von der Produktion für Modultests wie auch von den Installateuren für die Inbetriebnahme des Geräts verwendet.\nDie einzelnen Tests wurden als Workflow implementiert, welche den Benutzer Schritt-für-Schritt durch den Test führen.",
+    "Role" : "Software Engineer, SCRUM Master",
+    "Industry" : "Medizinaltechnik",
+    "Tasks" : [ "Entwicklung neuer Workflows (Requirements erfassen, Workflow definieren)", "Implementation neuer Workflows", "Manuelles testen der Workflows am Instrument", "Organisation des SCRUM Teams als SCRUM Master", "2. Level Support für Produktion und Inbetriebnahme" ],
+    "Methods" : [ "Unit Testing", "Continuous Integration ", "Scrum" ],
+    "Technologies" : [ "C#", "WCF Webservices", "Silverlight" ]
+  }, {
+    "Name" : "Backend für Webshop",
+    "Start" : "07.2013",
+    "End" : "08.2013",
+    "Description" : "Analyse eines bestehenden Prototyps für die weitere Verwendung und Erweiterung der Datenbank für neue Funktionen und Entkoppeln des Data Access Layer Codes von der Datenbank.",
+    "Role" : "Software Engineer",
+    "Industry" : "Startup",
+    "Tasks" : [ "Analyse des Prototyps", "Überarbeitung und Erweiterung des Datenbank Designs", "Entwicklung des Data Access Layers" ],
+    "Methods" : [ "Unit Testing", "Requirements Analysis" ],
+    "Technologies" : [ "ASP.NET MVC 3", "C#", "JavaScript (JQuery)" ]
+  }, {
+    "Name" : "Resource & Request Management Teamsite",
+    "Start" : "06.2013",
+    "End" : "07.2013",
+    "Description" : "Aufbau einer Teamsite in zur Verwaltung von Ressourcen und Anfragen in SharePoint 2010. Entwicklung eines Tools für den automatisierten Import von Anfragen aus Excel. Zusammenführen der Daten von bestehenden SharePoint Listen in die neue Seite.",
+    "Role" : "Software Engineer",
+    "Industry" : "Consulting",
+    "Tasks" : [ "Design und Implementation der Listen und Workflows der Teamsite", "Testen der Funktionen", "Migration der Daten auf neue Seite" ],
+    "Methods" : [ "Unit Testing", "Requirements Analysis" ],
+    "Technologies" : [ "C#", "MS Office Automation", "Microsoft SharePoint " ]
+  } ]
+}

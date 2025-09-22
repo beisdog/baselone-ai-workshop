@@ -1,0 +1,358 @@
+{
+  "name" : "Dorian Pike",
+  "careerinfo" : {
+    "AdvertisingText" : "Dorian Pike ist Informatik-Ingenieur FH (BSc) und verfügt über mehr als 14 Jahre Erfahrung in komplexen technischen Umfeldern als Java Software-Ingenieur und Software-Architekt.\nAls kommunikativer Teamplayer kann er sich rasch und gut in Teams integrieren, um optimale Ergebnisse zu erzielen.\nDurch seine fachlichen und sozialen Kompetenzen sowie durch seine hohe Leistungsbereitschaft ist er in Lage, auch in schwierigen Situationen unter hohem Druck, sehr gute Qualität zu liefern.",
+    "LongAdvertisingText" : "Dorian Pike ist Informatik-Ingenieur FH (Bachelor of Science) und verfügt über mehr als zehn Jahre Erfahrung in komplexen technischen Umfeldern als JAVA-Entwickler. Aufgrund seiner Projekte hat Dorian Pike seine mehrjährigen Erfahrungen mit JavaEE (JavaSE) ausgebaut und in den Bereichen Softwaredesign und -entwicklung vertieft. Seit 2013 hat Dorian Pike im Bahnumfeld (Bahninfrastruktur) viele Erfahrungen, unter anderem bezüglich Performance-Optimierungen im Bereich von Hibernate und Datenbanken (Oracle DB), gesammelt. Diese Kenntnisse hat er 2015 in einer Weiterbildung für JAVA Performance Tuning and Optimization weiter vertieft. Seit mehr als zehn Jahren arbeitet Dorian Pike erfolgreich mit SQL und Eclipse IDE. Dorian Pike ist es gewohnt in agilen Projekten, unter anderem mit KANBAN, zu arbeiten. Neben seiner Expertise bezüglich Software-Entwicklung verfügt Dorian Pike auch über fundierte Kenntnisse und Erfahrungen im Testing. Als kommunikativer Teamplayer kann er sich gut in Teams integrieren. Durch seine fachlichen und sozialen Kompetenzen sowie durch seine hohe Leistungsbereitschaft ist er in Lage, auch in schwierigen Situationen unter hohem Druck sehr gute Qualität zu liefern. Dies hat er unter anderem in seinem aktuellen Projekt mehrfach unter Beweis gestellt.",
+    "PreferredFunctions" : "",
+    "PreferredFunctionsList" : [ ],
+    "PreferredSkills" : "SWE",
+    "CareerSummaryLabel" : "Bisheriger Werdegang & Bevorzugtes Einsatzgebiet",
+    "HighlightsTextLabel" : "Highlights",
+    "AdvertisingTextLabel" : "Werbetext für kurzer Lebenslauf",
+    "LongAdvertisingTextLabel" : "Advertising Text Legacy",
+    "PreferredFunctionsLabel" : "Bevorzugte Funktion",
+    "PreferredSkillsLabel" : "Preferred skills"
+  },
+  "skills" : [ {
+    "name" : "JUnit level: Advanced"
+  }, {
+    "name" : "Kanban level: Advanced"
+  }, {
+    "name" : "Maven, Ant level: Advanced"
+  }, {
+    "name" : "Spring level: Advanced"
+  }, {
+    "name" : "Test-Frameworks (JUnit, EasyMock, PowerMock) level: Advanced"
+  }, {
+    "name" : "Agile Software Entwicklung level: Intermediate"
+  }, {
+    "name" : "Eclipse RCP level: Intermediate"
+  }, {
+    "name" : "Git level: Intermediate"
+  }, {
+    "name" : "Glassfish Server level: Intermediate"
+  }, {
+    "name" : "H2 Database level: Intermediate"
+  }, {
+    "name" : "Hibernate level: Intermediate"
+  }, {
+    "name" : "IBM WebSphere level: Intermediate"
+  }, {
+    "name" : "Java SE 7 level: Intermediate"
+  }, {
+    "name" : "Jenkins CI level: Intermediate"
+  }, {
+    "name" : "Scrum Team Member level: Intermediate"
+  }, {
+    "name" : "SonarQube level: Intermediate"
+  }, {
+    "name" : "Atlassian Werkzeuge (Jira, Confluence, Bitbucket) level: Intermediate"
+  }, {
+    "name" : "Jenkins Pipeline level: Intermediate"
+  }, {
+    "name" : "OpenShift level: Intermediate"
+  }, {
+    "name" : "Oracle 11g level: Intermediate"
+  }, {
+    "name" : "Spring Boot level: Intermediate"
+  }, {
+    "name" : "UML (Enterprise Architect) level: Intermediate"
+  }, {
+    "name" : "AssertJ level: Intermediate"
+  }, {
+    "name" : "Bitbucket level: Intermediate"
+  }, {
+    "name" : "Docker level: Intermediate"
+  }, {
+    "name" : "Freemarker level: Intermediate"
+  }, {
+    "name" : "Maven level: Intermediate"
+  }, {
+    "name" : "Oracle 18c level: Intermediate"
+  }, {
+    "name" : "PL/SQL level: Intermediate"
+  }, {
+    "name" : "SAFe® level: Intermediate"
+  }, {
+    "name" : "SonarLint level: Intermediate"
+  }, {
+    "name" : "SQL Developer (Oracle) level: Intermediate"
+  }, {
+    "name" : "ArgoCD level: Intermediate"
+  }, {
+    "name" : "BIM level: Intermediate"
+  }, {
+    "name" : "Continuous Deployment level: Intermediate"
+  }, {
+    "name" : "DevOps level: Intermediate"
+  }, {
+    "name" : "Helm level: Intermediate"
+  }, {
+    "name" : "HTAgile level: Intermediate"
+  }, {
+    "name" : "Instana level: Intermediate"
+  }, {
+    "name" : "IntelliJ IDEA level: Intermediate"
+  }, {
+    "name" : "Java 8 level: Intermediate"
+  }, {
+    "name" : "JavaScript level: Intermediate"
+  }, {
+    "name" : "Jira / Confluence (Atlassian) level: Intermediate"
+  }, {
+    "name" : "Kafka level: Intermediate"
+  }, {
+    "name" : "Kubernetes level: Intermediate"
+  }, {
+    "name" : "Scrum  level: Intermediate"
+  }, {
+    "name" : "Spring REST level: Intermediate"
+  }, {
+    "name" : "Spring Security level: Intermediate"
+  }, {
+    "name" : "SQL level: Intermediate"
+  }, {
+    "name" : "Strategy Pattern level: Intermediate"
+  }, {
+    "name" : "SVN level: Intermediate"
+  }, {
+    "name" : "Tekton level: Intermediate"
+  }, {
+    "name" : "Test Driven Development (TDD) level: Intermediate"
+  }, {
+    "name" : "Tortoise SVN level: Intermediate"
+  }, {
+    "name" : "TortoiseGit level: Intermediate"
+  }, {
+    "name" : "Agile Method level: Novice"
+  }, {
+    "name" : "AJAX level: Novice"
+  }, {
+    "name" : "Apache Maven level: Novice"
+  }, {
+    "name" : "Apache POI level: Novice"
+  }, {
+    "name" : "Azure AD level: Novice"
+  }, {
+    "name" : "C# .NET level: Novice"
+  }, {
+    "name" : "CDC level: Novice"
+  }, {
+    "name" : "Continuous Integration mit Jenkins level: Novice"
+  }, {
+    "name" : "CSS level: Novice"
+  }, {
+    "name" : "Cucumber level: Novice"
+  }, {
+    "name" : "Eclipse level: Novice"
+  }, {
+    "name" : "Eclipse JUnit level: Novice"
+  }, {
+    "name" : "Eclipse/RAD/RSM level: Novice"
+  }, {
+    "name" : "Helm Charts level: Novice"
+  }, {
+    "name" : "HTML level: Novice"
+  }, {
+    "name" : "Java level: Novice"
+  }, {
+    "name" : "Java 17 level: Novice"
+  }, {
+    "name" : "Java 21 level: Novice"
+  }, {
+    "name" : "Java SE 11 level: Novice"
+  }, {
+    "name" : "JEE level: Novice"
+  }, {
+    "name" : "Jenkins level: Novice"
+  }, {
+    "name" : "Jenkinsfile level: Novice"
+  }, {
+    "name" : "Mikrocontroller level: Novice"
+  }, {
+    "name" : "MS SQL Server level: Novice"
+  }, {
+    "name" : "OAuth 2.0 level: Novice"
+  }, {
+    "name" : "OSGi (RCP) level: Novice"
+  }, {
+    "name" : "PHP level: Novice"
+  }, {
+    "name" : "Postgres level: Novice"
+  }, {
+    "name" : "RESTful WebServices level: Novice"
+  }, {
+    "name" : "Scala level: Novice"
+  }, {
+    "name" : "Scrum Agile Software Development level: Novice"
+  }, {
+    "name" : "Selenium Web Driver level: Novice"
+  }, {
+    "name" : "Servlets/JSP level: Novice"
+  }, {
+    "name" : "Spring Framework level: Novice"
+  }, {
+    "name" : "Swagger level: Novice"
+  }, {
+    "name" : "Systematische Algorithmen Entwicklung level: Novice"
+  }, {
+    "name" : "TortoiseSVN level: Novice"
+  }, {
+    "name" : "Vaadin level: Novice"
+  }, {
+    "name" : "Windows Server 2008 R2 level: Novice"
+  } ],
+  "education" : [ {
+    "Title" : "Bachelor of Science in Information Technology",
+    "InstitutionTitle" : "Arcane University of Luminara ",
+    "Start" : "2006",
+    "End" : "2009"
+  }, {
+    "Title" : "Technische Berufsmaturität",
+    "InstitutionTitle" : "Wizard Gymnasium",
+    "Start" : "2005",
+    "End" : "2006"
+  }, {
+    "Title" : "Berufslehre als Informatiker mit Eidg. Fachausweis",
+    "InstitutionTitle" : "Wizard Gymnasium",
+    "Start" : "2001",
+    "End" : "2005"
+  } ],
+  "certificates" : [ {
+    "Title" : "Certified Professional for Software Architecture Foundation Level",
+    "InstitutionTitle" : "Enchanted Trade School of St. Gallen",
+    "Start" : "2021",
+    "End" : "2021"
+  }, {
+    "Title" : "Bahnakademie",
+    "InstitutionTitle" : "Celestial Data Corp",
+    "Start" : "2019",
+    "End" : "2019"
+  }, {
+    "Title" : "Cisco CCNA 1 – 3 Zertifizierung",
+    "InstitutionTitle" : "Arcane University of Luminara",
+    "Start" : "2007",
+    "End" : "2009"
+  } ],
+  "projects" : [ {
+    "Name" : "Moderniesierung DfA",
+    "Start" : "04.2024",
+    "End" : "12.2024",
+    "Description" : "Zur Modernisierung der DfA (Datenbank feste Anlagen) müssen bestehende Bestandessysteme abelöst werden. Im Zuge dieses Projektes wird die Berechnung der SA-Segmente (Gleisnetz-Graph) in einer neuen cloudbasierten Applikation durchgeführt und die Daten persistiert. In der Folge können bestehende Umsysteme die SA-Segmente als Grundlage für ihre Algorithmik verwenden.",
+    "Role" : "Software Engineer",
+    "Industry" : "Öffentlicher Verkehr",
+    "Tasks" : [ "Programmierung von Features/Stories", "Austausch mit Stakeholdern", "Erstellung von Spezifikationen", "Verifikation von Konzepten (Prototyp)", "Erstellung Architektur plus Design" ],
+    "Methods" : [ "Test Driven Development (TDD)", "Continuous Deployment", "Scrum Agile Software Development", "SAFe®", "DevOps" ],
+    "Technologies" : [ "SQL", "JUnit", "IntelliJ IDEA", "OpenShift", "Spring Boot", "Spring Security", "Git", "AssertJ", "Maven", "Kafka", "Kubernetes", "Helm", "Oracle 18c", "Atlassian Werkzeuge (Jira, Confluence, Bitbucket)", "Spring REST", "SonarLint", "Tekton", "Docker", "Instana", "ArgoCD", "Java 21", "Helm Charts" ]
+  }, {
+    "Name" : "Perronito (Perrondaten)",
+    "Start" : "11.2021",
+    "End" : "12.2023",
+    "Description" : "Im Projekt Perronito wird ein neues Mastersystem basierend auf Microservices entwickelt. Die Anwendung Perronito dient dazu, die betrieblich nutzbaren Perronlängen (Perron-Nutzlängen) für die Perrons der Schweizer Infrastrukturbetreiber in Abhängigkeit der spezifischen Situation am Perron, des Fahrwegs und der Fahrrichtung festzulegen. Ich bin für die Ausarbeitung von fachlichen/technischen Anforderungen sowie für die Implementation von Features bzw. Stories im Backend zuständig. Weiter bin ich für die Architektur der verteilten Applikationen mitverantwortlich.",
+    "Role" : "Software Engineer, Software Architekt",
+    "Industry" : "Öffentlicher Verkehr",
+    "Tasks" : [ "Programmieren von Features/Stories", "Programmierung von Change-Requests", "Austausch mit Stakeholdern (Use Cases)", "Durchführung von Performance-Messungen", "Klärung von Anforderungen / Ausarbeitung von Spezifikationen", "Third Level Support" ],
+    "Methods" : [ "Test Driven Development (TDD)", "Scrum ", "Continuous Deployment", "SAFe®", "DevOps" ],
+    "Technologies" : [ "SQL", "JUnit", "Postgres", "IntelliJ IDEA", "Cucumber", "OpenShift", "Spring Boot", "Spring Security", "Git", "Selenium Web Driver", "AssertJ", "Maven", "Azure AD", "Kafka", "Kubernetes", "Jenkinsfile", "Helm", "Oracle 18c", "Atlassian Werkzeuge (Jira, Confluence, Bitbucket)", "Spring REST", "H2 Database", "Jenkins Pipeline", "Java SE 11", "SonarLint", "Tekton", "Java 17", "Docker", "Instana", "CDC", "ArgoCD" ]
+  }, {
+    "Name" : "TMS (Traffic Management System)",
+    "Start" : "01.2019",
+    "End" : "10.2021",
+    "Description" : "Im Projekt wird ein TMS erstellt, um künftige Anforderungen, wie erhöhtes Passagieraufkommen, zu meistern und Sicherheitsrisiken im Bahnumfeld zu reduzieren. Ich analysiere und entwerfe architektonische Lösungsvarianten, um das bestehende Topologie-System UNO abzulösen. Die definierten Lösungsvarianten habe ich in Form von Prototypen umgesetzt, um die Machbarkeit aufzuzeigen.",
+    "Role" : "Software Engineer, Software Architekt",
+    "Industry" : "Öffentlicher Verkehr",
+    "Tasks" : [ "Programmierung von Use Cases", "Programmierung von Change-Requests", "Erstellung Integrations-Architektur", "Erstellung Transformations-Algorithmus", "Austausch mit Abnehmer-Systemen, um die transformierten Topologie-Daten zu plausibilisieren", "Entwicklung von Prototypen für Varianten, um Modell-Transformationen für die Topologie-Daten zu bestimmen", "Durchführung von Performance-Messungen", "Implementation von Algorithmen, um grosse Datenmengen (millionenfache Datensätze) in Memory zu verarbeiten" ],
+    "Methods" : [ "Scrum Team Member", "Agile Software Entwicklung", "SAFe®", "Kanban" ],
+    "Technologies" : [ "PL/SQL", "JUnit", "Oracle 11g", "IBM WebSphere", "Spring", "Glassfish Server", "Test-Frameworks (JUnit, EasyMock, PowerMock)", "OpenShift", "Java SE 7", "Eclipse RCP", "Freemarker", "Maven, Ant", "Spring Boot", "TortoiseGit", "Git", "AssertJ", "Hibernate", "Oracle 18c", "Atlassian Werkzeuge (Jira, Confluence, Bitbucket)", "H2 Database", "Jenkins Pipeline", "SonarLint", "Bitbucket", "Jenkins CI", "Java 8", "SonarQube" ]
+  }, {
+    "Name" : "Transformation LV03 nach LV95",
+    "Start" : "01.2018",
+    "End" : "12.2018",
+    "Description" : "Im Projekt wurde die Landestriangulation (Koordinaten) der Topologie-Elemente von LV03 auf LV95 transformiert.",
+    "Role" : "Software Engineer, Software Architekt",
+    "Industry" : "Öffentlicher Verkehr",
+    "Tasks" : [ "Programmierung von Change Requests", "Erstellung Umrechungs-Algorithmen", "Anpassung Architektur/Design", "Erstellung von Spezifikationen", "Entwicklung Prototypen, um Auswirkungen zu validieren", "Anpassung Logik für Datenaustausch zu Abnehmer-Systemen", "Zentrale Ansprechperson für fachliche sowie technische Fragen (Lead-Entwickler)" ],
+    "Methods" : [ "UML (Enterprise Architect)", "Scrum Team Member", "Agile Software Entwicklung", "Kanban" ],
+    "Technologies" : [ "PL/SQL", "JUnit", "Oracle 11g", "IBM WebSphere", "Spring", "Glassfish Server", "Test-Frameworks (JUnit, EasyMock, PowerMock)", "Java SE 7", "Eclipse RCP", "Freemarker", "Maven, Ant", "SQL Developer (Oracle)", "Git", "Hibernate", "Atlassian Werkzeuge (Jira, Confluence, Bitbucket)", "Jenkins Pipeline", "Bitbucket", "Jenkins CI", "SonarQube" ]
+  }, {
+    "Name" : "Tedi (Toplogie-Editor)",
+    "Start" : "01.2017",
+    "End" : "12.2017",
+    "Description" : "Im Projekt wurde ein neues Topologie-System konzipiert, um ein effizienteres Arbeiten für die Kunden zu ermöglichen. Es wurde ein Client-Applikation sowie ein neues Backend (REST-API) konzipiert und implementiert.",
+    "Role" : "Software Engineer, Software Architekt",
+    "Industry" : "Öffentlicher Verkehr",
+    "Tasks" : [ "Programmierung von Uses Cases", "Konzipierung Algorithmen für Geo-Daten", "Erstellung Architektur/Design", "Anfertigung und Umsetzung REST-API", "Erstellung Build-Pipeline", "Entwicklung von Prototypen", "Entwicklung von fachlichen sowie technische Spezifikationen", "Zentrale Ansprechperson für fachliche sowie technische Fragen (Lead-Entwickler)" ],
+    "Methods" : [ "UML (Enterprise Architect)", "Scrum Team Member", "Agile Software Entwicklung", "Kanban" ],
+    "Technologies" : [ "Scala", "JUnit", "Oracle 11g", "IBM WebSphere", "Spring", "Glassfish Server", "Windows Server 2008 R2", "Test-Frameworks (JUnit, EasyMock, PowerMock)", "OpenShift", "RESTful WebServices", "Java SE 7", "OAuth 2.0", "Eclipse RCP", "Maven, Ant", "SQL Developer (Oracle)", "Spring Boot", "Swagger", "TortoiseGit", "Git", "C# .NET", "Hibernate", "H2 Database", "Jenkins Pipeline", "Bitbucket", "Jenkins CI", "Docker", "Java 8", "SonarQube" ]
+  }, {
+    "Name" : "ETCS-L2 (Geschwindigkeitsdaten)",
+    "Start" : "01.2016",
+    "End" : "12.2016",
+    "Description" : "Im Projekt stand die automatische Digitalisierung von Geschwindigkeitsinformationen für Züge im ETCS-L2 (Europäisches Zugbeeinflussungssystem) im Vordergrund. Es wurde ein digitaler Prozess definiert sowie ein neuer Workflow in die bestehende Software UNO (Unified Network Object) integriert.",
+    "Role" : "Business Analyst, Software Engineer, Software Architekt",
+    "Industry" : "Öffentlicher Verkehr",
+    "Tasks" : [ "Programmierung von Use Cases", "Erstellung von Architektur/Design", "Erstellung von fachlichen/technischen Spezifikationen", "Entwicklung Prototypen, um Auswirkungen zu validieren", "Konzipierung eines neuen Fachmodelles für Geschwindigkeitsdaten", "Koordination/Durchführung von Tests mit Abnehmer-Systemen", "Zentrale Ansprechperson für fachliche sowie technische Fragen (Lead-Entwickler)" ],
+    "Methods" : [ "UML (Enterprise Architect)", "Scrum Team Member", "Agile Software Entwicklung", "Kanban" ],
+    "Technologies" : [ "JUnit", "Oracle 11g", "IBM WebSphere", "Spring", "Glassfish Server", "Apache POI", "Test-Frameworks (JUnit, EasyMock, PowerMock)", "Java SE 7", "Eclipse RCP", "Maven, Ant", "Tortoise SVN", "Maven", "Hibernate", "Jira / Confluence (Atlassian)", "SVN", "H2 Database", "Jenkins CI", "SonarQube" ]
+  }, {
+    "Name" : "UNO2G: Topologie-Daten (Performance-Verbesserung)",
+    "Start" : "08.2013",
+    "End" : "12.2015",
+    "Description" : "Ziel des Projektes UNO2G (Unified Network Object) war es, die Integration von Topologie-Daten (Gleisknoten, Gleiskanten) bezüglich Performance deutlich zu verbessern. Dadurch sollen die Datenpfleger eine schnellere Rückmeldung für die durchgeführte Arbeit am Gleisnetz erhalten.",
+    "Role" : "Software Engineer, Software Architekt",
+    "Industry" : "Öffentlicher Verkehr",
+    "Tasks" : [ "Programmierung von Use Cases", "Analyse/Bewertung Architektur/Design", "Refactorings von bestehendem Code", "Programmierung von Prototypen", "Entwicklung Algorithmen zur Verarbeitung von grossen Datenmengen", "Erstellung von fachlichen sowie technischen Spezifikationen", "Konzipierung Container-Konzept für Daten-Partitionierung" ],
+    "Methods" : [ "UML (Enterprise Architect)", "Scrum Team Member", "Agile Software Entwicklung", "Agile Method", "Kanban" ],
+    "Technologies" : [ "Eclipse/RAD/RSM", "PL/SQL", "JUnit", "IBM WebSphere", "Spring", "Glassfish Server", "Servlets/JSP", "Apache Maven", "OSGi (RCP)", "Test-Frameworks (JUnit, EasyMock, PowerMock)", "Java SE 7", "Eclipse RCP", "Freemarker", "Maven, Ant", "SQL Developer (Oracle)", "Tortoise SVN", "Hibernate", "Jira / Confluence (Atlassian)", "SVN", "H2 Database", "Jenkins CI", "SonarQube" ]
+  }, {
+    "Name" : "Lagerbewirtschaftung",
+    "Start" : "05.2010",
+    "End" : "07.2013",
+    "Description" : "Bei einem Dienstleistungsunternehmen für Logistik-Software wurde eine neue Generation eines Lagerbewirtschaftungssystems entwickelt. \nAls Verantwortlicher für einzelne Module habe ich alle Schritte eines Entwicklungsprozesses von Analyse über Design bis hin zur Implementation, Test & Deployment durchgeführt. \nFür einzelne Kunden, grosse internationale Logistik-Konzerne, wurden spezifische Anpassungen und neue Funktionen implementiert.",
+    "Role" : "Software Engineer",
+    "Industry" : "Logistik",
+    "Tasks" : [ "Durchführung und Entwicklung von Kundenprojekten", "Umsetzung Projekt für Monitoring-Tool", "Weiterentwicklung bestehender SW", "Umsetzung Change-Requests", "3rd Level Support" ],
+    "Methods" : [ "Scrum", "Kanban" ],
+    "Technologies" : [ "JEE", "AJAX", "MS SQL Server", "Eclipse", "Spring", "Vaadin", "Test-Frameworks (JUnit, EasyMock, PowerMock)", "TortoiseSVN", "Spring Framework", "Maven, Ant", "Continuous Integration mit Jenkins", "Eclipse JUnit", "Jenkins", "JavaScript" ]
+  }, {
+    "Name" : "Aufbau und Weiterentwicklung Web-Plattform",
+    "Start" : "09.2005",
+    "End" : "05.2010",
+    "Description" : "Die bestehende Web-Plattform wurde laufend weiterentwickelt und gemäss den Kundenbedürfnissen, aber auch aufgrund der rasanten technischen Entwicklungen im Web-Bereich, erweitert. Neue Funktionen und Module wurden spezifiziert, designed und implementiert.",
+    "Role" : "Web Software Engineer",
+    "Industry" : "Energieproduktion",
+    "Tasks" : [ "Webdesign & -Entwicklung", "IT-Support, -Infrastrukturen", "Serververwaltung", "Konzeptionelle technische Beratung", "Ausbau des Netzwerkes", "IT-Security" ],
+    "Methods" : [ ],
+    "Technologies" : [ "CSS", "PHP", "HTML", "JavaScript" ]
+  }, {
+    "Name" : "Algorithmen-Optimierung Visualisierungs-Prozess",
+    "Start" : "02.2009",
+    "End" : "08.2009",
+    "Description" : "Ziel des Projekts ist es, in der Kundenanwendung den Visualisierungs-Prozess der SVG-Files zu beschleunigen. Um die vorhandenen SVG-Grafikdateien zu optimieren und in der Folge schneller visualisieren zu können, wurden Algorithmen in Java entwickelt. Es konnte eine Zeitoptimierung von 38% erreicht werden.",
+    "Role" : "Software Engineer, Projektleiter",
+    "Industry" : "IT-Dienstleistungen",
+    "Tasks" : [ "Ausarbeitung und Bewertung von Lösungsvarianten zur Optimierung der SVG-Files", "Definition und Entwicklung von Algorithmen", "Implementierung der Software in Java", "Software Testing", "Projektführung" ],
+    "Methods" : [ ],
+    "Technologies" : [ "Systematische Algorithmen Entwicklung", "Java" ]
+  }, {
+    "Name" : "Parser",
+    "Start" : "09.2008",
+    "End" : "02.2009",
+    "Description" : "Die Lebensdauer von gebäuderelevanten Daten reicht von der Planung bis zum Abriss. Somit ist der Wunsch nach Anwendungen gross, welche mit den gleichen Gebäudeinformationen über ein gewisses Zeitintervall arbeiten können. Beim Auftraggeber müssen die gewünschten Daten (z.B. Grundriss) manuell eingegeben werden und können nicht automatisch aus dem Standardformat IFC, welches mit einem CAD-Programm generiert wird, gewonnen werden. Das Ziel dieser Arbeit ist es, einen Parser für das IFC Format zu entwickeln und gebäuderelevante Informationen als Grundriss in einem GUI darzustellen.",
+    "Role" : "Software Engineer",
+    "Industry" : "Elektrotechnik",
+    "Tasks" : [ "Konzeption", "Spezifikation", "Design", "Implementierung eines Prototypen" ],
+    "Methods" : [ "HTAgile", "BIM", "Strategy Pattern" ],
+    "Technologies" : [ ]
+  }, {
+    "Name" : "Roboter",
+    "Start" : "09.2007",
+    "End" : "06.2008",
+    "Description" : "In einer interdisziplinären Gruppe wird ein Roboter geplant, entwickelt und hergestellt. Die Aufgabe des Roboters ist es, ein auf einem Tablett stehendes Glas und Flasche zu erkennen und anschliessend eine bestimmte Menge aus der Flasche in das Glas abzufüllen.",
+    "Role" : "Software-Engineer",
+    "Industry" : "Hochschule",
+    "Tasks" : [ "Analyse Interaktion der Abteilungs-Konzepte (Informatik, Elektronik und Mechanik)", "Spezifizierung von Schnittstellen und Abläufen der Systeme", "Programmierung Software" ],
+    "Methods" : [ ],
+    "Technologies" : [ "Mikrocontroller" ]
+  } ]
+}

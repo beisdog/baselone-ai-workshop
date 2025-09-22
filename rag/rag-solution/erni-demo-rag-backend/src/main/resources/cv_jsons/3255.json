@@ -1,0 +1,107 @@
+{
+  "name" : "Nolan Stroud",
+  "careerinfo" : {
+    "AdvertisingText" : "Nolan Stroud ist ein Softwareingenieur mit einer Leidenschaft für die Entwicklung leistungsstarker und ästhetisch ansprechender Softwarelösungen. Dank seinem umfassenden Verständnis für wirtschaftliche Ansprüche und seiner mehrjährigen Erfahrung in der Softwareentwicklung im Finanzbuchhaltungsbereich, gelingt es ihm, technische und geschäftliche Bedürfnisse optimal zu vereinen.",
+    "LongAdvertisingText" : "",
+    "PreferredFunctions" : "",
+    "PreferredFunctionsList" : [ ],
+    "PreferredSkills" : "",
+    "CareerSummaryLabel" : "Bisheriger Werdegang & Bevorzugtes Einsatzgebiet",
+    "HighlightsTextLabel" : "Highlights",
+    "AdvertisingTextLabel" : "Werbetext für kurzer Lebenslauf",
+    "LongAdvertisingTextLabel" : "Advertising Text Legacy",
+    "PreferredFunctionsLabel" : "Bevorzugte Funktion",
+    "PreferredSkillsLabel" : "Preferred skills"
+  },
+  "skills" : [ {
+    "name" : "Java level: Intermediate"
+  }, {
+    "name" : "Git level: Intermediate"
+  }, {
+    "name" : "Maven level: Intermediate"
+  }, {
+    "name" : "Requirements Engineering level: Intermediate"
+  }, {
+    "name" : "Software Architektur level: Intermediate"
+  }, {
+    "name" : "Analyse Tools BoundsChecker und BugTrapper level: Novice"
+  }, {
+    "name" : "Angular level: Novice"
+  }, {
+    "name" : "Atlassian level: Novice"
+  }, {
+    "name" : "Bamboo level: Novice"
+  }, {
+    "name" : "Budgetierung und Finanzmanagement von 7Mio € und 5.8Mio € Förderung level: Novice"
+  }, {
+    "name" : "C++ level: Novice"
+  }, {
+    "name" : "ESP32 level: Novice"
+  }, {
+    "name" : "Flutter level: Novice"
+  }, {
+    "name" : "Jenkins level: Novice"
+  }, {
+    "name" : "Lucene level: Novice"
+  }, {
+    "name" : "PHP level: Novice"
+  }, {
+    "name" : "PlatformIO level: Novice"
+  }, {
+    "name" : "Spring Boot level: Novice"
+  }, {
+    "name" : "SVN level: Novice"
+  }, {
+    "name" : "SWE level: Novice"
+  }, {
+    "name" : "TypeScript level: Novice"
+  } ],
+  "education" : [ {
+    "Title" : "Bachelor of Science in Wirtschaftsinformatik",
+    "InstitutionTitle" : "Wizard Academy of St. Gallen",
+    "Start" : "2015",
+    "End" : "2018"
+  }, {
+    "Title" : "Kaufmännische Lehre mit Berufsmaturität",
+    "InstitutionTitle" : "Enchanted Trade School of St. Gallen",
+    "Start" : "2010",
+    "End" : "2013"
+  } ],
+  "certificates" : [ {
+    "Title" : "Ausbildung zum Java Entwickler",
+    "InstitutionTitle" : "Arcane Academy of Abacus",
+    "Start" : "2018",
+    "End" : "2019"
+  } ],
+  "projects" : [ {
+    "Name" : "Entwicklung eines standortbasierten Kollaborationstools",
+    "Start" : "09.2024",
+    "End" : "10.2024",
+    "Description" : "Entwicklung eines einfachen Kollaborationstools zum Datenaustausch auf Baustellen innerhalb einer Firma.\nDa die Kommunikation auf der Baustelle in KMU’s meist auf WhatsApp/Papier stattfindet, gehen viele Informationen verloren. Das Kollaborationstool soll alle Daten pro Baustelle aufzeigen. Des Weiteren soll es eine Möglichkeit zum Nachrichten austauschen, sowie To Do’s, File Uploads und Stunden-Rapportierung bieten.",
+    "Role" : "Software Developer",
+    "Industry" : "Baubranche (Privat)",
+    "Tasks" : [ "Requirements Engineering", "SW Architektur", "Entwicklung Typescript (Angular)", "Entwicklung Java (Spring Boot)" ],
+    "Methods" : [ "Software Architektur", "Requirements Engineering" ],
+    "Technologies" : [ "Budgetierung und Finanzmanagement von 7Mio € und 5.8Mio € Förderung", "Analyse Tools BoundsChecker und BugTrapper", "Spring Boot", "Git", "Maven", "Angular", "TypeScript", "Java", "SWE" ]
+  }, {
+    "Name" : "Neuentwicklung Berechnungsalgorithmus im Finanzbuchhaltungsbereich",
+    "Start" : "09.2018",
+    "End" : "04.2022",
+    "Description" : "Neuentwicklung der bestehenden Berechnungsalgorithmen mit Fokus auf schnelle Berechnung, einfache Erweiterbarkeit und hohe Testbarkeit. Implementierung mehrjähriger Berechnungen mit Möglichkeit der Verwerfung aller Berechnungen sowie vereinfachte Anpassung der Berechnungsparameter mit direkter Neuberechnung. Erweiterung der Testsuite.",
+    "Role" : "Professional Software Developer",
+    "Industry" : "ERP",
+    "Tasks" : [ "Requirements Engineering", "SW Architektur", "Neuentwicklung des GUI", "Performance Verbesserungen", "Neuentwicklung Berechnungsalgorithmus in Java", "Erweiterung der Testumgebung" ],
+    "Methods" : [ "Software Architektur", "Requirements Engineering" ],
+    "Technologies" : [ "Lucene", "Bamboo", "Maven", "Jenkins", "SVN", "Java", "Atlassian" ]
+  }, {
+    "Name" : "Entwicklung eines Luftqualität-Messgeräts",
+    "Start" : "05.2021",
+    "End" : "03.2022",
+    "Description" : "Entwicklung eines Luftqualität-Messgeräts, welches den aktuellen CO2 Gehalt misst und anhand von LED’s anzeigt.\nDatenerhebung für eine Studie. Versand der Daten via Ethernet an den Server. Prototyping einer Flutter App zwecks Anzeige der CO2 Daten (Übertragung via Bluetooth). \nEntwicklung eines einfachen Flashingtools für die Produktion.",
+    "Role" : "Software Developer",
+    "Industry" : "Elektrotechnik (Startup)",
+    "Tasks" : [ "Entwicklung C++", "Schnittstellen Programmierung", "Mitentwicklung PHP", "Entwicklung Flutter App", "Flashingtool in Java", "Löten" ],
+    "Methods" : [ ],
+    "Technologies" : [ "Git", "PlatformIO", "Flutter", "PHP", "C++", "Java", "ESP32" ]
+  } ]
+}

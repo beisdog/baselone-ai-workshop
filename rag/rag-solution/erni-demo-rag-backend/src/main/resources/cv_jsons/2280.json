@@ -1,0 +1,273 @@
+{
+  "name" : "Elara Wynn",
+  "careerinfo" : {
+    "AdvertisingText" : "Elara Wynn offers a broad, networked mindset in the digital business world through her years of work experience in the commercial field, and her computer science degree. Since entering the professional work, Elara Wynn recognized the user experience of a digital product being a key factor. This inspired her to specialize in UX in her subsequent computer science studies to learn how to effectively connect design with technology. This already enabled her to lead multiple projects to success.",
+    "LongAdvertisingText" : "Elara Wynn offers a broad and networked mindset in the digital business world through the combination of her work experience in the commercial field for several years, and her computer science degree. Additionally, she has experience in the development of mobile applications and Augmented Reality technology, which characterizes her as innovative project collaborator with a broad range of interests. Since entering the professional work, Elara Wynn realised the user experience of a digital application has become a key element in today's world. This belief and her passion for holistic user experiences inspired her to focus on usability and user experience in her subsequent computer science studies to learn about methods to efficiently connect design with technology. Through effective use of these skills, she already lead multiple projects to success.",
+    "PreferredFunctions" : "",
+    "PreferredFunctionsList" : [ ],
+    "PreferredSkills" : "REQ, PI",
+    "CareerSummaryLabel" : "Career Summary & Preferred Domain",
+    "HighlightsTextLabel" : "Highlights",
+    "AdvertisingTextLabel" : "Advertising Text Short CV",
+    "LongAdvertisingTextLabel" : "Advertising Text Legacy",
+    "PreferredFunctionsLabel" : "Preferred functions",
+    "PreferredSkillsLabel" : "Preferred skills"
+  },
+  "skills" : [ {
+    "name" : "Jira (Atlassian) level: Advanced"
+  }, {
+    "name" : "Balsamiq level: Intermediate"
+  }, {
+    "name" : "Personas level: Intermediate"
+  }, {
+    "name" : "Adobe CC level: Intermediate"
+  }, {
+    "name" : "Rapid Prototyping level: Intermediate"
+  }, {
+    "name" : "Task Scenarios (Basis: Use Cases) level: Intermediate"
+  }, {
+    "name" : "Usability Testing level: Intermediate"
+  }, {
+    "name" : "Confluence (Atlassian) level: Intermediate"
+  }, {
+    "name" : "Contextual Inquiry level: Intermediate"
+  }, {
+    "name" : "Design Sprint level: Intermediate"
+  }, {
+    "name" : "Design Thinking level: Intermediate"
+  }, {
+    "name" : "Figma level: Intermediate"
+  }, {
+    "name" : "Google Apps Script level: Intermediate"
+  }, {
+    "name" : "Lucid level: Intermediate"
+  }, {
+    "name" : "Miro level: Intermediate"
+  }, {
+    "name" : "Paper & Pencil level: Intermediate"
+  }, {
+    "name" : "Paper Prototyping level: Intermediate"
+  }, {
+    "name" : "Pen and paper level: Intermediate"
+  }, {
+    "name" : "SAFe® level: Intermediate"
+  }, {
+    "name" : "Screen Flow level: Intermediate"
+  }, {
+    "name" : "Scrum  level: Intermediate"
+  }, {
+    "name" : "User Research level: Intermediate"
+  }, {
+    "name" : "Wireframing level: Intermediate"
+  }, {
+    "name" : "Workshop level: Intermediate"
+  }, {
+    "name" : "A/B Testing level: Novice"
+  }, {
+    "name" : "Adobe Kuler level: Novice"
+  }, {
+    "name" : "Azure DevOps level: Novice"
+  }, {
+    "name" : "CI/CD level: Novice"
+  }, {
+    "name" : "Confluence level: Novice"
+  }, {
+    "name" : "Draw.io level: Novice"
+  }, {
+    "name" : "Git level: Novice"
+  }, {
+    "name" : "Google Forms level: Novice"
+  }, {
+    "name" : "Google Slides level: Novice"
+  }, {
+    "name" : "HTML/CSS level: Novice"
+  }, {
+    "name" : "Interviews level: Novice"
+  }, {
+    "name" : "InVision level: Novice"
+  }, {
+    "name" : "IT Service Management level: Novice"
+  }, {
+    "name" : "ITIL Service Lifecycle level: Novice"
+  }, {
+    "name" : "Java level: Novice"
+  }, {
+    "name" : "JavaScript level: Novice"
+  }, {
+    "name" : "Jira / Confluence (Atlassian) level: Novice"
+  }, {
+    "name" : "Observation level: Novice"
+  }, {
+    "name" : "Persona level: Novice"
+  }, {
+    "name" : "React (JS) level: Novice"
+  }, {
+    "name" : "Screen design level: Novice"
+  }, {
+    "name" : "Service blueprint level: Novice"
+  }, {
+    "name" : "Survey level: Novice"
+  }, {
+    "name" : "Ticket Management System level: Novice"
+  }, {
+    "name" : "Trello level: Novice"
+  }, {
+    "name" : "User Journey level: Novice"
+  }, {
+    "name" : "User Scenarios level: Novice"
+  }, {
+    "name" : "User Stories level: Novice"
+  }, {
+    "name" : "Value Proposition Canvas level: Novice"
+  }, {
+    "name" : "Wireframes level: Novice"
+  } ],
+  "education" : [ {
+    "Title" : "FHNW Bachelor of Science in Computer Sciences with a specialization in Design and Management",
+    "InstitutionTitle" : "Eldoria University of Applied Sciences and Arts, School of Engineering",
+    "Start" : "2013",
+    "End" : "2018"
+  }, {
+    "Title" : "Commercial Apprenticeship",
+    "InstitutionTitle" : "Arcane Guild of Apprenticeship",
+    "Start" : "2001",
+    "End" : "2005"
+  } ],
+  "certificates" : [ {
+    "Title" : "Certified SAFe® 6 Product Owner/Product Manager",
+    "InstitutionTitle" : "Scaled Agile, Inc.",
+    "Start" : "2024",
+    "End" : "0"
+  }, {
+    "Title" : "Certified SAFe® 5 Agilist",
+    "InstitutionTitle" : "Scaled Agile, Inc.",
+    "Start" : "2021",
+    "End" : "0"
+  }, {
+    "Title" : "IREB® Certified Professional for Requirements Engineering Foundation Level",
+    "InstitutionTitle" : "International Requirements Engineering Board",
+    "Start" : "2020",
+    "End" : "0"
+  }, {
+    "Title" : "ITIL Foundation V3",
+    "InstitutionTitle" : "APMG",
+    "Start" : "2012",
+    "End" : "0"
+  }, {
+    "Title" : "Certified Project Management Associate (IPMA Level D)",
+    "InstitutionTitle" : "VZPM",
+    "Start" : "2010",
+    "End" : "0"
+  } ],
+  "projects" : [ {
+    "Name" : "Customer-facing web portal",
+    "Start" : "07.2020",
+    "End" : "04.2024",
+    "Description" : "",
+    "Role" : "UX Designer",
+    "Industry" : "Medtech",
+    "Tasks" : [ "Feature development (idea to launch)", "Stakeholder management", "Design delivery", "Design System development contributions", "Sprint planning ", "Conducting workshops with internal and external stakeholders", "User Research", "Usability Testing", "Low-Fi und HiFi-Prototyping" ],
+    "Methods" : [ "Scrum", "Design Thinking", "Design Sprint", "User Research", "SAFe®", "Wireframing" ],
+    "Technologies" : [ "Balsamiq", "Pen and paper", "Jira / Confluence (Atlassian)", "Figma", "Confluence (Atlassian)", "Miro", "Jira (Atlassian)", "Lucid", "Google Apps Script" ]
+  }, {
+    "Name" : "Decision support web application",
+    "Start" : "09.2020",
+    "End" : "10.2023",
+    "Description" : "",
+    "Role" : "UX Lead",
+    "Industry" : "MedTech",
+    "Tasks" : [ "UX Team lead of 4", "Project planning", "UX OKRs", "UX Resource Planning", "Sprint planning", "Budget planning", "Stakeholder management", "Conducting workshops with internal and external stakeholders", "Design System development contributions", "User Research", "Usability Testing", "Design delivery", "LowFi and HiFi Prototyping" ],
+    "Methods" : [ "Persona", "Scrum", "Design Thinking", "Service blueprint", "User Journey", "Usability Testing", "Value Proposition Canvas", "Design Sprint", "User Research", "SAFe®", "Wireframing" ],
+    "Technologies" : [ "Balsamiq", "Pen and paper", "Figma", "Confluence (Atlassian)", "Miro", "Adobe CC", "Azure DevOps", "Jira (Atlassian)", "Lucid", "Google Apps Script" ]
+  }, {
+    "Name" : "Mobile app for cooking recipes",
+    "Start" : "06.2019",
+    "End" : "01.2020",
+    "Description" : "A large Swiss retail company runs a mobile app with cooking recipes for iOS and Android, which is optimized continuously and enriched with new features. Following Scrum for development, I made sure these requirements were collected, analyzed, planned and implemented efficiently and structured. Together with the development team, I obtained the maximal value growth in the given time by prioritizing after business value. Collaborative use of different tools enabled quick and uncomplicated communication paths with the product owner, so the decision making processes were short and hereby supported the agile development ideally.",
+    "Role" : "Project Management",
+    "Industry" : "Retail",
+    "Tasks" : [ "Project management", "Stakeholder management", "Feature and release planning in collaboration with the product owner", "Sprint planning and implementation", "Managing the backlog in collaboration with the product owner" ],
+    "Methods" : [ "Workshop", "CI/CD" ],
+    "Technologies" : [ "Confluence", "Jira (Atlassian)" ]
+  }, {
+    "Name" : "Mobile Augmented Reality (AR) app of a quarry",
+    "Start" : "05.2019",
+    "End" : "10.2019",
+    "Description" : "A Swiss building material company launched an AR app für iOS and Android to visualize the upcoming landscape changes in the next years for the residents in the surrounding area of a quarry. Using AR technology, the app accomplished to give an easy to understand overview of an elusive subject to those interested thanks to a simple and lightweight user flow. This established a positive starting point for the further quarry progress. The app became a central pillar of the communication between the customer and the residents, which I achieved by deliberate involvement of the stakeholders during the early conception phase. I directly and iteratively applied their experiences and goals to enable a fast feedback loop and lead the project to success.",
+    "Role" : "Project Management / User Experience Engineer",
+    "Industry" : "Wholesale",
+    "Tasks" : [ "Project management", "Stakeholder management", "Sprint planning and implementation", "Ideation", "Conception", "App launch" ],
+    "Methods" : [ "Paper Prototyping", "Personas", "Screen Flow" ],
+    "Technologies" : [ "Paper & Pencil", "Google Slides", "Jira (Atlassian)" ]
+  }, {
+    "Name" : "Virtual Reality (VR) app with 360° movies delivered by a content management system",
+    "Start" : "05.2019",
+    "End" : "09.2019",
+    "Description" : "An touristic umbrella organization wanted to offer their affiliated organizations the possiblity to maintain VR contents via content management system for their respective destinations. The contents are then presented to the tourists and guests through an app in a VR headset (Oculus Go). Close cooperation with the customer and the developers were the key to success of this innovative and flexible marketing tool. The potential of VR is well exploited and hence can be presented to the users in a easy to use manner. To ensure this intuitive and well understandable use of the yet emerging VR technology, I conducted user testings after every development phase to promptly evaluate and apply the feedback to the development. The launched VR app can now be filled with own content by the destinations within the tourism organization with immediate effect.",
+    "Role" : "Project Management / User Experience Engineer",
+    "Industry" : "Tourism",
+    "Tasks" : [ "Project management", "Stakeholder management", "Sprint planning and implementation", "Wireframing", "Visual design", "App launch" ],
+    "Methods" : [ "Rapid Prototyping", "Screen Flow" ],
+    "Technologies" : [ "Screen design", "Adobe CC", "Jira (Atlassian)" ]
+  }, {
+    "Name" : "Web based  building automation (bachelor thesis)",
+    "Start" : "02.2017",
+    "End" : "08.2017",
+    "Description" : "A web application should replace an existing system for building automation. The main challenge was to replace the previous necessity to adjust the interface pixel-exactly to the various control panels of the customers with a responsive visual design. Additionally, usability tests of the existing system showed possibilities of optimizations. To minimize the upcoming development work, I made use of rapid prototyping in the early conception phase. The later elaborated prototypes helped me in usability tests to maximise the usability. The finalized prototype convinced the customer. He directly applied it in his environment, brought it to market maturity and introduced it successively as new product solution to his customers.",
+    "Role" : "Co-Project Management / User Experience Engineer",
+    "Industry" : "Building automation",
+    "Tasks" : [ "System analysis", "User research", "Usability evaluation", "Requirements engineering", "Project planning and conception", "Stakeholder management", "Evaluate technologies to be used", "Cost estimations", "Implementation planning", "Programming", "Manual testing", "Delivery to the customer" ],
+    "Methods" : [ "User Stories", "Rapid Prototyping", "Survey", "Contextual Inquiry", "Personas", "Observation", "Usability Testing", "A/B Testing", "Interviews" ],
+    "Technologies" : [ "Trello", "Git", "HTML/CSS", "Google Forms", "Task Scenarios (Basis: Use Cases)", "Java", "Adobe CC", "JavaScript", "Draw.io", "React (JS)", "Jira (Atlassian)" ]
+  }, {
+    "Name" : "Interne IT-Services",
+    "Start" : "11.2008",
+    "End" : "07.2016",
+    "Description" : "",
+    "Role" : "Sachbearbeitung IT",
+    "Industry" : "Rundfunk/Medienproduktion",
+    "Tasks" : [ "Unterstützung bei der Einführung und Etablierung div. ITIL-Prozesse", "Unterstützung Change Manager bez. Change-Prozess", "Einsatzplanung IT-Helpdesk", "Verwaltung Software-Lizenzen" ],
+    "Methods" : [ "IT Service Management", "Workshop", "ITIL Service Lifecycle" ],
+    "Technologies" : [ ]
+  }, {
+    "Name" : "Webshop",
+    "Start" : "12.2015",
+    "End" : "05.2016",
+    "Description" : "An internal webshop including all approval processes in the background should be developed to replace pdf order forms. The main goal was to reduce the high administrative and timely effort and to eliminate the accompanying media disruptions. Due to the good availability of test users, I was able to test the development stages prompty and often to sustain an efficient feedback loop. This ensured a smooth webshop launch for over 2000 users.",
+    "Role" : "Usability Engineer",
+    "Industry" : "Broadcasting / Media production",
+    "Tasks" : [ "Business analysis", "User research", "Mockup creation", "Usability tests" ],
+    "Methods" : [ "Contextual Inquiry", "Personas" ],
+    "Technologies" : [ "Balsamiq", "Task Scenarios (Basis: Use Cases)" ]
+  }, {
+    "Name" : "Service Management Database",
+    "Start" : "06.2014",
+    "End" : "11.2014",
+    "Description" : "Due to the implementation of ITIL, the provided services should be represented in an internal database. This helped to switch to the new IT process structures and improved the service maintenance. The database implementation additionally raised the awareness of the new processes and supported the employees to transfer them from theory into practice.",
+    "Role" : "Usability Engineer",
+    "Industry" : "Broadcasting / Media production",
+    "Tasks" : [ "Mockup creating", "User flows", "Usability evaluation" ],
+    "Methods" : [ "Usability Testing" ],
+    "Technologies" : [ "Balsamiq", "Task Scenarios (Basis: Use Cases)" ]
+  }, {
+    "Name" : "Prototype of a mobile app on the subject of light pollution",
+    "Start" : "02.2014",
+    "End" : "06.2014",
+    "Description" : "In the context of an communal information campagne, a prototype of a mobile app should be developed to draw the residents attention to the topic of light pollution. Due to the fact that the majority of the residents did not know much about light pollution, the goal of the app was to provide an easy and understandable approach to this topic. A balanced mix of information, tips and tricks, and gamification segments allowed us to familiarize the different age groups with the topic and make it more comprehensible.",
+    "Role" : "Usability Engineer",
+    "Industry" : "Public administration",
+    "Tasks" : [ "Contextual inquiry", "Modeling requirements", "Ideation", "Color concept", "User flows", "Prototyping" ],
+    "Methods" : [ "Rapid Prototyping", "Paper Prototyping", "Personas", "User Scenarios" ],
+    "Technologies" : [ "Wireframes", "InVision", "Paper & Pencil", "Adobe Kuler" ]
+  }, {
+    "Name" : "European Helpdesk",
+    "Start" : "08.2005",
+    "End" : "12.2006",
+    "Description" : "",
+    "Role" : "IT Support Analyst",
+    "Industry" : "Medizintechnik",
+    "Tasks" : [ "1st Level Support", "Dispatching zum 2nd Level Support", "Präsenzorganisation des Helpdesk-Teams" ],
+    "Methods" : [ ],
+    "Technologies" : [ "Ticket Management System" ]
+  } ]
+}

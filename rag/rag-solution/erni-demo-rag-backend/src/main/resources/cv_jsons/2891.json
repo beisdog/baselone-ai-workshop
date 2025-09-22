@@ -1,0 +1,274 @@
+{
+  "name" : "Arlo Keaton",
+  "careerinfo" : {
+    "AdvertisingText" : "Arlo Keaton konnte in unterschiedlichen Projekten bereits vielfältige Erfahrungen im Bereich Requirements Engineering und in der Business Analyse sammeln, sowohl in klassischen als auch agilen Setups. Arlo bringt ein offenes Mindset und eine ausgeprägte Hands-on Mentalität mit, wobei ihm seine rasche Auffassungsgabe zugutekommt. Arlo überzeugt durch seine unkomplizierte und lösungsorientierte Art und ist ein ausgeprägter Teamplayer.",
+    "LongAdvertisingText" : "",
+    "PreferredFunctions" : "",
+    "PreferredFunctionsList" : [ ],
+    "PreferredSkills" : "",
+    "CareerSummaryLabel" : "Bisheriger Werdegang & Bevorzugtes Einsatzgebiet",
+    "HighlightsTextLabel" : "Highlights",
+    "AdvertisingTextLabel" : "Werbetext für kurzer Lebenslauf",
+    "LongAdvertisingTextLabel" : "Advertising Text Legacy",
+    "PreferredFunctionsLabel" : "Bevorzugte Funktion",
+    "PreferredSkillsLabel" : "Preferred skills"
+  },
+  "skills" : [ {
+    "name" : "Azure DevOps level: Intermediate"
+  }, {
+    "name" : "Interviews level: Intermediate"
+  }, {
+    "name" : "Stakeholder Management level: Intermediate"
+  }, {
+    "name" : "Adonis level: Intermediate"
+  }, {
+    "name" : "BPMN level: Intermediate"
+  }, {
+    "name" : "Confluence level: Intermediate"
+  }, {
+    "name" : "Microsoft PowerPoint level: Intermediate"
+  }, {
+    "name" : "Microsoft Word level: Intermediate"
+  }, {
+    "name" : "Präsentationstechniken level: Intermediate"
+  }, {
+    "name" : "Visio level: Intermediate"
+  }, {
+    "name" : "Balsamiq level: Novice"
+  }, {
+    "name" : "BPMN 2.0 level: Novice"
+  }, {
+    "name" : "Business Analysis level: Novice"
+  }, {
+    "name" : "Business Object Model (BOM) level: Novice"
+  }, {
+    "name" : "Geschäftsprozess-Modellierung level: Novice"
+  }, {
+    "name" : "codebeamer Application Lifecycle Management (ALM) level: Novice"
+  }, {
+    "name" : "Draw.io level: Novice"
+  }, {
+    "name" : "Evaluation level: Novice"
+  }, {
+    "name" : "Experteninterview level: Novice"
+  }, {
+    "name" : "Figma level: Novice"
+  }, {
+    "name" : "Geschäftsprozessdesign level: Novice"
+  }, {
+    "name" : "Heidenhain level: Novice"
+  }, {
+    "name" : "High-fidelity Prototypes level: Novice"
+  }, {
+    "name" : "Kanban level: Novice"
+  }, {
+    "name" : "Knowledge Management level: Novice"
+  }, {
+    "name" : "Konkurrenzanalyse level: Novice"
+  }, {
+    "name" : "Kosten-Nutzen-Analyse level: Novice"
+  }, {
+    "name" : "Kundeninterviews level: Novice"
+  }, {
+    "name" : "Low-fidelity Prototypen level: Novice"
+  }, {
+    "name" : "LucidChart level: Novice"
+  }, {
+    "name" : "Marketing-Mix level: Novice"
+  }, {
+    "name" : "Master CAM level: Novice"
+  }, {
+    "name" : "Microsoft Excel level: Novice"
+  }, {
+    "name" : "Miro level: Novice"
+  }, {
+    "name" : "Präsentations- und Schulungstechniken level: Novice"
+  }, {
+    "name" : "Produktanalyse level: Novice"
+  }, {
+    "name" : "Qualitätsmanagement  level: Novice"
+  }, {
+    "name" : "Qualitätsprotokoll level: Novice"
+  }, {
+    "name" : "Requirements Analysis (Surveys, Workshops, Brainstorming) level: Novice"
+  }, {
+    "name" : "Requirements Documentation level: Novice"
+  }, {
+    "name" : "Requirements Elicitation level: Novice"
+  }, {
+    "name" : "Research level: Novice"
+  }, {
+    "name" : "Reviews level: Novice"
+  }, {
+    "name" : "Soft Skills level: Novice"
+  }, {
+    "name" : "Stakeholder Interviews level: Novice"
+  }, {
+    "name" : "Stakeholder Workshop level: Novice"
+  }, {
+    "name" : "Strategieerstellung mit PEST, SWOT und Unternehmensanalyse level: Novice"
+  }, {
+    "name" : "User Stories level: Novice"
+  }, {
+    "name" : "User testing level: Novice"
+  }, {
+    "name" : "Validation level: Novice"
+  }, {
+    "name" : "Wireframes level: Novice"
+  }, {
+    "name" : "Workshops level: Novice"
+  } ],
+  "education" : [ {
+    "Title" : "Master of Science in Wirtschaftsinformatik",
+    "InstitutionTitle" : "",
+    "Start" : "2023",
+    "End" : "2025"
+  }, {
+    "Title" : "Bachelor of Science in Wirtschaftsinformatik",
+    "InstitutionTitle" : "",
+    "Start" : "2019",
+    "End" : "2022"
+  }, {
+    "Title" : "Berufsmatura Typ Dienstleistungen",
+    "InstitutionTitle" : "",
+    "Start" : "2018",
+    "End" : "2019"
+  }, {
+    "Title" : "Berufslehre als Polymechaniker EFZ",
+    "InstitutionTitle" : "",
+    "Start" : "2013",
+    "End" : "2017"
+  } ],
+  "certificates" : [ {
+    "Title" : "\tProfessional Scrum Product Owner™ II (PSPO II))",
+    "InstitutionTitle" : "Scrum.org",
+    "Start" : "2024",
+    "End" : "2024"
+  }, {
+    "Title" : "IREB CPRE Advanced Level Requirements Modeling - Practitioner",
+    "InstitutionTitle" : "",
+    "Start" : "2023",
+    "End" : "2023"
+  }, {
+    "Title" : "IREB CPRE Advanced Level Elicitation - Practitioner",
+    "InstitutionTitle" : "",
+    "Start" : "2023",
+    "End" : "2023"
+  }, {
+    "Title" : "Professional Scrum Master™ I (PSM I)",
+    "InstitutionTitle" : "Scrum.org",
+    "Start" : "2023",
+    "End" : "2023"
+  }, {
+    "Title" : "Certified SAFe® 6 Agilist",
+    "InstitutionTitle" : "",
+    "Start" : "2023",
+    "End" : "2023"
+  }, {
+    "Title" : "Professional Scrum Product Owner™ I (PSPO I)",
+    "InstitutionTitle" : "Scrum.org",
+    "Start" : "2023",
+    "End" : "2023"
+  }, {
+    "Title" : "Certified Professional for Requirements Engineering - Foundation Level",
+    "InstitutionTitle" : "",
+    "Start" : "2022",
+    "End" : "2022"
+  }, {
+    "Title" : "HERMES Foundation",
+    "InstitutionTitle" : "",
+    "Start" : "2022",
+    "End" : "2022"
+  }, {
+    "Title" : "IREB CPRE RE@Agile Primer",
+    "InstitutionTitle" : "",
+    "Start" : "2022",
+    "End" : "2022"
+  }, {
+    "Title" : "Cambridge Advanced Certificate in English (CAE)",
+    "InstitutionTitle" : "",
+    "Start" : "2019",
+    "End" : "2019"
+  } ],
+  "projects" : [ {
+    "Name" : "Prozessoptimierung",
+    "Start" : "05.2024",
+    "End" : "",
+    "Description" : "Das Team Business Engineering hat zum Ziel, einen Value Stream zu optimieren. Als erster Schritt müssen die IST-Prozesse mithilfe von BPMN 2.0 transparent dargelegt werden. Dies umfasst das Führen von Stakeholderinterviews, das Modellieren von Prozessen sowie das Review der Modelle. Im zweiten Schritt werden die Prozesse analysiert und neue SOLL-Prozesse definiert.",
+    "Role" : "Business Analyst",
+    "Industry" : "Energie",
+    "Tasks" : [ "Stakeholderinterviews", "Prozessmodellierung nach BPMN 2.0", "Reviews durchführen", "Stakeholdermanagement", "Prozessanalyse", "KPIs formulieren", "Umsetzungspläne erarbeiten" ],
+    "Methods" : [ "Reviews", "Stakeholder Management", "BPMN 2.0", "Stakeholder Interviews" ],
+    "Technologies" : [ "Adonis", "Azure DevOps" ]
+  }, {
+    "Name" : "Kabelproduktionssoftware",
+    "Start" : "09.2023",
+    "End" : "04.2024",
+    "Description" : "Auf der Basis eines MES Systems wird eine Webapplikation entwickelt, welches den Endkunden bei der Konfiguration und dem Management von Aufträgen im Bereich Kabelproduktion unterstützt. Die Applikation läuft sowohl in der Cloud wie auch On-Premise.",
+    "Role" : "Business Analyst/Product Owner",
+    "Industry" : "Maschinenindustrie",
+    "Tasks" : [ "Anforderungserhebung", "Workshops durchführen", "Prozessmodellierung", "Erfassen von User Stories", "Refinement von User Stories", "Erarbeitung von Testingkonzepten", "Dokumentation der Lösung" ],
+    "Methods" : [ "Stakeholder Management", "BPMN", "Business Analyse" ],
+    "Technologies" : [ "Confluence", "Azure DevOps" ]
+  }, {
+    "Name" : "Laborautomatisierung in der pharmazeutischen Forschung",
+    "Start" : "02.2023",
+    "End" : "08.2023",
+    "Description" : "Dieses Projekt dient dazu, die veralteten Anlagen des Unternehmens zur Grundlagenforschung in der Medikamentenentwicklung zu ersetzen. Die neuen Anlagen werden vollautomatisiert arbeiten und virtuell miteinander vernetzt sein. Die Umsetzung geschieht in Zusammenarbeit mit einer externen Firma mit Sitz in den USA. Meine Aufgabe besteht darin, das Requirements Engineering zu leiten und durchzuführen.",
+    "Role" : "Requirements Engineer",
+    "Industry" : "Pharmaindustrie",
+    "Tasks" : [ "Erheben von Requirements", "Managen von Requirements", "Workshops leiten", "Schreiben von Testfällen", "Projektmanagement", "Stakeholdermanagement" ],
+    "Methods" : [ "Requirements Analysis (Surveys, Workshops, Brainstorming)", "Validation", "Requirements Documentation", "Requirements Elicitation", "BPMN" ],
+    "Technologies" : [ "LucidChart", "codebeamer Application Lifecycle Management (ALM)" ]
+  }, {
+    "Name" : "Entwicklung einer Cloud-Applikation für die Maschinenverwaltung",
+    "Start" : "10.2022",
+    "End" : "01.2023",
+    "Description" : "Ein international tätiges Unternehmen im Bereich der Kabelfertigung steht vor der Herausforderung, für ihre zukünftigen Produktlinien eine Applikation auf den Markt zu bringen, welche sowohl die Maschinenauslastung der Kunden optimiert wie auch die Auftragslaufzeit verkürzt und die Maschinenwartung optimiert. Das Unternehmen hat bisher noch keine Erfahrung mit Cloud Applikationen gesammelt. Konkret soll die Applikation das zeitintensive Programmieren der Artikel auf den PC im Büro auslagern, so dass die Maschinen weniger Standzeit aufweisen. Zudem soll dem Produktionsleiter mittels KPIs eine detaillierte Auswertung zur Produktivität seiner Maschinen geliefert werden und dank dem Sammeln von Betriebsdaten ein genaueres Bild über seine Kundschaft geliefert werden. Meine Aufgabe besteht darin, den Product Owner zu unterstützen. Hierzu zählt der Wissensaufbau im Bereich der Kabelfertigung, das Modellieren von IST- und SOLL-Prozessen, das Schreiben von User Stories und die Kommunikation mit den beteiligten Stakeholdern.",
+    "Role" : "Unterstützung Product Owner ",
+    "Industry" : "Elektroindustrie",
+    "Tasks" : [ "Wissensaufbau", "Betriebsabläufe modellieren", "Glossar erstellen", "Klassendiagramm erstellen", "User Stories schreiben", "Stakeholderkommunikation" ],
+    "Methods" : [ "User Stories", "Geschäftsprozess-Modellierung", "Stakeholder Management", "Stakeholder Workshop", "Knowledge Management" ],
+    "Technologies" : [ "Business Object Model (BOM)", "Confluence", "Miro", "Draw.io", "Azure DevOps" ]
+  }, {
+    "Name" : "Entwicklung eines Konzepts für eine Onlineplattform",
+    "Start" : "02.2022",
+    "End" : "06.2022",
+    "Description" : "Im Vorfeld dieses Projekts existierte die Idee, eine Sharing Economy Plattform für Bergsportmaterial zu realisieren. Das primäre Ziel dieser Plattform war die Reduktion des Ressourcenverbrauchs in diesem Bereich. Im Rahmen dieses Projekts wurde ein Businessplan sowie eine detaillierte Kostenanalyse über die ersten drei Jahre ausgearbeitet. Somit konnten die Erfolgschancen aus finanzieller Sicht eingeschätzt werden. Weiter wurde ein erster High-Fidelity Prototyp erstellt, welcher die wichtigsten Funktionen der Plattform abdeckt. Für dessen Validierung wurden regelmässig User Tests durchgeführt. In einem agilen Prozess wurde der Prototyp somit stetig überarbeitet.",
+    "Role" : "Projektmanager",
+    "Industry" : "Dienstleistung",
+    "Tasks" : [ "Konkurrenzsituation analysieren", "Kostenanalyse durchführen", "Businessplan erstellen", "Kalkulationstool erstellen", "Befragung potenzieller Nutzenden", "Low-Fi Prototyp erstellen", "High-Fi Prototyp erstellen", "User Tests durchführen", "Präsentation erstellen", "Präsentation des Konzepts" ],
+    "Methods" : [ "Präsentationstechniken", "Kosten-Nutzen-Analyse", "User testing", "Konkurrenzanalyse", "Low-fidelity Prototypen", "High-fidelity Prototypes", "Interviews", "Kanban" ],
+    "Technologies" : [ "Wireframes", "Microsoft Excel", "Balsamiq", "Visio", "Microsoft Word", "Microsoft PowerPoint", "Figma" ]
+  }, {
+    "Name" : "Internationalisierung der Absatzmärkte für ein KMU",
+    "Start" : "09.2021",
+    "End" : "01.2022",
+    "Description" : "Der Auftraggeber entwickelte eine SaaS-Applikation für die Redaktion und Veröffentlichung von Corporate Publikationen. Da diese bisher nur im schweizerischen Markt vertrieben wurde, strebte der Geschäftsführer eine Internationalisierung der Absatzmärkte an. Für die Firma war somit eine umfassende Internationalisierungsstrategie zu erstellen, welche diverse Aspekte wie beispielsweise rechtliche und kulturelle Gegebenheiten in den verschiedenen Regionen mit einbezieht. Es mussten konkrete Vorschläge unterbreitet werden, wie die Internationalisierung dieser Software in den nächsten fünf Jahren vorangetrieben werden kann. Dies setzte voraus, dass man sich zuerst eindringlich mit der Software vertraut machte. Weitere Lieferobjekte waren eine auf der Geschäftsstrategie basierende Marketingstrategie im Kontext der Internationalisierung, sowie die Visualisierung der wichtigsten drei Geschäftsprozesse mithilfe von BPMN.",
+    "Role" : "Consultant",
+    "Industry" : "IT",
+    "Tasks" : [ "Produktanalyse erstellen", "Interviews mit Fachpersonen", "Einarbeitung in Software", "Befragung potenzieller Nutzenden", "Recherche zu Zielmärkten", "Internationalisierungsstrategie erstellen", "Roadmap erstellen", "Marketingstrategie erstellen", "Geschäftsprozesse modellieren", "Präsentation der Ergebnisse" ],
+    "Methods" : [ "Research", "Präsentationstechniken", "Geschäftsprozessdesign", "Produktanalyse", "Kundeninterviews", "Strategieerstellung mit PEST, SWOT und Unternehmensanalyse", "Marketing-Mix", "Experteninterview" ],
+    "Technologies" : [ "Adonis", "Visio", "Microsoft Word", "Microsoft PowerPoint" ]
+  }, {
+    "Name" : "Betreuung von angehenden Automatikmonteur*innen",
+    "Start" : "02.2020",
+    "End" : "05.2020",
+    "Description" : "In der Rolle als Lernendenbetreuer war den angehenden Automatikmonteur*innen EFZ das nötige Wissen zu vermitteln, um die anstehende Teilprüfung erfolgreich zu absolvieren. Die Lernenden sollten regelmässige Theorieinputs erhalten und unter fachkundiger Begleitung das Gelernte in der Praxis umsetzen.",
+    "Role" : "Lernendenbetreuer",
+    "Industry" : "Industrie",
+    "Tasks" : [ "Vorbereiten von Schulungen", "Durchführen von Schulungen", "Begleitung bei praktischen Übungen", "Kontrolle der Arbeitsresultate", "Regelmässiger Austausch mit dem Ausbildungsleiter" ],
+    "Methods" : [ "Präsentations- und Schulungstechniken", "Interviews", "Qualitätsmanagement ", "Workshops" ],
+    "Technologies" : [ "Soft Skills" ]
+  }, {
+    "Name" : "Fertigung und Qualitätskontrolle von mechanischen High-End Werkstücken",
+    "Start" : "02.2018",
+    "End" : "07.2018",
+    "Description" : "Das Ziel war die Herstellung von qualitativ hochwertigen mechanischen Bauteilen und die Gewährleistung einer reibungslosen Maschinenverfügbarkeit durch Ressourcenplanung. An den Bauteilen musste zwingend eine detaillierte Qualitätskontrolle durchgeführt werden, um allfällige Mängel im Betrieb zu verhindern. Weiter waren die Maschinen und Werkzeuge regelmässig zu prüfen und gegebenenfalls zu ersetzen.",
+    "Role" : "Polymechaniker",
+    "Industry" : "Industrie, Medizin, Mechanik",
+    "Tasks" : [ "Werkstücke fertigen", "Qualitätskontrolle", "Kapazitätsplanung", "Mithilfe an Evaluationsprozessen" ],
+    "Methods" : [ "Evaluation", "Interviews" ],
+    "Technologies" : [ "Qualitätsprotokoll", "Master CAM", "Heidenhain" ]
+  } ]
+}

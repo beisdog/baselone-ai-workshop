@@ -1,0 +1,518 @@
+{
+  "name" : "Selene Maren",
+  "careerinfo" : {
+    "AdvertisingText" : "Selene is an experienced enterprise, solutions and software architect with a main focus on the banking industry. Besides that, Selene has also gained some experience in insurance, media services and the public sector. In addition to architecture, her main focus, she is also well versed in technical and traditional project management. As a former developer, she is familiar with Java, Docker, SQL, Unix/Linux and Oracle DB.",
+    "LongAdvertisingText" : "",
+    "PreferredFunctions" : "Architect, Architecture Design, Technical Project Leader, Solution Architect , Enterprise Architect",
+    "PreferredFunctionsList" : [ {
+      "CodeListValueId" : 6513,
+      "CodeListValueCaptionId" : 15552,
+      "CodeListId" : 122,
+      "FunctionName" : "Architect"
+    }, {
+      "CodeListValueId" : 4550,
+      "CodeListValueCaptionId" : 4310,
+      "CodeListId" : 122,
+      "FunctionName" : "Architecture Design"
+    }, {
+      "CodeListValueId" : 3950,
+      "CodeListValueCaptionId" : 3752,
+      "CodeListId" : 122,
+      "FunctionName" : "Technical Project Leader"
+    }, {
+      "CodeListValueId" : 7581,
+      "CodeListValueCaptionId" : 20355,
+      "CodeListId" : 122,
+      "FunctionName" : "Solution Architect "
+    }, {
+      "CodeListValueId" : 15737,
+      "CodeListValueCaptionId" : 0,
+      "CodeListId" : 122,
+      "FunctionName" : "Enterprise Architect"
+    } ],
+    "PreferredSkills" : "",
+    "CareerSummaryLabel" : "Career Summary & Preferred Domain",
+    "HighlightsTextLabel" : "Highlights",
+    "AdvertisingTextLabel" : "Advertising Text Short CV",
+    "LongAdvertisingTextLabel" : "Advertising Text Legacy",
+    "PreferredFunctionsLabel" : "Preferred functions",
+    "PreferredSkillsLabel" : "Preferred skills"
+  },
+  "skills" : [ {
+    "name" : "Java 6 level: Advanced"
+  }, {
+    "name" : "Scrum  level: Advanced"
+  }, {
+    "name" : "C level: Intermediate"
+  }, {
+    "name" : "C++ level: Intermediate"
+  }, {
+    "name" : "Docker level: Intermediate"
+  }, {
+    "name" : "Kubernetes level: Intermediate"
+  }, {
+    "name" : "Projektleitung Softwareentwicklungs- und Infrastrukturprojekte level: Intermediate"
+  }, {
+    "name" : "Enterprise Architect level: Intermediate"
+  }, {
+    "name" : "Java SE/EE/Servlet/JSP level: Intermediate"
+  }, {
+    "name" : "Kanban level: Intermediate"
+  }, {
+    "name" : "Requirementserhebung, Analyse, Dokumentation und Validation level: Intermediate"
+  }, {
+    "name" : "SAFe 4.0 level: Intermediate"
+  }, {
+    "name" : "Unix (Linux, Solaris, AIX) level: Intermediate"
+  }, {
+    "name" : "Unix-Shell level: Intermediate"
+  }, {
+    "name" : "Avaloq level: Intermediate"
+  }, {
+    "name" : "IVR, Telephony, CTI, Mystic Communications Corp. level: Intermediate"
+  }, {
+    "name" : "Java 2 EnterpriseEdition level: Intermediate"
+  }, {
+    "name" : "Jira (Atlassian) level: Intermediate"
+  }, {
+    "name" : "Jira / Confluence (Atlassian) level: Intermediate"
+  }, {
+    "name" : "JSF level: Intermediate"
+  }, {
+    "name" : "Miro level: Intermediate"
+  }, {
+    "name" : "OpenShift level: Intermediate"
+  }, {
+    "name" : "Oracle 10gR2 level: Intermediate"
+  }, {
+    "name" : "PL/SQL level: Intermediate"
+  }, {
+    "name" : "React level: Intermediate"
+  }, {
+    "name" : "Streaming level: Intermediate"
+  }, {
+    "name" : "Streaming Protokolle level: Intermediate"
+  }, {
+    "name" : "TOGAF 9 level: Intermediate"
+  }, {
+    "name" : "Visual Basic 4 level: Intermediate"
+  }, {
+    "name" : " Microsoft Visual Basic 5.0 level: Novice"
+  }, {
+    "name" : "ALCOA+ level: Novice"
+  }, {
+    "name" : "Architecture level: Novice"
+  }, {
+    "name" : "Architektur- und Design- Pattern level: Novice"
+  }, {
+    "name" : "Architekturdesign (TOGAF) level: Novice"
+  }, {
+    "name" : "Architektur-Reviews level: Novice"
+  }, {
+    "name" : "ATAM level: Novice"
+  }, {
+    "name" : "Avaloq incl.Parameterization level: Novice"
+  }, {
+    "name" : "Bamboo level: Novice"
+  }, {
+    "name" : "CIA Triad level: Novice"
+  }, {
+    "name" : "Cobol level: Novice"
+  }, {
+    "name" : "Computer Telephony Integration level: Novice"
+  }, {
+    "name" : "Confluence level: Novice"
+  }, {
+    "name" : "DevOps level: Novice"
+  }, {
+    "name" : "Domain Model level: Novice"
+  }, {
+    "name" : "GDPR level: Novice"
+  }, {
+    "name" : "Go level: Novice"
+  }, {
+    "name" : "Groovy level: Novice"
+  }, {
+    "name" : "Groovy & Grails level: Novice"
+  }, {
+    "name" : "Hudson level: Novice"
+  }, {
+    "name" : "Hungary level: Novice"
+  }, {
+    "name" : "Icinga level: Novice"
+  }, {
+    "name" : "Java 11 level: Novice"
+  }, {
+    "name" : "Java EE 8 level: Novice"
+  }, {
+    "name" : "JavaScript level: Novice"
+  }, {
+    "name" : "Jenkins level: Novice"
+  }, {
+    "name" : "Jira level: Novice"
+  }, {
+    "name" : "Kafka level: Novice"
+  }, {
+    "name" : "Keycloak level: Novice"
+  }, {
+    "name" : "LucidChart level: Novice"
+  }, {
+    "name" : "Manage and coordinate of iterative development projects across several (part) level: Novice"
+  }, {
+    "name" : "MariaDB level: Novice"
+  }, {
+    "name" : "Microservice Architektur level: Novice"
+  }, {
+    "name" : "Microsoft Access 97 level: Novice"
+  }, {
+    "name" : "Microsoft Visual Basic 5.0 level: Novice"
+  }, {
+    "name" : "Nuance Speech Recognition level: Novice"
+  }, {
+    "name" : "Oracle 9i level: Novice"
+  }, {
+    "name" : "Oracle 9i Design level: Novice"
+  }, {
+    "name" : "PostgreSQL 9.x level: Novice"
+  }, {
+    "name" : "Power Point level: Novice"
+  }, {
+    "name" : "Projektleitung  Ressourcenplanung level: Novice"
+  }, {
+    "name" : "Python 2.4 level: Novice"
+  }, {
+    "name" : "Requirements Engineering mit UML level: Novice"
+  }, {
+    "name" : "Requirements-/Change-/Configuration Management level: Novice"
+  }, {
+    "name" : "SAFe 5.1 level: Novice"
+  }, {
+    "name" : "SAP ABAP level: Novice"
+  }, {
+    "name" : "Scala level: Novice"
+  }, {
+    "name" : "Scrum, QMS, Project Management, Networking level: Novice"
+  }, {
+    "name" : "SharePoint level: Novice"
+  }, {
+    "name" : "Shell-Programmierung level: Novice"
+  }, {
+    "name" : "Spring level: Novice"
+  }, {
+    "name" : "Teams level: Novice"
+  }, {
+    "name" : "Ubuntu Linux level: Novice"
+  }, {
+    "name" : "Unix Shell level: Novice"
+  }, {
+    "name" : "Unix Shell Scripting level: Novice"
+  }, {
+    "name" : "User Interface Design level: Novice"
+  }, {
+    "name" : "Vaadin level: Novice"
+  }, {
+    "name" : "XML/XSLT/XPath level: Novice"
+  }, {
+    "name" : "XSL :FO level: Novice"
+  }, {
+    "name" : "XSLT level: Novice"
+  } ],
+  "education" : [ {
+    "Title" : "Bachelor in Software Engineering",
+    "InstitutionTitle" : "Wizard Institute of Eldoria",
+    "Start" : "1986",
+    "End" : "1993"
+  }, {
+    "Title" : "Mathematical Studies in Differential and Integral Math",
+    "InstitutionTitle" : "University of Avalon",
+    "Start" : "1985",
+    "End" : "1985"
+  } ],
+  "certificates" : [ {
+    "Title" : "SAFe for Architects",
+    "InstitutionTitle" : "",
+    "Start" : "2022",
+    "End" : "2022"
+  }, {
+    "Title" : "SAFe 5 Agilist",
+    "InstitutionTitle" : "",
+    "Start" : "2022",
+    "End" : "2022"
+  }, {
+    "Title" : "Certified Professional for Software Architecture",
+    "InstitutionTitle" : "",
+    "Start" : "2016",
+    "End" : "2016"
+  }, {
+    "Title" : "Advanced PL/SQL, ORACLE Architecture and Internals",
+    "InstitutionTitle" : "",
+    "Start" : "2014",
+    "End" : "2014"
+  }, {
+    "Title" : "Finnova Certified Specialist",
+    "InstitutionTitle" : "",
+    "Start" : "2013",
+    "End" : "2013"
+  }, {
+    "Title" : "C1 German Certificate / Attended C2 Level German Course",
+    "InstitutionTitle" : "",
+    "Start" : "2009",
+    "End" : "2009"
+  }, {
+    "Title" : "Arcane Systems Ltd. Team Application Dev., Services and Contracts & Architectural Thinking",
+    "InstitutionTitle" : "Arcane Systems Ltd.",
+    "Start" : "2009",
+    "End" : "2010"
+  }, {
+    "Title" : "Avaloq Certificate",
+    "InstitutionTitle" : "",
+    "Start" : "2008",
+    "End" : "2008"
+  }, {
+    "Title" : "Natural Language Speech Recognition Certificate",
+    "InstitutionTitle" : "",
+    "Start" : "2000",
+    "End" : "2000"
+  } ],
+  "projects" : [ {
+    "Name" : "Lead Architect in a Hybrid Environment  (Classic and Agile Methodology)",
+    "Start" : "12.2023",
+    "End" : "",
+    "Description" : "Define and communicate the Architecture Vision, Roadmap and Guardrails for the Projects in the Domain.",
+    "Role" : "Domain Architect / System Architect",
+    "Industry" : "Banking",
+    "Tasks" : [ "Define Architecture Vision and Roadmap", "Document and Manage Architecture Debts", "Review, Guide and Monitor Projects", "Create required Solution Blueprints", "Definition of the required Integration Patterns and Interfaces", "Ensure compliance to Guidelines and Standards of the Enterprise Architecture", "Collaboration with Product Management, Enterprise and Domain Architects, Business Management, Providers and Clients" ],
+    "Methods" : [ "TOGAF 9" ],
+    "Technologies" : [ "Enterprise Architect", "Enterprise Architect", "Kafka", "Kubernetes" ]
+  }, {
+    "Name" : "Lead Architect in an Agile Release Train",
+    "Start" : "08.2022",
+    "End" : "12.2023",
+    "Description" : "As Lead Architect and part of the Architecture Team we shall define and communicate the Architecture Vision, Roadmap and Guardrails for the Agile Teams.",
+    "Role" : "Domain Architekt",
+    "Industry" : "Banking",
+    "Tasks" : [ "Lead ART´s Architecture Team", "Management of the Technical Debts", "Def. tactical and strategical investm.", "Definition System´s Components", " Definition of the required Integration Patterns and Interfaces", "Ensure compliance to Guidelines and Standards of the Enterprise Architecture", "Collaboration with Product Management, Enterprise and Domain Architects, Business Management, Providers and Clients" ],
+    "Methods" : [ "TOGAF 9", "SAFe 5.1" ],
+    "Technologies" : [ "Enterprise Architect", "Microservice Architektur", "React", "Kubernetes" ]
+  }, {
+    "Name" : "Data Security Audit",
+    "Start" : "01.2022",
+    "End" : "03.2022",
+    "Description" : "The client develops a bespoke on-premise application to manage their ambulatory electronic health record (EHR) that integrates with the Hospital Information System (HIS).  The client is concerned about the security posture of their AEHR.",
+    "Role" : "Audit Architect",
+    "Industry" : "Health",
+    "Tasks" : [ "Define evaluation method to be used", "Perform interviews and research needed", "Create report with findings and recomm" ],
+    "Methods" : [ "ATAM", "Architektur-Reviews" ],
+    "Technologies" : [ "Power Point", "ALCOA+", "GDPR", "CIA Triad", "Teams" ]
+  }, {
+    "Name" : "Establish Architecture Praxis",
+    "Start" : "05.2020",
+    "End" : "12.2021",
+    "Description" : "In the initiative to implement a DevOps working framework, support and lead the implementation of an Architecture Practice.",
+    "Role" : "Lead Software Architect",
+    "Industry" : "Media Services",
+    "Tasks" : [ "Lead Architect Champions Team", "Respon. Architecture All Products", "PO/Software Arch. eShop Application", "PO/Arch./Dev./Support IAM Solution", "Responsible for writing Business and Technical Requirements", "Responsible for several DevOps Swimlanes", "Definition, Implementation und Support der Dockerized Infrastruktur", "Cleaning, Maintenance and Support of Internal Tools (Jira, Bitbucket, Confluence, etc...)" ],
+    "Methods" : [ "Projektleitung Softwareentwicklungs- und Infrastrukturprojekte", "Kanban", "DevOps" ],
+    "Technologies" : [ "Ubuntu Linux", "Spring", "Vaadin", "PostgreSQL 9.x", "MariaDB", "Java 6", "React", "Java EE 8", "LucidChart", "Jira / Confluence (Atlassian)", "Java 11", "Jenkins", "Keycloak", "Miro", "Docker", "JavaScript" ]
+  }, {
+    "Name" : "Standardization of the Product Development",
+    "Start" : "02.2019",
+    "End" : "04.2020",
+    "Description" : "In a small organization, after a high turnaround ratio and other challenges the goal was to establish the required measurements, processes and strategies to have a standardized Development and Support of existing customer base.\n\nPart of the challenge was to establish a good communication and best practices between a team located in USA, India, Switzerland and Costa Rica.",
+    "Role" : "Lead Development & Support/Lead Architect",
+    "Industry" : "Software and Consulting Regulations",
+    "Tasks" : [ "Lead Development, Architec and Support", "Synchronization of the Dev. Teams", "Resp. for the Support of Customers", "Support of all Products of the company", "Coordination of work and definition of Internal Infrastructure with External Service providers.", "Responsible for the hiring, evaluation and coordination of the development and support employees." ],
+    "Methods" : [ "Kanban" ],
+    "Technologies" : [ "Groovy", "Hudson", "Groovy & Grails", "SAP ABAP", "Java 6", "Jira / Confluence (Atlassian)", "Miro", "Docker" ]
+  }, {
+    "Name" : "Member of the Architecture Board",
+    "Start" : "01.2017",
+    "End" : "01.2019",
+    "Description" : "In an organization of around 300 employees collaborated in the definition of principles, processes, standards and best practices required for the development of the products and initiatives in the organisation.\nWorking with the community (more than 120 developers, product managers and architects) to establish better communication and collaboration through the implementation of architecture practices.",
+    "Role" : "Enterprise Architect",
+    "Industry" : "Banking",
+    "Tasks" : [ "Member of the Architecture Board", "Data Analytics Platform Architect", "Responsible for the Technology Catalog", "Resp. for handling of Technical Debt", "Member of the Agile Requirements Core Team ", "Responsible for the handling of Non Functional Requirements in the Product Development", "Resp. for and contribution in definition of the EA Governance Processes (Services, Architecture Concepts, Technologies and Open-Source Software strategies)", "Resp. for the creation and operation of the Enterprise Architecture Documentation, Architecture Board and the corresponding artefacts (in Confluence, Sharepoint and JIRA)" ],
+    "Methods" : [ "SAFe 4.0", "Domain Model" ],
+    "Technologies" : [ "Hungary", "Bamboo", "Oracle 10gR2", "OpenShift", "Kubernetes", "Jira", "Confluence", "Docker", "SharePoint" ]
+  }, {
+    "Name" : "Pilot for Architecture Praxis",
+    "Start" : "04.2015",
+    "End" : "12.2016",
+    "Description" : "Define and practice in a real project for a large client the required architecture-related tasks and processes to be used as a basis for the definition of future architecture governance.\nContact person for the client's operational and technical concerns in the respective project.",
+    "Role" : "System/Software Architect",
+    "Industry" : "Banking",
+    "Tasks" : [ "Resp. for Projects Release and Supp.", "Responsible of customer relationship", "Definition of the Support Organization", "Resp. of the Project's NFR handling", "Resp. of the documentation and definition of Deployment tasks" ],
+    "Methods" : [ "SAFe 4.0" ],
+    "Technologies" : [ "Scala", "Shell-Programmierung", "Python 2.4", "OpenShift", "Kubernetes", "Go" ]
+  }, {
+    "Name" : "Internationalization of the Product",
+    "Start" : "11.2013",
+    "End" : "03.2015",
+    "Description" : "In a period of less than 3 months, be ready to act as a single point of contact and project manager for the implementation of new banks in ASIA using the existing banking solution.\nOne of the main constraint was that all technical issues should be solved by me first. If this was not possible, I was to be the single point of contact between the resources in Switzerland and the client in Asia.",
+    "Role" : "AM International Consultant",
+    "Industry" : "Banking",
+    "Tasks" : [ "PoC und Konzept Anonymis. Konzept", "Technische Training in Banking Ap", "Monitoring App als Docker Container", "Unterstützung verschiedene RFP´s", "Mithelfen Banking Applikation als Docker Container am laufen zu bringen" ],
+    "Methods" : [ "SAFe 4.0", "Kanban" ],
+    "Technologies" : [ "Oracle 10gR2", "Unix Shell Scripting", "Icinga", "Docker" ]
+  }, {
+    "Name" : "Implementation of an FXAH Application",
+    "Start" : "10.2012",
+    "End" : "09.2013",
+    "Description" : "The aim of the project was to realize the Forex Exchange (FXAH) Automatic Trading application from conception to production with all necessary contracts, processes and organizational teams.",
+    "Role" : "Project Manager / Solution Architect",
+    "Industry" : "Banking and Trading",
+    "Tasks" : [ "Management of a small development team", "Training 1st Level Support Team", "Respons. contracts with ext. providers", "Coordination of Technology Providers", "Requirements Management and Coordination between IT and Trading Floor", "Responsible for the Product definition and implementation in the Trading Section", "Definition of the Architecture and Technology Stack for the FXAH Engine" ],
+    "Methods" : [ "Scrum" ],
+    "Technologies" : [ "Streaming", "Streaming Protokolle", "Visual Basic 4", "JSF", "Java 6", "Jira (Atlassian)" ]
+  }, {
+    "Name" : "Creation of a product vision and the MVP of an Auto Hedger Rule Engine",
+    "Start" : "11.2011",
+    "End" : "09.2012",
+    "Description" : "The aim of the engagement was to create a concept and an initial MVP pilot to show stakeholders the feasibility of an FXAH rule engine.",
+    "Role" : "System Engineer / Solution Architect",
+    "Industry" : "Banking and Trading",
+    "Tasks" : [ "Single point of contact for Business/IT", "Resp. Definition and Impl. of MVP", "Negotiation of service providers", "Negotiation of external partners", "Definition of the Architecture and Technology Stack for the MVP" ],
+    "Methods" : [ "Scrum " ],
+    "Technologies" : [ "Streaming", "Streaming Protokolle", "Visual Basic 4", "JSF", "Java 6", "Jira (Atlassian)" ]
+  }, {
+    "Name" : "Creation of a new API",
+    "Start" : "03.2011",
+    "End" : "09.2011",
+    "Description" : "A new API had to be created and implemented to integrate the banking systems with a new order management system (ULLink), for which a small group of four system engineers was formed.",
+    "Role" : "System Engineer/Software Architect",
+    "Industry" : "Banking and Order Management",
+    "Tasks" : [ "Architektur und Entw. Integr. ULLink" ],
+    "Methods" : [ "Scrum " ],
+    "Technologies" : [ "Avaloq", "Java 6" ]
+  }, {
+    "Name" : "Projektleiter / IT-Architekt",
+    "Start" : "04.2009",
+    "End" : "02.2011",
+    "Description" : "Verantwortlich für das 5-köpfige Team, das Dienstleistungen in den\nBereichen:\n◦ 1st und 3rd Level Support von OTMS,\n◦ Technische Implementierung von OTMS,\n◦ Projektmanagement Dienstleistungen, und\n◦ Anpassungen des ULLink Handelssystems.\n\nAls IT Architekt verantwortlich für:\n◦ Konzeption und Umsetzung der Integration zwischen OTMS und ULLink\nTrading System\n◦ Erstellung des Betriebsbereitschaftskonzepts für das neue OTMSProdukt\n\nVerantwortlich für die Erstellung",
+    "Role" : "Projektleiter / IT-Architekt",
+    "Industry" : "Information Technology Consulting",
+    "Tasks" : [ "Kundenbeziehung und Projektleitung Ver", "Integration Architektur Verantwortlich", "Erstellungs OTMS Betreibskonzept", "Erstellung OTMS Markettings Broschüre" ],
+    "Methods" : [ "Manage and coordinate of iterative development projects across several (part)", "Scrum ", "Architekturdesign (TOGAF)" ],
+    "Technologies" : [ "PL/SQL", "Oracle 9i Design", "Avaloq", "Java 6" ]
+  }, {
+    "Name" : "Senior IT-Berater",
+    "Start" : "02.2008",
+    "End" : "03.2009",
+    "Description" : "Verantwortlich für die Durchführung von Konfigurationsänderungen in den\nModulen für Wertpapiere und externe Schnittstellen.",
+    "Role" : "Senior IT-Berater",
+    "Industry" : "Information Technology Consulting",
+    "Tasks" : [ "Implement. Migration verschied. Module" ],
+    "Methods" : [ "Scrum " ],
+    "Technologies" : [ "PL/SQL", "Oracle 9i", "Avaloq incl.Parameterization" ]
+  }, {
+    "Name" : "Co-Projektmanager / IT-Architekt",
+    "Start" : "04.2005",
+    "End" : "01.2008",
+    "Description" : "As Co-Projektmanager verantwortlich für: Ein UI Team von 3 Entwicklern.\n\nAls IT-Architekt verantwortlich für: Analyse, Entwurf und Schätzung des Aufwands für die FXOMBenutzeroberfläche. Analyse, Design und Schätzung von Geschäftskomponenten (für die\nBackend-Implementierung) als Teil eines Architektenteams.",
+    "Role" : "Co-Projektmanager / IT-Architekt",
+    "Industry" : "Co-Projektmanager / IT-Architekt",
+    "Tasks" : [ "Team Leitung (3 UI Entwicklers)", "UI & System Architektur FXOM Applic." ],
+    "Methods" : [ "Architecture", "Projektleitung  Ressourcenplanung", "User Interface Design" ],
+    "Technologies" : [ "XSL :FO", "Java SE/EE/Servlet/JSP", "XSLT", "XML/XSLT/XPath" ]
+  }, {
+    "Name" : "Co-Projektleitung und IT Architekt",
+    "Start" : "07.2002",
+    "End" : "03.2005",
+    "Description" : "",
+    "Role" : "Projecktleitung/IT Architekt",
+    "Industry" : "Bankwesen, Money Market Foreign Exchange",
+    "Tasks" : [ "Leitung Frontend Team", "UI & System Architektur der FXOM App." ],
+    "Methods" : [ "Requirementserhebung, Analyse, Dokumentation und Validation", "Architektur- und Design- Pattern", "Requirements Engineering mit UML", "Scrum, QMS, Project Management, Networking" ],
+    "Technologies" : [ "Cobol", "Java SE/EE/Servlet/JSP" ]
+  }, {
+    "Name" : "Speech Object Entwickler / Java Entwickler",
+    "Start" : "01.2002",
+    "End" : "06.2002",
+    "Description" : "Verantwortlich für den Einsatz des Enterprise Frameworks und der Insonic\nFinance Application (Natural Language Speech Recognition Java basierte\nProdukte) zur Erstellung von wiederverkaufsfähigen Produkten für Kunden in\nder Schweiz. Verantwortlich für die Erstellung des Insonic Finance Tutorials. Erstellung einer Demo-Applikation für die HypoVereinsbank unter",
+    "Role" : "Speech Object Entwickler / Java Entwickler",
+    "Industry" : "Natural Language Recognition",
+    "Tasks" : [ "Erstellung neue Produkte (Entwickl)", "Erstellung Techn. Tutorial für Entwikl", "Erstellung Demos für potentielle Kunde" ],
+    "Methods" : [ "Scrum " ],
+    "Technologies" : [ "Java SE/EE/Servlet/JSP", "Nuance Speech Recognition" ]
+  }, {
+    "Name" : "CTI Consultant",
+    "Start" : "06.2001",
+    "End" : "12.2001",
+    "Description" : "",
+    "Role" : "CTI Consultant",
+    "Industry" : "Business Communications",
+    "Tasks" : [ "Pre-Sales Aktivitäten", "Erhebung von Anforderungen", "Erstell. Verträge und Solution Design", "Implementierung von Integrationslösung", "Testing-, Deployment und Inbetriebnahme der Lösungen" ],
+    "Methods" : [ "Projektleitung Softwareentwicklungs- und Infrastrukturprojekte", "C", "Requirements-/Change-/Configuration Management" ],
+    "Technologies" : [ "Java 2 EnterpriseEdition", "Unix-Shell", "Unix (Linux, Solaris, AIX)", "Computer Telephony Integration", "C++" ]
+  }, {
+    "Name" : "Systemintegrator",
+    "Start" : "04.1998",
+    "End" : "05.2001",
+    "Description" : "The company provided Professional Services for different customers all around the world developing, integrating, and supporting NLSR (Natural Language Speech Recognition) solutions.  The main responsibility was to provide services to customers in USA, Central America and Europe.",
+    "Role" : "System Integrator Consultant",
+    "Industry" : "Banking/Insurance/Natural Language Recognition",
+    "Tasks" : [ "Pre-Sales Aktivitäten", "Erhebung von Anforderungen", "Erstell. Verträge und Solution Design", "Implementierung von Integrationslösung", "Testing-, Deployment und Inbetriebnahme der Lösungen", "Coaching und Leitung Entwicklern in USA und India (Outsourcing Experiment)" ],
+    "Methods" : [ "Requirementserhebung, Analyse, Dokumentation und Validation", "Projektleitung Softwareentwicklungs- und Infrastrukturprojekte", "C" ],
+    "Technologies" : [ "Java 2 EnterpriseEdition", "Unix-Shell", "Unix (Linux, Solaris, AIX)", "Microsoft Visual Basic 5.0", "IVR, Telephony, CTI, Mystic Communications Corp.", "C++" ]
+  }, {
+    "Name" : "Berater als Analyst und Entwickler",
+    "Start" : "04.1996",
+    "End" : "04.1998",
+    "Description" : "Leitung und Mitarbeit in einem 5-köpfigen Team bei der Erstellung von\nMethoden und Verfahren für die Entwicklung von IVR-Anwendungen. Erstellung einer Vorlage für die Entwicklung von IVR-Anwendungen. Schulung des IVR-Entwicklungsteams in Microsoft Visual Basic 5.0 und in\nder Programmierung von Microsoft Access 97.",
+    "Role" : "Berater als Analyst und Entwickler",
+    "Industry" : "Technology Consulting",
+    "Tasks" : [ "Pre-Sales Aktivitäten", "Erhebung von Anforderungen", "Erstell. Verträge und Solution Design", "Implementierung von Integrationslösung", "Testing-, Deployment und Inbetriebnahme der Lösungen", "Leitung und Mitarbeit einem 5-köpfigen Team bei der Definition von Methoden und Verfahren in der Entwicklung von IVR Applikationen", "Weiterbildung des IVR-Entwicklung Team in Microsoft Visual Basic 5.0" ],
+    "Methods" : [ "Requirementserhebung, Analyse, Dokumentation und Validation", "Projektleitung Softwareentwicklungs- und Infrastrukturprojekte", "C" ],
+    "Technologies" : [ "Unix-Shell", "Unix (Linux, Solaris, AIX)", " Microsoft Visual Basic 5.0", "Microsoft Access 97", "IVR, Telephony, CTI, Mystic Communications Corp.", "C++" ]
+  }, {
+    "Name" : "Berater als Programmierer",
+    "Start" : "12.1995",
+    "End" : "03.1996",
+    "Description" : "",
+    "Role" : "Berater als Programmierer",
+    "Industry" : "Software Development",
+    "Tasks" : [ "Entw. verschied. Kommunikationspakete" ],
+    "Methods" : [ ],
+    "Technologies" : [ ]
+  }, {
+    "Name" : "Creation of IVR Applications",
+    "Start" : "01.1994",
+    "End" : "12.1995",
+    "Description" : "",
+    "Role" : "IT Architect / Lead Developer",
+    "Industry" : "Voice Response Apps/Telephony Integration/Consult./All Branches",
+    "Tasks" : [ ],
+    "Methods" : [ "C" ],
+    "Technologies" : [ "Unix Shell", "C++" ]
+  }, {
+    "Name" : "Entwickler",
+    "Start" : "07.1993",
+    "End" : "12.1993",
+    "Description" : "Erstellung mehrerer Tools zur Unterstützung der bestehenden CONTEXTSuchmaschine\nin einer (nicht-grafischen) DOS-Version. Schulung des Entwicklungsteams in der neuen Entwicklungsumgebung des\nUnternehmens (GUPTA Rapid Application Development System).",
+    "Role" : "Entwickler",
+    "Industry" : "Software Development",
+    "Tasks" : [ ],
+    "Methods" : [ ],
+    "Technologies" : [ ]
+  }, {
+    "Name" : "Programmierer",
+    "Start" : "01.1992",
+    "End" : "05.1992",
+    "Description" : "Schulung von Mitarbeitern der Managementebene in der Verwendung von\nTextverarbeitungsprogrammen.",
+    "Role" : "Programmierer",
+    "Industry" : "E-Commerce and web development",
+    "Tasks" : [ ],
+    "Methods" : [ ],
+    "Technologies" : [ ]
+  }, {
+    "Name" : "Trainee",
+    "Start" : "01.1990",
+    "End" : "05.1990",
+    "Description" : "",
+    "Role" : "Trainee",
+    "Industry" : "Recruitment",
+    "Tasks" : [ ],
+    "Methods" : [ ],
+    "Technologies" : [ ]
+  } ]
+}

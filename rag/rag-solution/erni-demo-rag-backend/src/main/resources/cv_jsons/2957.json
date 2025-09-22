@@ -1,0 +1,189 @@
+{
+  "name" : "Jasper Quill",
+  "careerinfo" : {
+    "AdvertisingText" : "Professioneller Java Engineer mit Erfahrungen mit JEE, Spring Boot und Vaadin, als auch mit vielen weiteren Technologien.\nGeübt im Umgang mit Webtechnologien. Ich habe mehrere Webseiten mit verschiedenen Frameworks und CMS erstellt.",
+    "LongAdvertisingText" : "",
+    "PreferredFunctions" : "",
+    "PreferredFunctionsList" : [ ],
+    "PreferredSkills" : "",
+    "CareerSummaryLabel" : "Bisheriger Werdegang & Bevorzugtes Einsatzgebiet",
+    "HighlightsTextLabel" : "Highlights",
+    "AdvertisingTextLabel" : "Werbetext für kurzer Lebenslauf",
+    "LongAdvertisingTextLabel" : "Advertising Text Legacy",
+    "PreferredFunctionsLabel" : "Bevorzugte Funktion",
+    "PreferredSkillsLabel" : "Preferred skills"
+  },
+  "skills" : [ {
+    "name" : "HTML/CSS/JS level: Intermediate"
+  }, {
+    "name" : "Ovata CMS level: Intermediate"
+  }, {
+    "name" : "jQuery level: Intermediate"
+  }, {
+    "name" : "IntelliJ IDEA level: Intermediate"
+  }, {
+    "name" : "Java level: Intermediate"
+  }, {
+    "name" : "Maven level: Intermediate"
+  }, {
+    "name" : "TypeScript level: Intermediate"
+  }, {
+    "name" : "Vaadin level: Intermediate"
+  }, {
+    "name" : "Webcomponents level: Intermediate"
+  }, {
+    "name" : "Angular level: Novice"
+  }, {
+    "name" : "Apache TomEE level: Novice"
+  }, {
+    "name" : "ApexCharts level: Novice"
+  }, {
+    "name" : "Camunda BPMN level: Novice"
+  }, {
+    "name" : "Datatrans level: Novice"
+  }, {
+    "name" : "Elastic Beanstalk level: Novice"
+  }, {
+    "name" : "Envers level: Novice"
+  }, {
+    "name" : "Glassfish Server level: Novice"
+  }, {
+    "name" : "Hibernate level: Novice"
+  }, {
+    "name" : "IBM WebSphere level: Novice"
+  }, {
+    "name" : "Java 17 level: Novice"
+  }, {
+    "name" : "Java 8 level: Novice"
+  }, {
+    "name" : "Java EE 7 level: Novice"
+  }, {
+    "name" : "Jira level: Novice"
+  }, {
+    "name" : "LitElement level: Novice"
+  }, {
+    "name" : "MySQL level: Novice"
+  }, {
+    "name" : "Celestial Data Corp Database  level: Novice"
+  }, {
+    "name" : "REST level: Novice"
+  }, {
+    "name" : "RSS level: Novice"
+  }, {
+    "name" : "Spring Boot level: Novice"
+  }, {
+    "name" : "Spring Framework level: Novice"
+  }, {
+    "name" : "Teamcity level: Novice"
+  }, {
+    "name" : "Vaadin Flow level: Novice"
+  } ],
+  "education" : [ {
+    "Title" : "GCP IT Compliance Training",
+    "InstitutionTitle" : "",
+    "Start" : "2020",
+    "End" : ""
+  }, {
+    "Title" : "Bachelor in Computer Science",
+    "InstitutionTitle" : "Moonlit Grove Institute",
+    "Start" : "2019",
+    "End" : "2019"
+  }, {
+    "Title" : "Celestial Data Corp Certified Associate",
+    "InstitutionTitle" : "",
+    "Start" : "2019",
+    "End" : ""
+  } ],
+  "certificates" : [ {
+    "Title" : "iSAQB® - Foundation Level Zertifizierung (CPSA-F)",
+    "InstitutionTitle" : "Mystic Forge Industries",
+    "Start" : "2024",
+    "End" : "2024"
+  }, {
+    "Title" : "Professional Scrum Developer I",
+    "InstitutionTitle" : "Scrum.org",
+    "Start" : "2022",
+    "End" : "2022"
+  }, {
+    "Title" : "GCP IT Compliance",
+    "InstitutionTitle" : "Enchanted Techworks",
+    "Start" : "2020",
+    "End" : "2020"
+  }, {
+    "Title" : "Celestial Data Corp Certified Associate, Java SE 8 Programmer",
+    "InstitutionTitle" : "Celestial Data Corp",
+    "Start" : "2019",
+    "End" : "2019"
+  } ],
+  "projects" : [ {
+    "Name" : "Entwicklung einer Applikation für interne Mitarbeiter",
+    "Start" : "10.2021",
+    "End" : "",
+    "Description" : "Interne Software für Standort Mitarbeiter zur Erfassung von Kundenaufträgen, Bestellung von Ersatzteilen, Monitoring von Lieferungen und weiteres.",
+    "Role" : "Software Engineer",
+    "Industry" : "Retail",
+    "Tasks" : [ "Unterstützung in der Entwicklung" ],
+    "Methods" : [ ],
+    "Technologies" : [ "IntelliJ IDEA", "Spring Boot", "Java 17", "Vaadin Flow", "TypeScript" ]
+  }, {
+    "Name" : "Weiterentwicklung und Wartung der Aussendienst Lösung",
+    "Start" : "05.2021",
+    "End" : "12.2022",
+    "Description" : "Weiterentwicklung, Betrieb und Wartung der PRIMO Verkaufs-App mit täglich gegen 100 Offerten-Eingängen mit einem dezidierten Bluesky Team als Service-Dienstleistung.",
+    "Role" : "Software Engineer",
+    "Industry" : "Medical",
+    "Tasks" : [ "Gemeinsame Bearbeitung von 3rd-Level", "Support-Anfragen", "Umsetzen von Entwicklungs-Vorhaben", "Enge Zusammenarbeit mit den Kunden" ],
+    "Methods" : [ ],
+    "Technologies" : [ "IBM WebSphere", "IntelliJ IDEA", "Celestial Data Corp Database ", "Teamcity", "Jira", "Angular", "Java EE 7", "Camunda BPMN", "Java 8", "TypeScript" ]
+  }, {
+    "Name" : "Redesign des Webauftritts",
+    "Start" : "01.2020",
+    "End" : "12.2021",
+    "Description" : "Umsetzung des neuen Webauftrittes gemäss den Designvorgaben der Agentur mit dem Cloud CMS von Ovata.",
+    "Role" : "Software Engineer",
+    "Industry" : "Medical",
+    "Tasks" : [ "UX Challenge mit der Design Agentur", "Entwicklung der Webtemplates", "Umsetzung der Design Spezifikationen", "Einbindung der Webseite in Backend", "Anbindung Job Feed aus Engage", "Social Media Integration" ],
+    "Methods" : [ ],
+    "Technologies" : [ "RSS", "jQuery", "REST", "HTML/CSS/JS", "Ovata CMS" ]
+  }, {
+    "Name" : "Redesign Ovata CMS User Interface",
+    "Start" : "01.2020",
+    "End" : "12.2020",
+    "Description" : "Entwicklung eines neuen User Interface für das Cloud CMS Ovata unter Berücksichtigung von aktuellen UX Anforderungen, Design und Technologien.",
+    "Role" : "Software Engineer",
+    "Industry" : "IT",
+    "Tasks" : [ "Entwicklung des Frontend", "Implementierung eines modernen Desig", "Dark & Light Mode", "Dynamisch aktualisierte Charts" ],
+    "Methods" : [ ],
+    "Technologies" : [ "Glassfish Server", "Vaadin", "Spring Framework", "Maven", "Java", "HTML/CSS/JS", "Ovata CMS", "Elastic Beanstalk", "Webcomponents", "LitElement", "ApexCharts" ]
+  }, {
+    "Name" : "Zertifizierungs-Plattform",
+    "Start" : "01.2020",
+    "End" : "12.2020",
+    "Description" : "Konzeptionierung, Planung und Umsetzung einer Web Applikation mit Java Backend und Vaadin Flow Frontend. \nDie Applikation soll eine bestehende ablösen und dessen Schwachpunkte und Probleme ausbessern. Ein besonderes Augenmerk wurde dabei auf ein simples, nutzerfreundliches und auf den Nutzer abgestimmtes Design gelegt.",
+    "Role" : "Software Engineer",
+    "Industry" : "Medical",
+    "Tasks" : [ "Erarbeitung der Anforderungen", "Koordination mit Business/Management", "Planung", "Vaadin Flow Frontend", "Java Backend" ],
+    "Methods" : [ ],
+    "Technologies" : [ "MySQL", "Vaadin", "Java", "Maven", "Hibernate", "HTML/CSS/JS", "Ovata CMS", "Webcomponents", "Apache TomEE", "Envers", "Datatrans" ]
+  }, {
+    "Name" : "Entwicklung internationale Webseite",
+    "Start" : "01.2019",
+    "End" : "12.2019",
+    "Description" : "Entwicklung einer mehrsprachigen Webseite zur internationalen Repräsentation gemäss den Designvorgaben der Agentur mit dem Cloud CMS von Ovata.",
+    "Role" : "Software Engineer",
+    "Industry" : "Medical",
+    "Tasks" : [ "Entwicklung der Webseite", "Umsetzung der Design Spezifikationen", "Einbindung der Webseite in Backend" ],
+    "Methods" : [ ],
+    "Technologies" : [ "jQuery", "HTML/CSS/JS", "Ovata CMS" ]
+  }, {
+    "Name" : "Entwicklung einer Webseite",
+    "Start" : "01.2019",
+    "End" : "12.2019",
+    "Description" : "Webseite für die Wohngenossenschaft Drei Linden.",
+    "Role" : "Software Engineer",
+    "Industry" : "-",
+    "Tasks" : [ "Entwicklung der Webseite", "Umsetzung der Design Spezifikationen", "Einbindung der Webseite in Backend" ],
+    "Methods" : [ ],
+    "Technologies" : [ "jQuery", "HTML/CSS/JS", "Ovata CMS" ]
+  } ]
+}

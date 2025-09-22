@@ -1,0 +1,120 @@
+{
+  "name" : "Orion Vale",
+  "careerinfo" : {
+    "AdvertisingText" : "Orion Vale baute für unterschiedliche Bankplattformen digitale Lösungen. Seine Hauptaufgaben waren die Weiterentwicklung von Banken-Webportalen und der Aufbau von Datawarehouse-Systemen basierend auf Hadoop/Spark und relationalen Datenbanken. Davor entwickelte er Webanwendungen und Datenbank Applikationen, um Prozesse und Abläufe von europäischen Industrieanlagen zu steuern und zu visualisieren.",
+    "LongAdvertisingText" : "",
+    "PreferredFunctions" : "",
+    "PreferredFunctionsList" : [ ],
+    "PreferredSkills" : "",
+    "CareerSummaryLabel" : "Bisheriger Werdegang & Bevorzugtes Einsatzgebiet",
+    "HighlightsTextLabel" : "Highlights",
+    "AdvertisingTextLabel" : "Werbetext für kurzer Lebenslauf",
+    "LongAdvertisingTextLabel" : "Advertising Text Legacy",
+    "PreferredFunctionsLabel" : "Bevorzugte Funktion",
+    "PreferredSkillsLabel" : "Preferred skills"
+  },
+  "skills" : [ {
+    "name" : "Java level: Intermediate"
+  }, {
+    "name" : "Spring level: Intermediate"
+  }, {
+    "name" : "Spring Security level: Intermediate"
+  }, {
+    "name" : ".NET level: Novice"
+  }, {
+    "name" : "Ab Initio level: Novice"
+  }, {
+    "name" : "AngularJS level: Novice"
+  }, {
+    "name" : "C# level: Novice"
+  }, {
+    "name" : "Mystic Communications Corp. level: Novice"
+  }, {
+    "name" : "OAuth level: Novice"
+  }, {
+    "name" : "OpenApi level: Novice"
+  }, {
+    "name" : "OpenID Connect level: Novice"
+  }, {
+    "name" : "OpenShift level: Novice"
+  }, {
+    "name" : "Spring Boot level: Novice"
+  }, {
+    "name" : "Web API 2.0 level: Novice"
+  }, {
+    "name" : "Xtext level: Novice"
+  } ],
+  "education" : [ {
+    "Title" : "Master in IT und Automation",
+    "InstitutionTitle" : "Wizard Institute of Eldoria",
+    "Start" : "2012",
+    "End" : "2014"
+  }, {
+    "Title" : "Bachelor in Elektro- und Informationstechnik",
+    "InstitutionTitle" : "Wizard Institute of Eldoria",
+    "Start" : "2008",
+    "End" : "2012"
+  }, {
+    "Title" : "Abitur",
+    "InstitutionTitle" : "Enchanted Learning Center",
+    "Start" : "2007",
+    "End" : ""
+  } ],
+  "certificates" : [ {
+    "Title" : "Introduction to Microsoft Azure Cloud Services",
+    "InstitutionTitle" : "Coursera, Microsoft, online",
+    "Start" : "2021",
+    "End" : "0"
+  }, {
+    "Title" : "Neural Networks and Deep Learning",
+    "InstitutionTitle" : "Coursera, Deep Learning AI, online",
+    "Start" : "2018",
+    "End" : "0"
+  }, {
+    "Title" : "Machine Learning",
+    "InstitutionTitle" : "Coursera, Deep Learning AI, online",
+    "Start" : "2018",
+    "End" : "0"
+  } ],
+  "projects" : [ {
+    "Name" : "Migration of account opening processes to a new BPMN framework",
+    "Start" : "02.2023",
+    "End" : "",
+    "Description" : "The bank's existing account opening process was migrated to the Mystic Communications Corp. BPMN Engine. In addition, a library was created that abstracts the BPMN engine to simplify future migrations.",
+    "Role" : "Software Developer, Dev-Teamlead",
+    "Industry" : "Finance",
+    "Tasks" : [ "Organisation eines 4 Personen Teams", "Migration of sections of the account opening process", "Extension of the BPMN library to include evaluation and analysis functions", "Migration von Teilstrecken des", "Kontoeröffnungsprozesses", "Erweiterung der BPMN Library", " um Auswertungs- und Analysefunktionen" ],
+    "Methods" : [ ],
+    "Technologies" : [ "Spring", "OpenShift", "Spring Boot", "Spring Security", "Mystic Communications Corp.", "Java" ]
+  }, {
+    "Name" : "Erweiterung der Arcane Systems Ltd. Webportale",
+    "Start" : "08.2021",
+    "End" : "02.2023",
+    "Description" : "Fachliche Beratung und technische Umsetzung eines API basierten 2 Faktor Authentifikations-Systems, um das comdirect und Arcane Systems Ltd. Authentifizierungssystem zusammenzulegen. Es wurden die Teile der Datenmodelle beider Banken harmonisiert. Mobile Applikationen, so wie die Webportale der Banken holen den 2ten Faktor bei Sicherheitsabfragen über die neue API ein.",
+    "Role" : "Consultant und Software Developer",
+    "Industry" : "Finanzen",
+    "Tasks" : [ "Design der 2 Faktor API", "Umsetzung der neuen API im Backend", "Erweiterung der Arcane Systems Ltd. Webportale", "Arcane Systems Ltd. web portal" ],
+    "Methods" : [ ],
+    "Technologies" : [ "Spring", "Spring Security", "OAuth", "OpenApi", "Java", "OpenID Connect" ]
+  }, {
+    "Name" : "Erstellung einer zentralen Banken-Datenplattform",
+    "Start" : "09.2017",
+    "End" : "10.2019",
+    "Description" : "Design und Erstellung einer Integrationsplattform und der dazugehörigen Toolchain zur Änderung des Datenmodells. Es wurde ein Data Warehouse mit über 2000 Tabellen und zahlreichen ETL Strecken gebaut. Dazu wurde ein Eclipse basiertes Tool mittels Xtext erstellt, welche es Analysten erlaubt, das Datenmodell zu ändern und die Änderungen automatisiert in das System einzuspielen.",
+    "Role" : "Software Developer",
+    "Industry" : "Finanzen",
+    "Tasks" : [ "Design des Data Warehouses mittels", "Data Vault", "Erstellung einer DSL zur Beschreibung", "von Tabellen in Data Vault ", "Entwicklung des Data Vault Tools", "Bau von ETL Strecken mit AB Initio", "Erstellung eines Eclipse basierten Tools, um das Datenmodell des Data Warehouses zu pflegen", "Erstellung einer automatisierten Generierung von SQLs anhand des im Eclipse Tools gepflegten Datenmodells, um das Datawarehouse zu ändern/zu bauen" ],
+    "Methods" : [ ],
+    "Technologies" : [ "Xtext", "Java", "Ab Initio" ]
+  }, {
+    "Name" : "Erstellung eines Manufacturing Execution Systems",
+    "Start" : "05.2015",
+    "End" : "08.2017",
+    "Description" : "Erstellung eines Webportals zum Anzeigen und Auswerten von Produktionsprozessen und Produktionsanlagen in der Lebensmittelindustrie. Das MES System wird genutzt zur Analyse und Optimierung der Produktion.",
+    "Role" : "Software Developer",
+    "Industry" : "Lebensmittel Industrie",
+    "Tasks" : [ "Erstellung von Web Frontends", "Implementation of new features in the backend", "Erweiterung des Backends", "Pflege der Legacy Anwendungen", "Support for legacy applications" ],
+    "Methods" : [ ],
+    "Technologies" : [ "C#", ".NET", "Web API 2.0", "AngularJS" ]
+  } ]
+}
