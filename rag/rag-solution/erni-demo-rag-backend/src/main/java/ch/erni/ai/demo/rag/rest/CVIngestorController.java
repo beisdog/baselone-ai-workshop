@@ -127,13 +127,13 @@ public class CVIngestorController {
     }
 
     @SneakyThrows
-    @PostMapping("/profiles/vs/{model}/import/ingestor/summary")
+    @PostMapping("/profiles/vs/{model}/import/ingestor/summary/{embeddingModel}")
     public List<VectorStoreIngestionResult> ingestSummaryProfilesInVS(
-            @PathVariable String model
+            @PathVariable String model, @PathVariable String embeddingModel
     ) {
-        val tokenCountEstimator = this.modelRegistry.getTokenCountEstimator(model);
+        val tokenCountEstimator = this.modelRegistry.getTokenCountEstimator(embeddingModel);
         EmbeddingStoreIngestor ingestorSummary = EmbeddingStoreIngestor.builder()
-                .embeddingModel(modelRegistry.getEmbeddingModel(model))
+                .embeddingModel(modelRegistry.getEmbeddingModel(embeddingModel))
                 .embeddingStore(vectorStoreFactory.createEmbeddingStore(Namespace.PROFILE_SUMMARY.getType(), DIMENSIONS))
                 .documentTransformer((document -> {
                     return Document.document(summarizeCV(model, document.text()), document.metadata());
@@ -146,13 +146,13 @@ public class CVIngestorController {
     }
 
     @SneakyThrows
-    @PostMapping("/profiles/vs/{model}/import/ingestor/skills")
+    @PostMapping("/profiles/vs/{model}/import/ingestor/skills/{embeddingModel}")
     public List<VectorStoreIngestionResult> ingestSkillsInVS(
-            @PathVariable String model
+            @PathVariable String model, @PathVariable String embeddingModel
     ) {
-        val tokenCountEstimator = this.modelRegistry.getTokenCountEstimator(model);
+        val tokenCountEstimator = this.modelRegistry.getTokenCountEstimator(embeddingModel);
         EmbeddingStoreIngestor ingestor = EmbeddingStoreIngestor.builder()
-                .embeddingModel(modelRegistry.getEmbeddingModel(model))
+                .embeddingModel(modelRegistry.getEmbeddingModel(embeddingModel))
                 .embeddingStore(vectorStoreFactory.createEmbeddingStore(Namespace.PROFILE_SKILLS.getType(), DIMENSIONS))
                 .documentTransformer((document -> {
                     Profile p = cvService.getProfile(document.metadata().getString("id"));
@@ -165,13 +165,13 @@ public class CVIngestorController {
     }
 
     @SneakyThrows
-    @PostMapping("/profiles/vs/{model}/import/projects")
+    @PostMapping("/profiles/vs/{model}/import/projects/{embeddingModel}")
     public List<VectorStoreIngestionResult> ingestProjectsInVS(
-            @PathVariable String model
+            @PathVariable String model, @PathVariable String embeddingModel
     ) {
-        var tokenCountEstimator = this.modelRegistry.getTokenCountEstimator(model);
+        var tokenCountEstimator = this.modelRegistry.getTokenCountEstimator(embeddingModel);
         EmbeddingStoreIngestor ingestor = EmbeddingStoreIngestor.builder()
-                .embeddingModel(modelRegistry.getEmbeddingModel(model))
+                .embeddingModel(modelRegistry.getEmbeddingModel(embeddingModel))
                 .embeddingStore(vectorStoreFactory.createEmbeddingStore(Namespace.PROFILE_PROJECTS.getType(), DIMENSIONS))
                 .documentTransformer((document -> {
                     Profile p = cvService.getProfile(document.metadata().getString("id"));
@@ -190,9 +190,10 @@ public class CVIngestorController {
         final AtomicInteger current = new AtomicInteger(0);
         final AtomicInteger errors = new AtomicInteger(0);
         var profiles = cvService.getProfiles();
-        profiles.parallelStream().forEach(profileShort -> {
-            try {
 
+        //sequentially otherwise we just get timeouts on local machine
+        profiles.forEach(profileShort -> {
+            try {
                 String md = cvService.getProfileAsMarkdown(profileShort.id);
                 var map = Map.of("id", profileShort.id, "name", profileShort.name);
                 Document doc = Document.document("passage:" + md, Metadata.from(map));
