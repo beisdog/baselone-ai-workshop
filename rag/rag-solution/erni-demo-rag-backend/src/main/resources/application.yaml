@@ -27,19 +27,17 @@ application:
   tokenizer:
     - name: text-embedding-nomic-embed-text-v2-moe
       path: nomic-ai/nomic-embed-text-v2-moe
-
-
+  embedding-model:
+    model-name: text-embedding-nomic-embed-text-v2-moe
 
 langchain4j:
   open-ai:
-    embedding-model:
-      model-name: text-embedding-nomic-embed-text-v2
     chat-model:
       api-key: ${application.llm.openai.api-key}
       timeout: 5m #this can be lowered depending on machine
-      model-name: llama-3.2-3b-instruct
+      #model-name: llama-3.2-3b-instruct
       #model-name: qwen/qwen3-4b-thinking-2507
-      #model-name: openai/gpt-oss-120b
+      model-name: openai/gpt-oss-120b
       log-requests: true
       log-responses: true
       base-url: http://localhost:1234/v1

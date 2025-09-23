@@ -12,7 +12,6 @@ import dev.langchain4j.data.message.UserMessage;
 import dev.langchain4j.data.segment.TextSegment;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import dev.langchain4j.model.chat.ChatModel;
-import dev.langchain4j.model.chat.response.ChatResponse;
 import dev.langchain4j.rag.content.retriever.ContentRetriever;
 import dev.langchain4j.rag.content.retriever.EmbeddingStoreContentRetriever;
 import dev.langchain4j.rag.query.Query;
@@ -36,7 +35,8 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class CVController {
 
-    public static String DEFAULT_EMBEDDING_MODEL = "text-embedding-multilingual-e5-large-instruct";
+    @Value("${application.embedding-model.model-name}")
+    public String defaultEmbeddingModel;
 
     @Value("${application.resources.dir}")
     private String resourcesDir;
@@ -140,7 +140,7 @@ public class CVController {
     public ChatLanguageModelController.Message askAboutCVSearchResult(@PathVariable("namespace") Namespace namespace,
                                                                       @RequestBody SearchInput input) throws URISyntaxException, IOException {
         log.info("***************************** askAboutCVSearchResult({}) *********************************", namespace);
-        List<TextSegmentResult> textSegments = vectorSearch(DEFAULT_EMBEDDING_MODEL, namespace, input);
+        List<TextSegmentResult> textSegments = vectorSearch(defaultEmbeddingModel, namespace, input);
         String textSegmentsAsString = convertTextSegmentsToString(textSegments);
         String systemPrompt = FileReaderHelper.readFileFromFileSystemOrClassPath(resourcesDir, "/prompts/cv_rag_simple_system_prompt.txt");
         String userPrompt = FileReaderHelper.readFileFromFileSystemOrClassPath(resourcesDir, "/prompts/cv_rag_simple_user_prompt.txt");
@@ -178,27 +178,36 @@ public class CVController {
 
     public interface Assistant {
 
-        @dev.langchain4j.service.SystemMessage("You are an assistant that can help with finding suitable CVs or answering questions about a CV or a list of CVs. You have several tools available to achieve those tasks.")
-        ChatResponse chat(@dev.langchain4j.service.UserMessage String userMessage);
+        @dev.langchain4j.service.SystemMessage("You are an assistant that can help with finding suitable CVs or answering questions about a CV or a list of CVs. You have several tools available to achieve those tasks." +
+                "Once you have enough information respond to the question.")
+        String chat(@dev.langchain4j.service.UserMessage String userMessage);
     }
 
-    @PostMapping("/agent")
-    public ChatLanguageModelController.Message agentAssistForCVs(@RequestBody ChatLanguageModelController.AskSimple input) {
+    @PostMapping("/agent/{question}")
+    public ChatLanguageModelController.Message agentAssistForCVs(@PathVariable String question) {
 
         class Tools {
-            @Tool("Get a complete CV by id")
+            @Tool("Get a complete CV by id (number)")
             public String getProfile(String id) {
-                return getProfileAsMarkdown(id);
+                if(id == null || id.isBlank()){
+                    return "Please specify an id! If you do not have an id then use the vectorsearch to find one.";
+                }
+                try{
+                    var number = Integer.parseInt(id);
+                    return CVController.this.getProfileAsMarkdown(String.valueOf(number));
+                }catch (NumberFormatException e) {
+                    return "The Id must be a string representing a number. Like '1234'.";
+                }
             }
 
-            @Tool("Search CV summaries from a vectorstore")
-            public String searchCVsFromVectorStore(String query) {
-                return convertTextSegmentsToString(vectorSearch(DEFAULT_EMBEDDING_MODEL, Namespace.PROFILE_SUMMARY, new SearchInput(query, 10)));
+            @Tool("Search vector store by name")
+            public String searchVectorStoreByName(String query) {
+                return convertTextSegmentsToString(vectorSearch(defaultEmbeddingModel, Namespace.PROFILE_SUMMARY, new SearchInput(query, 10)));
             }
 
             @Tool("Search CV skills from a vectorstore")
             public String searchCVsSkills(String query) {
-                return convertTextSegmentsToString(vectorSearch(DEFAULT_EMBEDDING_MODEL, Namespace.PROFILE_SKILLS, new SearchInput(query, 20)));
+                return convertTextSegmentsToString(vectorSearch(defaultEmbeddingModel, Namespace.PROFILE_SKILLS, new SearchInput(query, 20)));
             }
         }
 
@@ -210,10 +219,10 @@ public class CVController {
                 .chatMemory(memory)
                 .build();
 
-        var response = assistant.chat(input.getQuestion());
+        var response = assistant.chat(question);
         log.info("agent: Memory: {}", memory.messages().stream().map(c ->  c.toString()).collect(Collectors.joining("\n")));
         return ChatLanguageModelController.Message.builder()
-                .text(response.aiMessage().text())
+                .text(response)
                 .type("assistant").build();
 
     }
