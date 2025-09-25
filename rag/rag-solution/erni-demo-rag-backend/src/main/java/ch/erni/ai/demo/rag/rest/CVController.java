@@ -197,13 +197,13 @@ public class CVController {
         class Tools {
             @Tool("Get a complete CV by id (number)")
             public String getProfile(String id) {
-                if(id == null || id.isBlank()){
+                if (id == null || id.isBlank()) {
                     return "Please specify an id! If you do not have an id then use the vectorsearch to find one.";
                 }
-                try{
+                try {
                     var number = Integer.parseInt(id);
                     return CVController.this.getProfileAsMarkdown(String.valueOf(number));
-                }catch (NumberFormatException e) {
+                } catch (NumberFormatException e) {
                     return "The Id must be a string representing a number. Like '1234'.";
                 }
             }
@@ -221,11 +221,40 @@ public class CVController {
 
         var memory = MessageWindowChatMemory.withMaxMessages(10);
 
-        var assistant = AiServices.builder(Assistant.class)
-                .chatModel(this.chatLanguageModel)
-                .tools(new Tools())
-                .chatMemory(memory)
-                .build();
+        Assistant assistant;
+        if (playwrightConfig.getCommand() != null) {
+            McpTransport playwrightTransport = new StdioMcpTransport.Builder()
+                    .command(buildCommand(playwrightConfig))
+                    .logEvents(true)
+                    .build();
+
+            McpClient playwrightClient = new DefaultMcpClient.Builder()
+                    .key("PlaywrightMCP")
+                    .transport(playwrightTransport)
+                    .build();
+
+            McpToolProvider playwrightToolProvider = McpToolProvider.builder()
+                    .mcpClients(playwrightClient)
+                    .filterToolNames("browser_click", "browser_select_option",
+                            "browser_press_key", "browser_type", "browser_close",
+                            "browser_handle_dialog", "browser_navigate",
+                            "browser_navigate_back", "browser_fill_form",
+                            "browser_wait_for", "browser_tabs")
+                    .build();
+
+            assistant = AiServices.builder(Assistant.class)
+                    .chatModel(this.chatLanguageModel)
+                    .tools(new Tools())                     // Your existing tools
+                    .toolProvider(playwrightToolProvider)   // Playwright MCP tools
+                    .chatMemory(memory)
+                    .build();
+        } else {
+            assistant = AiServices.builder(Assistant.class)
+                    .chatModel(this.chatLanguageModel)
+                    .tools(new Tools())                     // Your existing tools
+                    .chatMemory(memory)
+                    .build();
+        }
 
         var response = assistant.chat(question);
         log.info("agent: Memory: {}", memory.messages().stream()
