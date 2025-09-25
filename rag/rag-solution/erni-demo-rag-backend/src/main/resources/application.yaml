@@ -41,6 +41,18 @@ langchain4j:
       log-requests: true
       log-responses: true
       base-url: http://localhost:1234/v1
+  #install via npm i @playwright/mcp or comment out
+  playwright:
+    mcp:
+      command: "C:\\Program Files\\nodejs\\npx.cmd"
+      args:
+        - "@playwright/mcp@latest"
+  #linux/mac
+  #playwright:
+    #mcp:
+      #command: "npx"
+      #args:
+        #- "@playwright/mcp@latest"
 
 
 logging:

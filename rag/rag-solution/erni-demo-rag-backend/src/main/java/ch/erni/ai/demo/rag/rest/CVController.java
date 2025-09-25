@@ -1,5 +1,6 @@
 package ch.erni.ai.demo.rag.rest;
 
+import ch.erni.ai.demo.rag.config.PlayWrightConfig;
 import ch.erni.ai.demo.rag.config.VectorStoreFactory;
 import ch.erni.ai.demo.rag.model.cv.Profile;
 import ch.erni.ai.demo.rag.rest.CVIngestorController.Namespace;
@@ -10,6 +11,11 @@ import dev.langchain4j.agent.tool.Tool;
 import dev.langchain4j.data.message.SystemMessage;
 import dev.langchain4j.data.message.UserMessage;
 import dev.langchain4j.data.segment.TextSegment;
+import dev.langchain4j.mcp.McpToolProvider;
+import dev.langchain4j.mcp.client.DefaultMcpClient;
+import dev.langchain4j.mcp.client.McpClient;
+import dev.langchain4j.mcp.client.transport.McpTransport;
+import dev.langchain4j.mcp.client.transport.stdio.StdioMcpTransport;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.rag.content.retriever.ContentRetriever;
@@ -24,6 +30,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -44,6 +51,7 @@ public class CVController {
     private final VectorStoreFactory vectorStoreFactory;
     private final ChatModel chatLanguageModel;
     private final CVService cvService;
+    private final PlayWrightConfig playwrightConfig;
 
     @NoArgsConstructor
     @AllArgsConstructor
@@ -179,7 +187,7 @@ public class CVController {
     public interface Assistant {
 
         @dev.langchain4j.service.SystemMessage("You are an assistant that can help with finding suitable CVs or answering questions about a CV or a list of CVs. You have several tools available to achieve those tasks." +
-                "Once you have enough information respond to the question.")
+                "Check the vector store first, if there is no result then use playwright to find the data on the web. Once you have enough information respond to the question.")
         String chat(@dev.langchain4j.service.UserMessage String userMessage);
     }
 
@@ -220,10 +228,20 @@ public class CVController {
                 .build();
 
         var response = assistant.chat(question);
-        log.info("agent: Memory: {}", memory.messages().stream().map(c ->  c.toString()).collect(Collectors.joining("\n")));
+        log.info("agent: Memory: {}", memory.messages().stream()
+                .map(Object::toString)
+                .collect(Collectors.joining("\n")));
+
         return ChatLanguageModelController.Message.builder()
                 .text(response)
-                .type("assistant").build();
+                .type("assistant")
+                .build();
+    }
 
+    private List<String> buildCommand(PlayWrightConfig props) {
+        List<String> cmd = new ArrayList<>();
+        cmd.add(props.getCommand());
+        if (props.getArgs() != null) cmd.addAll(props.getArgs());
+        return cmd;
     }
 }
