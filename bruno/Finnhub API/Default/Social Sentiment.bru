@@ -1,0 +1,17 @@
+meta {
+  name: Social Sentiment
+  type: http
+  seq: 79
+}
+
+get {
+  url: {{baseUrl}}/stock/social-sentiment
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  ~from: 
+  ~to: 
+}

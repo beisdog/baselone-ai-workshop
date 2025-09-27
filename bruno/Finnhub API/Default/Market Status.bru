@@ -1,0 +1,15 @@
+meta {
+  name: Market Status
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{baseUrl}}/stock/market-status
+  body: none
+  auth: inherit
+}
+
+params:query {
+  exchange: 
+}

@@ -1,0 +1,16 @@
+meta {
+  name: Revenue Breakdown
+  type: http
+  seq: 28
+}
+
+get {
+  url: {{baseUrl}}/stock/revenue-breakdown
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~symbol: 
+  ~cik: 
+}

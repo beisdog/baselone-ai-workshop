@@ -1,0 +1,18 @@
+meta {
+  name: Stock Symbol
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/stock/symbol
+  body: none
+  auth: inherit
+}
+
+params:query {
+  exchange: 
+  ~mic: 
+  ~securityType: 
+  ~currency: 
+}

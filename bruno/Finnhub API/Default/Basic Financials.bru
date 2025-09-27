@@ -1,0 +1,16 @@
+meta {
+  name: Basic Financials
+  type: http
+  seq: 13
+}
+
+get {
+  url: {{baseUrl}}/stock/metric
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  metric: 
+}

@@ -1,0 +1,16 @@
+meta {
+  name: Earnings Estimates
+  type: http
+  seq: 41
+}
+
+get {
+  url: {{baseUrl}}/stock/eps-estimate
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  ~freq: 
+}

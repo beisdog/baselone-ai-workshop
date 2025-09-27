@@ -1,0 +1,20 @@
+meta {
+  name: SEC Filings
+  type: http
+  seq: 29
+}
+
+get {
+  url: {{baseUrl}}/stock/filings
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~symbol: 
+  ~cik: 
+  ~accessNumber: 
+  ~form: 
+  ~from: 
+  ~to: 
+}

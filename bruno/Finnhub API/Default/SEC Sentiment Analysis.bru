@@ -1,0 +1,15 @@
+meta {
+  name: SEC Sentiment Analysis
+  type: http
+  seq: 30
+}
+
+get {
+  url: {{baseUrl}}/stock/filings-sentiment
+  body: none
+  auth: inherit
+}
+
+params:query {
+  accessNumber: 
+}

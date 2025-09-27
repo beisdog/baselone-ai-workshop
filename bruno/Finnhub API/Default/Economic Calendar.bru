@@ -1,0 +1,16 @@
+meta {
+  name: Economic Calendar
+  type: http
+  seq: 99
+}
+
+get {
+  url: {{baseUrl}}/calendar/economic
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~from: 
+  ~to: 
+}

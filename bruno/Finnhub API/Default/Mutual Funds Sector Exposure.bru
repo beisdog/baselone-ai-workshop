@@ -1,0 +1,16 @@
+meta {
+  name: Mutual Funds Sector Exposure
+  type: http
+  seq: 59
+}
+
+get {
+  url: {{baseUrl}}/mutual-fund/sector
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~symbol: 
+  ~isin: 
+}

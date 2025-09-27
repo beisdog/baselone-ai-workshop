@@ -1,0 +1,17 @@
+meta {
+  name: Major Press Releases
+  type: http
+  seq: 10
+}
+
+get {
+  url: {{baseUrl}}/press-releases
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  ~from: 
+  ~to: 
+}

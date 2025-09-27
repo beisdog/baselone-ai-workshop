@@ -1,0 +1,16 @@
+meta {
+  name: EBITDA Estimates
+  type: http
+  seq: 39
+}
+
+get {
+  url: {{baseUrl}}/stock/ebitda-estimate
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  ~freq: 
+}

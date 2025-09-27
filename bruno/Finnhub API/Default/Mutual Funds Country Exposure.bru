@@ -1,0 +1,16 @@
+meta {
+  name: Mutual Funds Country Exposure
+  type: http
+  seq: 60
+}
+
+get {
+  url: {{baseUrl}}/mutual-fund/country
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~symbol: 
+  ~isin: 
+}

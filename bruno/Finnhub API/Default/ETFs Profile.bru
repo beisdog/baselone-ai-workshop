@@ -1,0 +1,16 @@
+meta {
+  name: ETFs Profile
+  type: http
+  seq: 53
+}
+
+get {
+  url: {{baseUrl}}/etf/profile
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~symbol: 
+  ~isin: 
+}

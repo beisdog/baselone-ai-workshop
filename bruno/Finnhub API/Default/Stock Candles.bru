@@ -1,0 +1,18 @@
+meta {
+  name: Stock Candles
+  type: http
+  seq: 45
+}
+
+get {
+  url: {{baseUrl}}/stock/candle
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  resolution: 
+  from: 
+  to: 
+}

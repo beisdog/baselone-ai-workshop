@@ -1,0 +1,17 @@
+meta {
+  name: Bond price data
+  type: http
+  seq: 93
+}
+
+get {
+  url: {{baseUrl}}/bond/price
+  body: none
+  auth: inherit
+}
+
+params:query {
+  isin: 
+  from: 
+  to: 
+}

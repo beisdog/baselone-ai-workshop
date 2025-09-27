@@ -1,0 +1,17 @@
+meta {
+  name: Insider Transactions
+  type: http
+  seq: 24
+}
+
+get {
+  url: {{baseUrl}}/stock/insider-transactions
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  ~from: 
+  ~to: 
+}

@@ -1,0 +1,18 @@
+meta {
+  name: ETFs Holdings
+  type: http
+  seq: 54
+}
+
+get {
+  url: {{baseUrl}}/etf/holdings
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~symbol: 
+  ~isin: 
+  ~skip: 
+  ~date: 
+}

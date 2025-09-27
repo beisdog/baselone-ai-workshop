@@ -1,0 +1,17 @@
+meta {
+  name: Similarity Index
+  type: http
+  seq: 31
+}
+
+get {
+  url: {{baseUrl}}/stock/similarity-index
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~symbol: 
+  ~cik: 
+  ~freq: 
+}

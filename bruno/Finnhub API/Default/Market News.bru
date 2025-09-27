@@ -1,0 +1,16 @@
+meta {
+  name: Market News
+  type: http
+  seq: 8
+}
+
+get {
+  url: {{baseUrl}}/news
+  body: none
+  auth: inherit
+}
+
+params:query {
+  category: 
+  ~minId: 
+}

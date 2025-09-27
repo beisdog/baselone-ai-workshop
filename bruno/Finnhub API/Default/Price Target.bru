@@ -1,0 +1,15 @@
+meta {
+  name: Price Target
+  type: http
+  seq: 36
+}
+
+get {
+  url: {{baseUrl}}/stock/price-target
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+}

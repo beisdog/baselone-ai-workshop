@@ -1,0 +1,15 @@
+meta {
+  name: Mutual Funds EET
+  type: http
+  seq: 61
+}
+
+get {
+  url: {{baseUrl}}/mutual-fund/eet
+  body: none
+  auth: inherit
+}
+
+params:query {
+  isin: 
+}

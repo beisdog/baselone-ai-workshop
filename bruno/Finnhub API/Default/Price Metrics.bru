@@ -1,0 +1,16 @@
+meta {
+  name: Price Metrics
+  type: http
+  seq: 14
+}
+
+get {
+  url: {{baseUrl}}/stock/price-metric
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  ~date: 
+}

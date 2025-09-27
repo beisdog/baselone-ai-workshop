@@ -1,0 +1,15 @@
+meta {
+  name: Institutional Profile
+  type: http
+  seq: 19
+}
+
+get {
+  url: {{baseUrl}}/institutional/profile
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~cik: 
+}

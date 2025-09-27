@@ -1,0 +1,17 @@
+meta {
+  name: Bond Profile
+  type: http
+  seq: 92
+}
+
+get {
+  url: {{baseUrl}}/bond/profile
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~isin: 
+  ~cusip: 
+  ~figi: 
+}

@@ -1,0 +1,17 @@
+meta {
+  name: Stock Upgrade/Downgrade
+  type: http
+  seq: 37
+}
+
+get {
+  url: {{baseUrl}}/stock/upgrade-downgrade
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~symbol: 
+  ~from: 
+  ~to: 
+}

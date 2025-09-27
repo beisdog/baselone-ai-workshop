@@ -1,0 +1,17 @@
+meta {
+  name: Insider Sentiment
+  type: http
+  seq: 25
+}
+
+get {
+  url: {{baseUrl}}/stock/insider-sentiment
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  from: 
+  to: 
+}

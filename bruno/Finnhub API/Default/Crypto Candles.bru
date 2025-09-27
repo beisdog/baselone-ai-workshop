@@ -1,0 +1,18 @@
+meta {
+  name: Crypto Candles
+  type: http
+  seq: 70
+}
+
+get {
+  url: {{baseUrl}}/crypto/candle
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  resolution: 
+  from: 
+  to: 
+}

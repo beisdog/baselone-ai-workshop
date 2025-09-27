@@ -1,0 +1,18 @@
+meta {
+  name: Forex Candles
+  type: http
+  seq: 65
+}
+
+get {
+  url: {{baseUrl}}/forex/candle
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  resolution: 
+  from: 
+  to: 
+}

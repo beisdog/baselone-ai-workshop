@@ -1,0 +1,20 @@
+meta {
+  name: Symbol Lookup
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/search?q=US02079K1079
+  body: none
+  auth: inherit
+}
+
+params:query {
+  q: US02079K1079
+  ~exchange: US
+}
+
+headers {
+  Accept: application/json
+}

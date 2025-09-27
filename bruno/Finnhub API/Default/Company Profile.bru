@@ -1,0 +1,17 @@
+meta {
+  name: Company Profile
+  type: http
+  seq: 5
+}
+
+get {
+  url: {{baseUrl}}/stock/profile
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~symbol: 
+  ~isin: 
+  ~cusip: 
+}

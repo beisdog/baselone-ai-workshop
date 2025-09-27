@@ -1,0 +1,16 @@
+meta {
+  name: Peers
+  type: http
+  seq: 12
+}
+
+get {
+  url: {{baseUrl}}/stock/peers
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  ~grouping: 
+}

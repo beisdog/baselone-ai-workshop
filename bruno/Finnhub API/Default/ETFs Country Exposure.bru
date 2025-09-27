@@ -1,0 +1,16 @@
+meta {
+  name: ETFs Country Exposure
+  type: http
+  seq: 56
+}
+
+get {
+  url: {{baseUrl}}/etf/country
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~symbol: 
+  ~isin: 
+}

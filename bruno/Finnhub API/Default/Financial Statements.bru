@@ -1,0 +1,17 @@
+meta {
+  name: Financial Statements
+  type: http
+  seq: 26
+}
+
+get {
+  url: {{baseUrl}}/stock/financials
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  statement: 
+  freq: 
+}

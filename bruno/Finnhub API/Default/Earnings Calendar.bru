@@ -1,0 +1,18 @@
+meta {
+  name: Earnings Calendar
+  type: http
+  seq: 43
+}
+
+get {
+  url: {{baseUrl}}/calendar/earnings
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~from: 
+  ~to: 
+  ~symbol: 
+  ~international: 
+}

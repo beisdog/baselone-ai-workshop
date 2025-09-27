@@ -1,0 +1,16 @@
+meta {
+  name: Earnings Surprises
+  type: http
+  seq: 42
+}
+
+get {
+  url: {{baseUrl}}/stock/earnings
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  ~limit: 
+}

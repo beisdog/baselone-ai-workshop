@@ -1,0 +1,15 @@
+meta {
+  name: Earnings Call Transcripts List
+  type: http
+  seq: 75
+}
+
+get {
+  url: {{baseUrl}}/stock/transcripts/list
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+}

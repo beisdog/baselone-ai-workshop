@@ -1,0 +1,17 @@
+meta {
+  name: Historical Market Cap
+  type: http
+  seq: 17
+}
+
+get {
+  url: {{baseUrl}}/stock/historical-market-cap
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  from: 
+  to: 
+}

@@ -1,0 +1,15 @@
+meta {
+  name: Last Bid-Ask
+  type: http
+  seq: 48
+}
+
+get {
+  url: {{baseUrl}}/stock/bidask
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+}

@@ -1,0 +1,16 @@
+meta {
+  name: EBIT Estimates
+  type: http
+  seq: 40
+}
+
+get {
+  url: {{baseUrl}}/stock/ebit-estimate
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  ~freq: 
+}

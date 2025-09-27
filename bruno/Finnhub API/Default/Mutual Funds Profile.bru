@@ -1,0 +1,16 @@
+meta {
+  name: Mutual Funds Profile
+  type: http
+  seq: 57
+}
+
+get {
+  url: {{baseUrl}}/mutual-fund/profile
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~symbol: 
+  ~isin: 
+}

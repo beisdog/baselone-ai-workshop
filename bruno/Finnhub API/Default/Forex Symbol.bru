@@ -1,0 +1,15 @@
+meta {
+  name: Forex Symbol
+  type: http
+  seq: 64
+}
+
+get {
+  url: {{baseUrl}}/forex/symbol
+  body: none
+  auth: inherit
+}
+
+params:query {
+  exchange: 
+}

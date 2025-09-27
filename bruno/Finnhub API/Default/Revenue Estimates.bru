@@ -1,0 +1,16 @@
+meta {
+  name: Revenue Estimates
+  type: http
+  seq: 38
+}
+
+get {
+  url: {{baseUrl}}/stock/revenue-estimate
+  body: none
+  auth: inherit
+}
+
+params:query {
+  symbol: 
+  ~freq: 
+}

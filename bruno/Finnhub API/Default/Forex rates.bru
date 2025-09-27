@@ -1,0 +1,16 @@
+meta {
+  name: Forex rates
+  type: http
+  seq: 66
+}
+
+get {
+  url: {{baseUrl}}/forex/rates
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~base: 
+  ~date: 
+}

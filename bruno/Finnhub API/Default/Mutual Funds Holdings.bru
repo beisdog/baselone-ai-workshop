@@ -1,0 +1,17 @@
+meta {
+  name: Mutual Funds Holdings
+  type: http
+  seq: 58
+}
+
+get {
+  url: {{baseUrl}}/mutual-fund/holdings
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~symbol: 
+  ~isin: 
+  ~skip: 
+}

@@ -1,0 +1,16 @@
+meta {
+  name: ETFs Sector Exposure
+  type: http
+  seq: 55
+}
+
+get {
+  url: {{baseUrl}}/etf/sector
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~symbol: 
+  ~isin: 
+}

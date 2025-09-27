@@ -1,0 +1,18 @@
+meta {
+  name: International Filings
+  type: http
+  seq: 102
+}
+
+get {
+  url: {{baseUrl}}/stock/international-filings
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~symbol: 
+  ~country: 
+  ~from: 
+  ~to: 
+}

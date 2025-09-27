@@ -1,0 +1,17 @@
+meta {
+  name: Airline Price Index
+  type: http
+  seq: 97
+}
+
+get {
+  url: {{baseUrl}}/airline/price-index
+  body: none
+  auth: inherit
+}
+
+params:query {
+  airline: 
+  from: 
+  to: 
+}
