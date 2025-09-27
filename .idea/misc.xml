@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/rag/rag-solution/erni-demo-rag-backend/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/cv-rag/cv-rag-backend/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/lib/cv-service/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/lib/llm-util/pom.xml" />
       </list>
     </option>
   </component>

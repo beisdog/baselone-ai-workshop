@@ -8,22 +8,27 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for erni-demo-rag-backend" enabled="true">
+      <profile name="Annotation profile for llm-util" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
-        <module name="erni-demo-rag-backend" />
+        <module name="cv-service" />
+        <module name="llm-util" />
+        <module name="cv-rag-backend-solution" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="erni-demo-rag-backend" target="21" />
       <module name="erni-demo-rag-backend (1)" target="21" />
+      <module name="llm-basic-solution" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cv-rag-backend-solution" options="-parameters" />
       <module name="erni-demo-rag-backend" options="-parameters" />
       <module name="erni-demo-rag-backend (1)" options="-parameters" />
     </option>
