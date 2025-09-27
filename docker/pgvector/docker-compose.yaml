@@ -1,9 +1,9 @@
-version: '3.8'
+version: '3.9'
 
 services:
-  pgvector:
+  baselone_pgvector:
     image: pgvector/pgvector:pg16
-    container_name: erni_rag_pgvector
+    container_name: baselone_pgvector
     restart: always
     environment:
       POSTGRES_USER: baselone

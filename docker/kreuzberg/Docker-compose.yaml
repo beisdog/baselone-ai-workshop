@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  kreuzberg:
+    build:
+      context: /Users/david.beisert/deverni/workspace/kreuzberg   # repo root
+      dockerfile: .docker/Dockerfile                             # use their file
+      args:
+        EXTRAS: "all"    # 👈 tell uv to install all extras
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      # Lokales Verzeichnis für den persistenten Cache
+      - ./kreuzberg-cache:/app/.kreuzberg
+    environment:
+      # Beispiel-Umgebungsvariablen – falls benötigt
+      # (siehe Doku für weitere Optionen)
+      KREUZBERG_LOG_LEVEL: info
+      #OCR_LANGUAGE: deu+eng   # Beispiel für OCR-Sprachen
