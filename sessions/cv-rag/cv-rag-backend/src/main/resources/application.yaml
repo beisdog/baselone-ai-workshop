@@ -1,6 +1,6 @@
 spring:
   application:
-    name: erni-demo-rag
+    name: erni-cv-rag
 
 springdoc:
   swagger-ui.path: /swagger

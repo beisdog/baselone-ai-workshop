@@ -98,10 +98,6 @@
               </mat-option>
             </mat-select>
           </mat-form-field>
-        <button mat-raised-button color="primary" (click)="askAboutCVList()" class="chat-send-btn"
-                [disabled]="!chatForm.value.selectedVSNamespace">
-          Ask with CV Search
-        </button>
           <button mat-raised-button color="accent" (click)="performVectorSearch()" class="chat-send-btn"
                   [disabled]="!chatForm.value.selectedVSNamespace || !chatForm.value.userInput">
             Vector Search
@@ -109,6 +105,10 @@
           <button mat-stroked-button (click)="clearSearchResults()" class="chat-send-btn"
                   *ngIf="searchResults.length > 0">
             Clear Results
+          </button>
+          <button mat-raised-button color="primary" (click)="askAboutCVList()" class="chat-send-btn"
+                  [disabled]="!chatForm.value.selectedVSNamespace">
+            Ask with CV Search
           </button>
         }
 
