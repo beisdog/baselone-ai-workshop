@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for llm-util" enabled="true">
+      <profile name="Annotation profile for cv-rag-backend-session" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -17,6 +17,7 @@
         </processorPath>
         <module name="cv-service" />
         <module name="llm-util" />
+        <module name="cv-rag-backend-session" />
         <module name="cv-rag-backend-solution" />
       </profile>
     </annotationProcessing>
@@ -28,6 +29,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cv-rag-backend-session" options="-parameters" />
       <module name="cv-rag-backend-solution" options="-parameters" />
       <module name="erni-demo-rag-backend" options="-parameters" />
       <module name="erni-demo-rag-backend (1)" options="-parameters" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/sessions/cv-rag/cv-rag-backend/src/main/resources/create_vector_table.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sessions/cv-rag/cv-rag-backend/target/classes/create_vector_table.sql" dialect="PostgreSQL" />
+  </component>
+</project>
