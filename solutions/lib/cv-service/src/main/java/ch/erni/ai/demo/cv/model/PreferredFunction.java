@@ -1,4 +1,4 @@
-package ch.erni.ai.demo.rag.model.cv;
+package ch.erni.ai.demo.cv.model;
 
 import lombok.ToString;
 

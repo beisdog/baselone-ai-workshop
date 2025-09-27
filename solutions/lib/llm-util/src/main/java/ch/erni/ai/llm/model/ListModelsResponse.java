@@ -1,4 +1,4 @@
-package ch.erni.ai.demo.rag.model;
+package ch.erni.ai.llm.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

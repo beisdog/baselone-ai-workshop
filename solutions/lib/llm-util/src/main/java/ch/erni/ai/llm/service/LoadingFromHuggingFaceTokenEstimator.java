@@ -1,4 +1,4 @@
-package ch.erni.ai.demo.rag.util;
+package ch.erni.ai.llm.service;
 
 import ai.djl.huggingface.tokenizers.Encoding;
 import ai.djl.huggingface.tokenizers.HuggingFaceTokenizer;
@@ -11,21 +11,21 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * Alternative implementation that can load the tokenizer file from huggingface directly.
  */
-public class MyHuggingFaceTokenEstimator implements TokenCountEstimator {
+public class LoadingFromHuggingFaceTokenEstimator implements TokenCountEstimator {
 
-    private static Map<String, MyHuggingFaceTokenEstimator> CACHE = new ConcurrentHashMap<>();
+    private static Map<String, LoadingFromHuggingFaceTokenEstimator> CACHE = new ConcurrentHashMap<>();
     private final HuggingFaceTokenizer tokenizer;
 
-    public static MyHuggingFaceTokenEstimator get(String model) {
+    public static LoadingFromHuggingFaceTokenEstimator get(String model) {
         if (!CACHE.containsKey(model) ){
 
             HuggingFaceTokenizer tokenizer = HuggingFaceTokenizer.newInstance(model);
-            CACHE.put(model, new MyHuggingFaceTokenEstimator(tokenizer));
+            CACHE.put(model, new LoadingFromHuggingFaceTokenEstimator(tokenizer));
         }
         return CACHE.get(model);
     }
 
-    public MyHuggingFaceTokenEstimator(HuggingFaceTokenizer tokenizer) {
+    public LoadingFromHuggingFaceTokenEstimator(HuggingFaceTokenizer tokenizer) {
         this.tokenizer = tokenizer;
     }
 

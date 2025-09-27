@@ -1,10 +1,14 @@
-package ch.erni.ai.demo.rag.service;
+package ch.erni.ai.demo.cv.service;
 
-import ch.erni.ai.demo.rag.model.cv.Profile;
-import ch.erni.ai.demo.rag.util.FileReaderHelper;
+
+import ch.erni.ai.demo.cv.config.CVConfigProps;
+import ch.erni.ai.demo.cv.model.Profile;
+import ch.erni.ai.util.FileReaderHelper;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.PostConstruct;
-import lombok.*;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +19,8 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 public class CVService {
+
+    private final CVConfigProps props;
 
     public static class ProfileShort {
         public String id;
@@ -35,9 +41,9 @@ public class CVService {
     @PostConstruct
     public void init() {
 
-        List<String> files = FileReaderHelper.listFilesInClasspathDir("/cv_jsons");
+        List<String> files = FileReaderHelper.listFiles(props.getSourceDir());
         for (String file : files) {
-            ProfileShort profile = objectMapper.readValue(FileReaderHelper.readFileFromClasspath("/cv_jsons/" + file), ProfileShort.class);
+            ProfileShort profile = objectMapper.readValue(FileReaderHelper.readFileFromFileSystem(props.getSourceDir() + file), ProfileShort.class);
             profile.id = file.substring(0, file.lastIndexOf("."));
             profiles.add(profile);
         }
@@ -45,16 +51,16 @@ public class CVService {
 
     @SneakyThrows
     public ProfileShort getProfileShort(String id) {
-        return objectMapper.readValue(FileReaderHelper.readFileFromClasspath("/cv_jsons/" + id + ".json"), ProfileShort.class);
+        return objectMapper.readValue(FileReaderHelper.readFileFromFileSystem(props.getSourceDir() + id + ".json"), ProfileShort.class);
     }
 
     @SneakyThrows
     public Profile getProfile(String id) {
-        return objectMapper.readValue(FileReaderHelper.readFileFromClasspath("/cv_jsons/" + id + ".json"), Profile.class);
+        return objectMapper.readValue(FileReaderHelper.readFileFromFileSystem(props.getSourceDir() + id + ".json"), Profile.class);
     }
 
     @SneakyThrows
     public String getProfileAsMarkdown(String id) {
-        return FileReaderHelper.readFileFromClasspath("/cv_files/" + id + ".md");
+        return getProfile(id).toMarkDown();
     }
 }

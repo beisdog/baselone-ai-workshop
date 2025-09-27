@@ -1,12 +1,14 @@
-package ch.erni.ai.demo.rag.service;
+package ch.erni.ai.llm.service;
 
-import ch.erni.ai.demo.rag.model.ListModelsResponse;
-import ch.erni.ai.demo.rag.model.ModelData;
-import com.github.dockerjava.api.exception.NotFoundException;
+import ch.erni.ai.llm.model.ListModelsResponse;
+import ch.erni.ai.llm.model.ModelData;
+import dev.langchain4j.http.client.spring.restclient.SpringRestClientBuilder;
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.embedding.EmbeddingModel;
 import dev.langchain4j.model.openai.OpenAiChatModel;
 import dev.langchain4j.model.openai.OpenAiEmbeddingModel;
+import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -14,12 +16,17 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 
 @Service
+@RequiredArgsConstructor
 public class LmStudioModelService implements ModelService {
+
+    @Value("${application.lmstudio.base-urL:http://localhost:1234/v1}")
+    private String lmStudioBaseUrl;
+    private final SpringRestClientBuilder springRestClientBuilder;
 
     @Cacheable("lmstudio_models")
     public List<ModelData> getModels() {
         RestTemplate restTemplate = new RestTemplate();
-        var response = restTemplate.getForEntity("http://localhost:1234/v1/models", ListModelsResponse.class);
+        var response = restTemplate.getForEntity(this.lmStudioBaseUrl + "/models", ListModelsResponse.class);
         assert response.getBody() != null;
         return response.getBody().getData().stream().peek(
                 e -> e.setOwned_by("lmstudio")
@@ -33,11 +40,12 @@ public class LmStudioModelService implements ModelService {
                 filter(modelData -> modelData.getId().equals(id))
                 .findFirst().orElse(null);
         if (model == null) {
-            throw new NotFoundException("Could not find model with id " + id);
+            throw new ModelNotFoundException("Could not find model with id " + id);
         }
         if (model.getId().contains("embed")) {
             return OpenAiEmbeddingModel
                     .builder()
+                    .httpClientBuilder(springRestClientBuilder)
                     .modelName(model.getId())
                     .baseUrl("http://localhost:1234/v1")
                     .apiKey("ignored")
@@ -54,13 +62,14 @@ public class LmStudioModelService implements ModelService {
                 filter(modelData -> modelData.getId().equals(id))
                 .findFirst().orElse(null);
         if (model == null) {
-            throw new NotFoundException("Could not find model with id " + id);
+            throw new ModelNotFoundException("Could not find model with id " + id);
         }
         if (!model.getId().contains("embed")) {
             return OpenAiChatModel
                     .builder()
                     .modelName(model.getId())
-                    .baseUrl("http://localhost:1234/v1")
+                    .httpClientBuilder(springRestClientBuilder)
+                    .baseUrl(lmStudioBaseUrl)
                     .apiKey("ignored")
                     .build();
         } else {

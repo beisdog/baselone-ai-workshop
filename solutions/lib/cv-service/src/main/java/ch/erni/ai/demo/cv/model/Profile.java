@@ -1,8 +1,8 @@
-package ch.erni.ai.demo.rag.model.cv;
+package ch.erni.ai.demo.cv.model;
+
+import lombok.ToString;
 
 import java.util.List;
-
-import lombok.*;
 
 @ToString
 public class Profile {

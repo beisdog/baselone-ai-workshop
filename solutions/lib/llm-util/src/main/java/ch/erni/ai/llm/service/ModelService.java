@@ -1,6 +1,6 @@
-package ch.erni.ai.demo.rag.service;
+package ch.erni.ai.llm.service;
 
-import ch.erni.ai.demo.rag.model.ModelData;
+import ch.erni.ai.llm.model.ModelData;
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.embedding.EmbeddingModel;
 
