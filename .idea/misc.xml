@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/solutions/lib/cv-service/pom.xml" />
         <option value="$PROJECT_DIR$/solutions/lib/llm-util/pom.xml" />
         <option value="$PROJECT_DIR$/sessions/cv-rag/cv-rag-backend/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
