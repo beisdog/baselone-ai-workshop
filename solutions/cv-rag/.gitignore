@@ -46,4 +46,3 @@ target/
 ### VS Code ###
 .vscode/
 
-/erni-demo-rag-backend/src/main/resources/application.properties

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "erni-demo-rag-ui": {
+    "cv-rag": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/erni-demo-rag-ui",
+            "outputPath": "dist/cv-rag",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "erni-demo-rag-ui:build:production"
+              "buildTarget": "cv-rag:build:production"
             },
             "development": {
-              "buildTarget": "erni-demo-rag-ui:build:development"
+              "buildTarget": "cv-rag:build:development"
             }
           },
           "defaultConfiguration": "development"

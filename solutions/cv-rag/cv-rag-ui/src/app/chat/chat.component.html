@@ -11,8 +11,19 @@
       <mat-card *ngFor="let message of messages"
                 class="message-card"
                 [ngClass]="{'user-message': message.type === 'user', 'bot-message': message.type === 'assistant'}">
-        <mat-card-content [innerHTML]="message.text | markdown">
+        <mat-card-content>
+          <div [innerHTML]="message.text | markdown"></div>
 
+          <!-- Search Results Button -->
+          <div class="message-actions" *ngIf="hasSearchResults(message)">
+            <button mat-stroked-button
+                    color="primary"
+                    (click)="showMessageSearchResults(message)"
+                    class="search-results-btn">
+              <mat-icon>search</mat-icon>
+              View Search Results ({{ message.searchResults!.length }})
+            </button>
+          </div>
         </mat-card-content>
       </mat-card>
 
@@ -67,6 +78,8 @@
             Ask concerning CV
           </button>
         }
+      </div>
+      <div class="chat-input-form-row1">
         @if(chatForm.value.visibleVersion > 3) {
         <mat-form-field>
           <mat-label>Vector Store Namespace</mat-label>
@@ -89,13 +102,29 @@
                 [disabled]="!chatForm.value.selectedVSNamespace">
           Ask with CV Search
         </button>
-        }
-        @if(chatForm.value.visibleVersion > 4) {
-          <button mat-raised-button color="primary" (click)="askAgent()" class="chat-send-btn">
-            Ask Assistant
+          <button mat-raised-button color="accent" (click)="performVectorSearch()" class="chat-send-btn"
+                  [disabled]="!chatForm.value.selectedVSNamespace || !chatForm.value.userInput">
+            Vector Search
+          </button>
+          <button mat-stroked-button (click)="clearSearchResults()" class="chat-send-btn"
+                  *ngIf="searchResults.length > 0">
+            Clear Results
           </button>
         }
+
+
       </div>
     </form>
   </mat-card-actions>
+
+  <!-- Search Results Section -->
+  @if (chatForm.value.visibleVersion > 3) {
+    <app-search-results
+      [searchResults]="searchResults"
+      [loading]="searchLoading"
+      [searchQuery]="lastSearchQuery"
+      *ngIf="searchResults.length > 0 || searchLoading || lastSearchQuery">
+    </app-search-results>
+  }
+
 </mat-card>

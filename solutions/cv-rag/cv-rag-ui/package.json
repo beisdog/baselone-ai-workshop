@@ -1,5 +1,5 @@
 {
-  "name": "erni-demo-rag-ui",
+  "name": "cv-rag",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

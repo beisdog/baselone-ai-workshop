@@ -1,0 +1,177 @@
+
+.messages-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  height: calc(100vh - 300px);
+  overflow-y: auto;
+}
+
+.user-message {
+  align-self: flex-start;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 12px;
+  max-width: 70%;
+}
+
+.bot-message {
+  align-self: flex-end;
+  background-color: #f1f1f1;
+  color: black;
+  padding: 8px 12px;
+  border-radius: 12px;
+  max-width: 70%;
+}
+
+.message-card {
+  display: inline-block;
+  padding: 4px;
+}
+
+.chat-input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.chat-input-form-row1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+}
+
+.chat-input-field {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.chat-send-btn {
+  margin-left: 8px; /* Adds spacing between textarea and button */
+}
+
+.loading-spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+/* Search Results Integration Styles */
+.chat-container {
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-container mat-card-content {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 400px); /* Reserve space for buttons and search results */
+}
+
+/* Search Results positioned below buttons */
+app-search-results {
+  display: block;
+  margin-top: 16px;
+  border-top: 1px solid #e0e0e0;
+  background-color: #fafafa;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Button styling for search actions */
+.chat-send-btn {
+  margin: 4px;
+  white-space: nowrap;
+}
+
+.chat-input-form-row1 {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .chat-input-form-row1 {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .chat-send-btn {
+    margin: 4px 0;
+    width: 100%;
+  }
+  
+  .messages-container {
+    height: calc(100vh - 500px); /* More space for mobile with search results */
+  }
+  
+  .chat-container mat-card-content {
+    max-height: calc(100vh - 450px);
+  }
+  
+  app-search-results {
+    max-height: 300px; /* Smaller on mobile */
+  }
+}
+
+/* Message Actions Styling */
+.message-actions {
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-message .message-actions {
+  border-top-color: rgba(255, 255, 255, 0.3);
+}
+
+.bot-message .message-actions {
+  border-top-color: rgba(0, 0, 0, 0.1);
+}
+
+.search-results-btn {
+  font-size: 12px;
+  line-height: 1.2;
+  min-height: 32px;
+  padding: 4px 12px;
+  border-radius: 16px;
+  transition: all 0.2s ease;
+}
+
+.search-results-btn mat-icon {
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.user-message .search-results-btn {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.user-message .search-results-btn:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.bot-message .search-results-btn {
+  background-color: white;
+  color: #1976d2;
+  border-color: #1976d2;
+}
+
+.bot-message .search-results-btn:hover {
+  background-color: #f5f5f5;
+}

@@ -20,6 +20,8 @@ import {finalize, Observable, of} from 'rxjs';
 import {catchError} from 'rxjs/operators';
 import {LlmModel} from '../model/llm-model.model';
 import {ModelService} from '../services/model.service';
+import {TextSegmentResult} from '../model/text-segment-result.model';
+import {SearchResultsComponent} from '../search-results/search-results.component';
 
 
 @Component({
@@ -44,7 +46,8 @@ import {ModelService} from '../services/model.service';
     MatSelect,
     MatOption,
     MatButton,
-    MatCheckbox
+    MatCheckbox,
+    SearchResultsComponent
   ],
   styleUrls: ['./chat.component.css']
 })
@@ -59,6 +62,11 @@ export class ChatComponent implements AfterViewChecked, OnInit {
   profiles: Array<Profile> = [];
   llmModels: Array<LlmModel> = []
   vsNamespaces = ["PROFILE_FULL", "PROFILE_SUMMARY", "PROFILE_SKILLS", "PROFILE_PROJECTS"];
+
+  // Vector search related properties
+  searchResults: TextSegmentResult[] = [];
+  searchLoading = false;
+  lastSearchQuery = '';
 
   constructor(private dialog: MatDialog,
               private fb: FormBuilder,
@@ -168,6 +176,57 @@ export class ChatComponent implements AfterViewChecked, OnInit {
       this.messages.push(userMessage);
       this.executeServiceCall(this.askService.askAgent(question));
     }
+  }
+
+  performVectorSearch() {
+    if (this.chatForm.valid) {
+      const question = this.chatForm.value.userInput;
+      const namespace = this.chatForm.value.selectedVSNamespace;
+      const maxResults = this.chatForm.value.maxResults;
+
+      if (!question || !namespace) {
+        return;
+      }
+
+      this.lastSearchQuery = question;
+      this.searchLoading = true;
+
+      this.askService.vectorSearch(namespace, question, maxResults)
+        .pipe(
+          catchError(error => {
+            console.error('Vector search error:', error);
+            return of([]); // Return empty array on error
+          }),
+          finalize(() => this.searchLoading = false)
+        )
+        .subscribe(results => {
+          this.searchResults = results || [];
+        });
+    }
+  }
+
+  clearSearchResults() {
+    this.searchResults = [];
+    this.lastSearchQuery = '';
+  }
+
+  showMessageSearchResults(message: Message) {
+    if (message.searchResults && message.searchResults.length > 0) {
+      this.searchResults = message.searchResults;
+      this.searchLoading = false;
+      // Scroll to search results section
+      setTimeout(() => {
+        const searchElement = document.querySelector('app-search-results');
+        if (searchElement) {
+          searchElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    }
+  }
+
+  // Helper method to check if a message has search results
+  hasSearchResults(message: Message): boolean {
+    return !!(message.searchResults && message.searchResults.length > 0);
   }
 
   executeServiceCall(observable: Observable<any>) {

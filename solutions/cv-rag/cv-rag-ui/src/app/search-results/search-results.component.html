@@ -1,0 +1,77 @@
+<div class="search-results-container">
+  <!-- Header -->
+  <div class="search-results-header" *ngIf="searchQuery">
+    <mat-icon>search</mat-icon>
+    <h3>Vector Search Results for: "{{ searchQuery}}"</h3>
+    <span class="results-count" *ngIf="!loading">{{ searchResults.length }} results found</span>
+  </div>
+
+  <!-- Loading State -->
+  <div class="loading-state" *ngIf="loading">
+    <mat-icon>hourglass_empty</mat-icon>
+    <p>Searching...</p>
+  </div>
+
+  <!-- No Results -->
+  <div class="no-results" *ngIf="!loading && searchResults.length === 0 && searchQuery">
+    <mat-icon>search_off</mat-icon>
+    <h4>No results found</h4>
+    <p>Try adjusting your search terms or increasing the max results limit.</p>
+  </div>
+
+  <!-- Search Results -->
+  <div class="results-list" *ngIf="!loading && searchResults.length > 0">
+    <mat-card
+      *ngFor="let result of searchResults; let i = index; trackBy: trackByIndex"
+      class="result-card"
+    >
+      <mat-card-header>
+        <mat-card-title>
+          <mat-icon>description</mat-icon>
+          Result {{ i + 1 }}
+        </mat-card-title>
+        <div class="namespace-badge">
+          <mat-chip>{{ result.namespace }}</mat-chip>
+        </div>
+      </mat-card-header>
+
+      <mat-card-content>
+        <!-- Text Content -->
+        <div class="text-content">
+          <h4>Content:</h4>
+          <p class="result-text">{{ getTruncatedText(result.text) }}</p>
+          <button
+            *ngIf="isTextTruncated(result.text)"
+            mat-button
+            color="primary"
+            (click)="toggleExpanded(i)"
+            class="expand-btn"
+          >
+            {{ expandedStates[i] ? 'Show Less' : 'Show More' }}
+          </button>
+
+          <!-- Full text when expanded -->
+          <div *ngIf="expandedStates[i]" class="full-text">
+            <p>{{ result.text }}</p>
+          </div>
+        </div>
+
+        <mat-divider></mat-divider>
+
+        <!-- Metadata -->
+        <div class="metadata-section" *ngIf="getMetadataEntries(result.metadata).length > 0">
+          <h4>Metadata:</h4>
+          <div class="metadata-grid">
+            <div
+              *ngFor="let entry of getMetadataEntries(result.metadata)"
+              class="metadata-item"
+            >
+              <span class="metadata-key">{{ entry[0] }}:</span>
+              <span class="metadata-value">{{ formatMetadataValue(entry[1]) }}</span>
+            </div>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
