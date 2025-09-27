@@ -16,10 +16,10 @@ import org.springframework.context.annotation.Import;
 @SpringBootApplication
 @Import({CVService.class, CVConfigProps.class})
 @EnableCaching
-public class ErniDemoRagApplication {
+public class CVRagApplicationSession {
 
     public static void main(String[] args) {
-        SpringApplication.run(ErniDemoRagApplication.class, args);
+        SpringApplication.run(CVRagApplicationSession.class, args);
     }
 
 }

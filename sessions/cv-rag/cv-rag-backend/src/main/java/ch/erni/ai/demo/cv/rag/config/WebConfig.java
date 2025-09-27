@@ -1,4 +1,4 @@
-package ch.erni.ai.demo.rag.config;
+package ch.erni.ai.demo.cv.rag.config;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
