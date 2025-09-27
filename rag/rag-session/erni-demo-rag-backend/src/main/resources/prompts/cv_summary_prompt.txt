@@ -1,2 +1,0 @@
-Fasse mir seinen CV in 5 kurzen Sätzen zusammen. Liste die Hauptskills auf und nenne seinen Namen am Anfang. Kein Blabla, kurz und knackig.
-Here is the CV: {cv_content}

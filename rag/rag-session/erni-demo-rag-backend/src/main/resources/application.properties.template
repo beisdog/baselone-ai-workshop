@@ -1,4 +1,0 @@
-erni.resources.dir=./src/main/resources
-erni.llm.openai.api-key=<insert>
-erni.vector-store.pinecone.api-key=<insert>
-erni.vector-store.pinecone.namespace=yourusername
