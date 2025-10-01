@@ -5,9 +5,15 @@ meta {
 }
 
 post {
-  url: http://localhost:8000/extract
+  url: http://localhost:8000/extract?chunk_content=true&max_chars=1000&overlap=400
   body: multipartForm
   auth: inherit
+}
+
+params:query {
+  chunk_content: true
+  max_chars: 1000
+  overlap: 400
 }
 
 headers {
@@ -15,7 +21,7 @@ headers {
 }
 
 body:multipart-form {
-  data: @file(/Users/david.beisert/deverni/workspace/baselone-ai-workshop/data/manuals/w1_white_edition.pdf)
+  data: @file(/Users/david.beisert/deverni/workspace/baselone-ai-workshop/data/scaninbox/scan4.pdf)
 }
 
 settings {

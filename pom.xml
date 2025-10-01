@@ -19,6 +19,7 @@
         <module>solutions/lib/llm-util</module>
         <module>solutions/lib/cv-service</module>
         <module>solutions/cv-rag/cv-rag-backend</module>
+        <module>sessions/basic_session</module>
         <module>sessions/cv-rag/cv-rag-backend</module>
     </modules>
 

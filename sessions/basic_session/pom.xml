@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.erni.ai.demo</groupId>
-    <artifactId>llm-basic-solution</artifactId>
+    <artifactId>llm-basic-session</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <description>LLM exercises</description>
     <packaging>jar</packaging>
@@ -20,23 +20,9 @@
     </properties>
     <dependencies>
         <!-- langchain -->
-        <dependency>
-            <groupId>dev.langchain4j</groupId>
-            <artifactId>langchain4j-agentic</artifactId>
-            <version>${langchain4j.beta.version}</version>
-        </dependency>
-        <!-- openai -->
-        <dependency>
-            <groupId>dev.langchain4j</groupId>
-            <artifactId>langchain4j-open-ai</artifactId>
-            <version>${langchain4j.version}</version>
-        </dependency>
 
-        <dependency>
-            <groupId>dev.langchain4j</groupId>
-            <artifactId>langchain4j-embeddings-all-minilm-l6-v2</artifactId>
-            <version>${langchain4j.beta.version}</version>
-        </dependency>
+        <!-- openai -->
+
         <!-- others -->
         <dependency>
             <groupId>org.projectlombok</groupId>

@@ -6,8 +6,16 @@ meta {
 
 post {
   url: http://localhost:8000/extract
-  body: none
+  body: multipartForm
   auth: inherit
+}
+
+headers {
+  : 
+}
+
+body:multipart-form {
+  data: @file(/Users/david.beisert/deverni/workspace/baselone-ai-workshop/data/manuals/w1_white_edition.pdf)
 }
 
 settings {

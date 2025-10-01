@@ -5,14 +5,14 @@ meta {
 }
 
 get {
-  url: {{baseUrl}}/stock/tick
+  url: {{baseUrl}}/stock/tick?symbol=AAPL
   body: none
   auth: inherit
 }
 
 params:query {
-  symbol: 
-  date: 
-  limit: 
-  skip: 
+  symbol: AAPL
+  ~date: 
+  ~limit: 
+  ~skip: 
 }

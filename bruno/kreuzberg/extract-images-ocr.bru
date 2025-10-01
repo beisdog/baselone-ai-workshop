@@ -5,9 +5,18 @@ meta {
 }
 
 post {
-  url: http://localhost:8000/extract
+  url: http://localhost:8000/extract?extract_images=true&ocr_extracted_images=true&image_ocr_min_width=100&image_ocr_min_height=100&image_ocr_max_width=3000&image_ocr_max_height=3000
   body: multipartForm
   auth: inherit
+}
+
+params:query {
+  extract_images: true
+  ocr_extracted_images: true
+  image_ocr_min_width: 100
+  image_ocr_min_height: 100
+  image_ocr_max_width: 3000
+  image_ocr_max_height: 3000
 }
 
 headers {
@@ -15,7 +24,7 @@ headers {
 }
 
 body:multipart-form {
-  data: @file(/Users/david.beisert/Library/CloudStorage/OneDrive-Persönlich/ScanSnap/18092025_PostFinance.pdf)
+  data: @file(/Users/david.beisert/Library/CloudStorage/OneDrive-ERNIGroup/Documents/EMS_HR Booklet_Welcome Day_2025 MA Präsentation (1).pptx)
 }
 
 settings {

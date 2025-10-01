@@ -5,13 +5,13 @@ meta {
 }
 
 get {
-  url: {{baseUrl}}/stock/profile2
+  url: {{baseUrl}}/stock/profile2?symbol=GOOGL
   body: none
   auth: inherit
 }
 
 params:query {
-  ~symbol: 
-  ~isin: 
-  ~cusip: 
+  symbol: GOOGL
+  ~isin: US02079K1079
+  ~cusip: 02079K1079
 }

@@ -23,7 +23,13 @@ public class ChatLanguageModelController {
     @PostMapping("/ask/simple")
     public Message ask(
             @RequestBody AskSimple input) {
-        throw new UnsupportedOperationException();
+
+        String response = modelRegistry.getChatLanguageModel(input.getModel()).chat(input.getQuestion());
+
+        return
+                Message.builder()
+                        .text(response)
+                        .type("assistant").build();
     }
 
     @PostMapping("/ask/messages")
@@ -37,9 +43,14 @@ public class ChatLanguageModelController {
             }else if (Objects.equals(m.getType(), "assistant")) {
                 return dev.langchain4j.data.message.AiMessage.from(m.getText());
             }
-           throw new IllegalArgumentException("Unknown message type: " + m.getType());
+            throw new IllegalArgumentException("Unknown message type: " + m.getType());
         }).toList();
-        throw new UnsupportedOperationException();
+        ChatResponse response = modelRegistry.getChatLanguageModel(input.getModel()).chat(messages);
+
+        return
+                Message.builder()
+                        .text(response.aiMessage().text())
+                        .type("assistant").build();
     }
 
     @GetMapping("/models")
