@@ -1,4 +1,4 @@
-package ai.rag;
+package ch.erni.ai.rag;
 
 /*
  * INSTRUCTIONS FOR STUDENTS:
@@ -7,14 +7,14 @@ package ai.rag;
  * 1. Use an Embedding Model to convert string to a vector
  * 2. Load several embeddings into the MemoryEmbeddingStore and query them
  * https://docs.langchain4j.dev/integrations/embedding-stores/in-memory
- * 3. Load some manuals from data/manuals via a documentloader and convert them to text
+ * 3. Load some documents from data via a documentloader and convert them to text
+ * 4. Split a document to fit
  * -
  *
  */
 public class EmbeddingApp {
 
-
     public static void main(String[] args) {
-            //
+
     }
 }

@@ -16,17 +16,17 @@ public class TradingSupervisor {
     private final SupervisorAgent supervisor;
     private final ChatModel model;
 
-    public TradingSupervisor(ChatModel model, DefaultApi finnhubService) {
+    public TradingSupervisor(ChatModel model, String finnhubApiKey) {
         // Initialize language model
         this.model = model;
 
         // Create supervisor with all agents and tools
-        this.supervisor = createSupervisor(finnhubService);
+        this.supervisor = createSupervisor(finnhubApiKey);
     }
 
-    private SupervisorAgent createSupervisor(DefaultApi finnhubService) {
+    private SupervisorAgent createSupervisor(String apiKey) {
         // Create market data tool
-        MarketDataTool marketDataTool = new MarketDataTool(finnhubService);
+        MarketDataTool marketDataTool = new MarketDataTool(apiKey);
 
         // Build Market Research Agent
         MarketResearchAgent researchAgent = AgenticServices

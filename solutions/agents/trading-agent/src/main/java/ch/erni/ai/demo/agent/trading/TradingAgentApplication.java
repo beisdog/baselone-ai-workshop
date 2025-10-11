@@ -33,7 +33,7 @@ public class TradingAgentApplication {
         // Get Finnhub API key from environment variable
         String finnhubApiKey = System.getenv("FINNHUB_API_KEY");
         if (finnhubApiKey == null) {
-            finnhubApiKey = "d3bm1q9r01qqg7bv6acgd3bm1q9r01qqg7bv6ad0";
+            throw new IllegalArgumentException("Finnhub API KEY environment variable is not set");
         }
 
         if (finnhubApiKey == null || finnhubApiKey.isEmpty()) {
@@ -70,7 +70,7 @@ public class TradingAgentApplication {
                     .logResponses(true)
                     .httpClientBuilder(jdkHttpClientBuilder)
                     .build();
-            TradingSupervisor supervisor = new TradingSupervisor(model, finnhubService);
+            TradingSupervisor supervisor = new TradingSupervisor(model, finnhubApiKey);
             System.out.println("✅ Trading Supervisor initialized");
             System.out.println("✅ Agents ready: Market Research, Risk Management, Technical Analysis");
 

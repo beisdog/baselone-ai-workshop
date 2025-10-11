@@ -3,6 +3,7 @@ package ch.erni.ai.demo.agent.trading.tool;
 import dev.langchain4j.agent.tool.Tool;
 import dev.langchain4j.agent.tool.P;
 import io.finnhub.api.apis.DefaultApi;
+import io.finnhub.api.infrastructure.ApiClient;
 import io.finnhub.api.models.*;
 
 import java.time.LocalDate;
@@ -16,8 +17,9 @@ import java.util.Map;
 public class MarketDataTool {
     private final DefaultApi finnhubService;
     
-    public MarketDataTool(DefaultApi finnhubService) {
-        this.finnhubService = finnhubService;
+    public MarketDataTool(String finnhubApiKey) {
+        ApiClient.Companion.getApiKey().put("token", finnhubApiKey);
+        this.finnhubService = new DefaultApi();
     }
     
     @Tool("Get real-time stock quote with current price, change, and trading range")

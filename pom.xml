@@ -18,6 +18,10 @@
     <modules>
         <module>solutions/lib/llm-util</module>
         <module>solutions/lib/cv-service</module>
+        <module>solutions/lib/finnhub-market-service</module>
+        <module>solutions/lib/kreuzberg-client</module>
+        <module>solutions/agents/finnhub-market-tool</module>
+        <module>solutions/agents/finnhub-market-mcp</module>
         <module>solutions/cv-rag/cv-rag-backend</module>
         <module>sessions/basic_session</module>
         <module>sessions/cv-rag/cv-rag-backend</module>

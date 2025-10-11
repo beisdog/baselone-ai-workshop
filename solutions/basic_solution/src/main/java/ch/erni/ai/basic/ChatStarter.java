@@ -1,6 +1,5 @@
-package ai.basic;
+package ch.erni.ai.basic;
 
-import java.util.Scanner;
 /*
  * INSTRUCTIONS FOR STUDENTS:
  * Read:
@@ -38,51 +37,11 @@ import java.util.Scanner;
  *     </dependency> -->
  * </dependencies>
  */
-public class BasicChatApp {
+public class ChatStarter {
 
-    public void startChat() {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("=== LangChain4j Basic Chat Demo ===");
-        System.out.println("Type your messages below. Type 'exit' to quit.\n");
-
-        while (true) {
-            System.out.print("You: ");
-            String userInput = scanner.nextLine().trim();
-
-            if (userInput.equalsIgnoreCase("exit")) {
-                System.out.println("Goodbye!");
-                break;
-            }
-
-            if (userInput.isEmpty()) {
-                continue;
-            }
-
-            try {
-                // Using the simple chat(String)
-                String aiResponse = chat(userInput);
-                System.out.println("AI: " + aiResponse);
-                System.out.println(); // Empty line for readability
-
-            } catch (Exception e) {
-                System.err.println("Error: " + e.getMessage());
-                System.out.println("Please check your model configuration and try again.\n");
-            }
-        }
-
-        scanner.close();
-    }
-
-    public String chat(String userInput) {
-        // TODO Implement
-        return "I am not prepared to give you that answer";
-    }
-
-    public static void main(String[] args) {
+    public static void start(AbstractChat chat) {
         try {
-            BasicChatApp app = new BasicChatApp();
-            app.startChat();
+            chat.startChat();
         } catch (Exception e) {
             System.err.println("Failed to initialize chat application: " + e.getMessage());
             System.err.println("\nMake sure to:");
@@ -91,4 +50,6 @@ public class BasicChatApp {
             System.err.println("3. Implement the chat method");
         }
     }
+
+
 }

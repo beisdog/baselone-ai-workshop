@@ -1,0 +1,22 @@
+
+# Using spring-ai-starter-mcp-server-webmvc
+spring:
+  ai:
+    mcp:
+      server:
+        name: finnhub-market-tool-mcp
+        version: 1.0.0
+        type: SYNC
+        instructions: "This provides tools to query market data from the stock and crypto market"
+        sse-message-endpoint: /mcp/messages
+        capabilities:
+          tool: true
+          resource: false
+          prompt: false
+          completion: false
+        sse-endpoint: /sse
+server:
+  port: 8088
+
+application:
+  finnhub-api-key: d3bm1q9r01qqg7bv6acgd3bm1q9r01qqg7bv6ad0

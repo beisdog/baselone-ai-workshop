@@ -27,8 +27,6 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class CVController {
 
-    @Value("${application.prompt-dir}")
-    private String promptDir;
     private final ModelRegistry modelRegistry;
     private final VectorStoreFactory vectorStoreFactory;
     private final VectorSearchController vectorSearchController;

@@ -24,6 +24,8 @@ public class ChatLanguageModelController {
     public Message ask(
             @RequestBody AskSimple input) {
 
+        var model = mo
+
         String response = modelRegistry.getChatLanguageModel(input.getModel()).chat(input.getQuestion());
 
         return

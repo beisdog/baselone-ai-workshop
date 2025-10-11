@@ -17,7 +17,7 @@ application:
     source-dir: ./data/cv_data/ # important to end with /
   prompt-dir: ./data/prompts/cv/ # important to end with /
   llmstudio:
-    base-url: http://localhost:1234/v1
+    base-url: https://ee55c5a4302f.ngrok-free.app/v1
   vector_store:
     pgvector:
       host: localhost
