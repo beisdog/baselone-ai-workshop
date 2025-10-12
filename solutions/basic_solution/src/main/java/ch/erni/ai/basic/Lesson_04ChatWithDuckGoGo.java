@@ -5,17 +5,16 @@ import dev.langchain4j.mcp.client.DefaultMcpClient;
 import dev.langchain4j.mcp.client.McpClient;
 import dev.langchain4j.mcp.client.transport.McpTransport;
 import dev.langchain4j.mcp.client.transport.docker.DockerMcpTransport;
-import dev.langchain4j.mcp.client.transport.http.HttpMcpTransport;
 import dev.langchain4j.memory.ChatMemory;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import dev.langchain4j.service.AiServices;
 
-public class ChatWithDuckGoGo extends AbstractChat {
+public class Lesson_04ChatWithDuckGoGo extends AbstractChat {
 
     private final ChatMemory memory = MessageWindowChatMemory.withMaxMessages(10);
     private final BasicAssistant assistant;
 
-    public ChatWithDuckGoGo() {
+    public Lesson_04ChatWithDuckGoGo() {
         McpTransport transport = new DockerMcpTransport.Builder()
                 .image("mcp/duckduckgo")
                 .dockerHost("unix:///var/run/docker.sock")
