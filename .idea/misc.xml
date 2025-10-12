@@ -9,6 +9,12 @@
         <option value="$PROJECT_DIR$/solutions/lib/llm-util/pom.xml" />
         <option value="$PROJECT_DIR$/sessions/cv-rag/cv-rag-backend/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/basic_solution/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/agents/trading-agent/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/lib/finnhub-market-tool/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/agents/finnhub-market-mcp/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/lib/finnhub-market-service/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/lib/kreuzberg-client/pom.xml" />
       </list>
     </option>
   </component>

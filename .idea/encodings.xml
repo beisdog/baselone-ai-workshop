@@ -3,7 +3,16 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/rag/rag-session/erni-demo-rag-backend/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sessions/cv-rag/cv-rag-backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/agents/finnhub-market-mcp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/agents/finnhub-market-tool/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/agents/finnhub-market-tool/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/agents/trading-agent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/agents/trading-agent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/solutions/cv-rag/cv-rag-backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/lib/finnhub-market-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/lib/finnhub-market-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/lib/kreuzberg-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/lib/kreuzberg-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

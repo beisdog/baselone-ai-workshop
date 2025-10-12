@@ -7,6 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="finnhub-market-service" />
+        <module name="trading-agent" />
+        <module name="kreuzberg-client" />
+        <module name="finnhub-market-tool" />
       </profile>
       <profile name="Annotation profile for demo-parent" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -16,15 +20,17 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
         <module name="cv-service" />
+        <module name="finnhub-market-mcp" />
         <module name="llm-util" />
         <module name="cv-rag-backend-session" />
         <module name="cv-rag-backend-solution" />
+        <module name="llm-basic-session" />
+        <module name="llm-basic-solution" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="erni-demo-rag-backend" target="21" />
       <module name="erni-demo-rag-backend (1)" target="21" />
-      <module name="llm-basic-solution" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,6 +39,7 @@
       <module name="cv-rag-backend-solution" options="-parameters" />
       <module name="erni-demo-rag-backend" options="-parameters" />
       <module name="erni-demo-rag-backend (1)" options="-parameters" />
+      <module name="finnhub-market-mcp" options="-parameters" />
     </option>
   </component>
 </project>
