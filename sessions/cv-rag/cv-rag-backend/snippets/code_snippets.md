@@ -67,21 +67,25 @@ public Message askWithMessages(@RequestBody Message[] input) {
 
 @PostMapping("/ask/cv/{id}")
 public ChatLanguageModelController.Message askAboutCV(@PathVariable("id") String id, @RequestBody ChatLanguageModelController.AskInput input) throws URISyntaxException, IOException {
+    if (input.getModel() != null) {
+        modelRegistry.setCurrentChatLanguageModel(input.getModel());
+    }
     log.info("***************************** askAboutCV({}) *********************************", id);
-    String cv = FileReaderHelper.readFileFromClasspath("/cv_files/" + id + ".md");
-    String systemPrompt = FileReaderHelper.readFileFromFileSystemOrClassPath(resourcesDir, "/prompts/cv_rag_system_prompt.txt");
-    String userPrompt = FileReaderHelper.readFileFromFileSystemOrClassPath(resourcesDir, "/prompts/cv_rag_user_prompt.txt");
+    String cv = cvService.getProfileAsMarkdown(id);
+    String systemPrompt = FileReaderHelper.readFileFromFileSystem(promptDir + "cv_system_prompt.txt");
+    String userPrompt = FileReaderHelper.readFileFromFileSystem(promptDir + "cv_user_prompt.txt");
     SystemMessage systemMessage = SystemMessage.from(systemPrompt);
     String userMessageText = userPrompt
             .replace("{{cv_content}}", cv)
-            .replace("{{question}}", input.question);
+            .replace("{{question}}", input.getQuestion());
     UserMessage userMessage = UserMessage.from(userMessageText);
     logPrompt(userMessageText);
 
-    var response = chatLanguageModel.chat(systemMessage, userMessage);
+    var model = modelRegistry.getCurrentChatLanguageModel();
+    var response = model.chat(systemMessage, userMessage);
 
     return
-            ChatLanguageModelController.Message.builder()
+            Message.builder()
                     .text(response.aiMessage().text())
                     .type("assistant").build();
 }
