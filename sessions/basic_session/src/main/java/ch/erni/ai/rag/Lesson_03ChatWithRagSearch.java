@@ -9,19 +9,18 @@ import dev.langchain4j.model.embedding.EmbeddingModel;
 import dev.langchain4j.model.input.Prompt;
 import dev.langchain4j.model.input.PromptTemplate;
 import dev.langchain4j.model.openai.OpenAiEmbeddingModel;
-import dev.langchain4j.store.embedding.EmbeddingSearchRequest;
 import dev.langchain4j.store.embedding.EmbeddingSearchResult;
 import dev.langchain4j.store.embedding.pgvector.PgVectorEmbeddingStore;
 
 import java.util.Map;
 
-public class ChatWithRagSearch extends AbstractChat {
+public class Lesson_03ChatWithRagSearch extends AbstractChat {
     private ChatModel chatModel;
     private EmbeddingModel embeddingModel;
 
     private PgVectorEmbeddingStore pg;
 
-    public ChatWithRagSearch() {
+    public Lesson_03ChatWithRagSearch() {
         this.chatModel = createChatModel();
 
         this.embeddingModel = OpenAiEmbeddingModel
@@ -41,19 +40,14 @@ public class ChatWithRagSearch extends AbstractChat {
                 .user("baselone")
                 .password("baselone")
                 .database("baselone")
-                //.dropTableFirst(true)
                 .build();
 
     }
 
     public String chat(String userInput) {
-        var embedding = embeddingModel.embed(userInput).content();
-        var req = EmbeddingSearchRequest
-                .builder()
-                .queryEmbedding(embedding)
-                .maxResults(5)
-                .build();
-        var searchResult = this.pg.search(req);
+        //Query vectorstore
+        EmbeddingSearchResult<TextSegment> searchResult = null;
+        // assemble the prompt
         var template = PromptTemplate.from("""
                 Beantworte die Benutzerfrage anhand einer Liste von CVs.
                 
@@ -85,6 +79,6 @@ public class ChatWithRagSearch extends AbstractChat {
     }
 
     public static void main(String[] args) {
-        ChatStarter.start(new ChatWithRagSearch());
+        ChatStarter.start(new Lesson_03ChatWithRagSearch());
     }
 }

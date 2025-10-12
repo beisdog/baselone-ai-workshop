@@ -3,7 +3,6 @@ package ch.erni.ai.basic;
 
 import dev.langchain4j.data.message.ChatMessage;
 import dev.langchain4j.data.message.UserMessage;
-import dev.langchain4j.service.AiServices;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +10,7 @@ import java.util.List;
 /**
  * Initialize the chat Memory and also correct the BasicAssistant interface.
  */
-public class ChatWithMemory extends AbstractChat{
+public class Lesson_02ChatWithMemory extends AbstractChat{
 
     private final List<ChatMessage> messages = new ArrayList<>();
 

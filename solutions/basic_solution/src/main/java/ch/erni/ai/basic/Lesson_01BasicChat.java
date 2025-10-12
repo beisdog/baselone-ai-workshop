@@ -1,6 +1,6 @@
 package ch.erni.ai.basic;
 
-public class BasicChat extends AbstractChat {
+public class Lesson_01BasicChat extends AbstractChat {
 
     public String chat(String userInput) {
         var model = createChatModel();

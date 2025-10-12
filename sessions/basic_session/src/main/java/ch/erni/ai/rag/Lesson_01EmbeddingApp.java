@@ -11,7 +11,7 @@ import dev.langchain4j.model.openai.OpenAiEmbeddingModel;
  * Use an Embedding Model to convert string to a vector
  *
  */
-public class EmbeddingApp {
+public class Lesson_01EmbeddingApp {
 
     public static void main(String[] args) {
         EmbeddingModel embeddingModel = OpenAiEmbeddingModel

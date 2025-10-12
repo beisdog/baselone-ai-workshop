@@ -15,7 +15,7 @@ import dev.langchain4j.store.embedding.pgvector.PgVectorEmbeddingStore;
 
 import java.util.Map;
 
-public class IngestCVApp {
+public class Lesson_02IngestCVApp {
 
     public static void main(String[] args) {
 

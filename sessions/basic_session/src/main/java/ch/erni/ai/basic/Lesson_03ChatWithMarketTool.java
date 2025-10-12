@@ -6,9 +6,10 @@ import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import dev.langchain4j.service.AiServices;
 
 /**
- * Finish the tool call.
+ * Finish the tool call by providing the correct annotations.
+ * https://docs.langchain4j.dev/tutorials/ai-services#tools-function-calling
  */
-public class ChatWithMarketTool extends AbstractChat{
+public class Lesson_03ChatWithMarketTool extends AbstractChat{
 
     private final ChatMemory memory = MessageWindowChatMemory.withMaxMessages(10);
 

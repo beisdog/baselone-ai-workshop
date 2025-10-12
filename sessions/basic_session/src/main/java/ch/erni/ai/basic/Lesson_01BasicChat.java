@@ -4,9 +4,9 @@ import dev.langchain4j.model.chat.ChatModel;
 
 /**
  * Implement the llm call.
- *
+ * https://docs.langchain4j.dev/tutorials/chat-and-language-models
  */
-public class BasicChatApp extends AbstractChat {
+public class Lesson_01BasicChat extends AbstractChat {
 
     public String chat(String userInput) {
         ChatModel model = createChatModel();
@@ -17,6 +17,6 @@ public class BasicChatApp extends AbstractChat {
 
 
     public static void main(String[] args) {
-        ChatStarter.start(new BasicChatApp());
+        ChatStarter.start(new Lesson_01BasicChat());
     }
 }
