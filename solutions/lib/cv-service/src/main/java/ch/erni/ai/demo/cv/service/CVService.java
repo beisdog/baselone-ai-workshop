@@ -49,6 +49,13 @@ public class CVService {
         }
     }
 
+    public List<ProfileShort> getProfiles() {
+        if (profiles.isEmpty()) {
+            init();
+        }
+        return profiles;
+    }
+
     @SneakyThrows
     public ProfileShort getProfileShort(String id) {
         return objectMapper.readValue(FileReaderHelper.readFileFromFileSystem(props.getSourceDir() + id + ".json"), ProfileShort.class);
