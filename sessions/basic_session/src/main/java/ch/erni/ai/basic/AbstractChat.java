@@ -52,18 +52,20 @@ public abstract class AbstractChat {
     public abstract String chat(String userInput);
 
     public ChatModel createChatModel() {
-        // LM Studio understands only http 1
+        return new OpenAiChatModel.OpenAiChatModelBuilder()
+                .baseUrl("http://localhost:1234/v1")
+                .apiKey("Dummy")
+                .modelName("openai/gpt-oss-120b")
+                .httpClientBuilder(getHttp1ClientBuilder())
+                .build();
+    }
+
+    public static JdkHttpClientBuilder getHttp1ClientBuilder() {
         HttpClient.Builder httpClientBuilder = HttpClient.newBuilder()
                 .version(HttpClient.Version.HTTP_1_1);
 
         JdkHttpClientBuilder jdkHttpClientBuilder = JdkHttpClient.builder()
                 .httpClientBuilder(httpClientBuilder);
-
-        return new OpenAiChatModel.OpenAiChatModelBuilder()
-                .baseUrl("http://localhost:1234/v1")
-                .apiKey("Dummy")
-                .modelName("openai/gpt-oss-20b")
-                .httpClientBuilder(jdkHttpClientBuilder)
-                .build();
+        return jdkHttpClientBuilder;
     }
 }
