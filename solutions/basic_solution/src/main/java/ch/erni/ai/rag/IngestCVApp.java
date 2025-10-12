@@ -1,5 +1,6 @@
 package ch.erni.ai.rag;
 
+import ch.erni.ai.basic.AbstractChat;
 import ch.erni.ai.demo.cv.config.CVConfigProps;
 import ch.erni.ai.demo.cv.service.CVService;
 import com.fasterxml.jackson.databind.DeserializationFeature;
@@ -20,17 +21,13 @@ import java.util.Map;
 public class IngestCVApp {
 
     public static void main(String[] args) {
-        HttpClient.Builder httpClientBuilder = HttpClient.newBuilder()
-                .version(HttpClient.Version.HTTP_1_1);
 
-        JdkHttpClientBuilder jdkHttpClientBuilder = JdkHttpClient.builder()
-                .httpClientBuilder(httpClientBuilder);
 
         EmbeddingModel embeddingModel = OpenAiEmbeddingModel
                 .builder()
                 .modelName("text-embedding-nomic-embed-text-v2")
                 .baseUrl("http://localhost:1234/v1")
-                .httpClientBuilder(jdkHttpClientBuilder)
+                .httpClientBuilder(AbstractChat.getHttp1ClientBuilder())
                 .build();
 
         PgVectorEmbeddingStore pg = PgVectorEmbeddingStore.builder()
