@@ -67,6 +67,11 @@
         </dependency>
         <!-- tools -->
         <dependency>
+            <groupId>ch.erni.ai</groupId>
+            <artifactId>cv-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>ch.erni.ai.demo</groupId>
             <artifactId>finnhub-market-tool</artifactId>
             <version>1.0-SNAPSHOT</version>
