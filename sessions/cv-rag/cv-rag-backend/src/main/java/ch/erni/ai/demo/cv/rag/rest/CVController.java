@@ -9,6 +9,9 @@ import ch.erni.ai.demo.cv.rag.rest.model.SearchInput;
 import ch.erni.ai.demo.cv.rag.rest.model.TextSegmentResult;
 import ch.erni.ai.demo.cv.service.CVService;
 import ch.erni.ai.llm.service.ModelRegistry;
+import ch.erni.ai.util.FileReaderHelper;
+import dev.langchain4j.data.message.SystemMessage;
+import dev.langchain4j.data.message.UserMessage;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
@@ -27,6 +30,8 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class CVController {
 
+    @Value("${application.prompt-dir}")
+    private String promptDir;
     private final ModelRegistry modelRegistry;
     private final VectorStoreFactory vectorStoreFactory;
     private final VectorSearchController vectorSearchController;
@@ -57,7 +62,27 @@ public class CVController {
 
     @PostMapping("/ask/cv/{id}")
     public Message askAboutCV(@PathVariable("id") String id, @RequestBody AskSimple input) throws URISyntaxException, IOException {
-        throw new UnsupportedOperationException();
+        if (input.getModel() != null) {
+            modelRegistry.setCurrentChatLanguageModel(input.getModel());
+        }
+        log.info("***************************** askAboutCV({}) *********************************", id);
+        String cv = cvService.getProfileAsMarkdown(id);
+        String systemPrompt = FileReaderHelper.readFileFromFileSystem(promptDir + "cv_system_prompt.txt");
+        String userPrompt = FileReaderHelper.readFileFromFileSystem(promptDir + "cv_user_prompt.txt");
+        SystemMessage systemMessage = SystemMessage.from(systemPrompt);
+        String userMessageText = userPrompt
+                .replace("{{cv_content}}", cv)
+                .replace("{{question}}", input.getQuestion());
+        UserMessage userMessage = UserMessage.from(userMessageText);
+        logPrompt(userMessageText);
+
+        var model = modelRegistry.getCurrentChatLanguageModel();
+        var response = model.chat(systemMessage, userMessage);
+
+        return
+                Message.builder()
+                        .text(response.aiMessage().text())
+                        .type("assistant").build();
     }
 
     private static void logPrompt(String userMessageText) {

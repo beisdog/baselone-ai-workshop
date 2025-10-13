@@ -23,10 +23,12 @@ public class ChatLanguageModelController {
     @PostMapping("/ask/simple")
     public Message ask(
             @RequestBody AskSimple input) {
+        if (input.getModel() != null) {
+            modelRegistry.setCurrentChatLanguageModel(input.getModel());
+        }
+        var model = modelRegistry.getCurrentChatLanguageModel();
 
-        var model = mo
-
-        String response = modelRegistry.getChatLanguageModel(input.getModel()).chat(input.getQuestion());
+        String response = model.chat(input.getQuestion());
 
         return
                 Message.builder()
@@ -47,7 +49,13 @@ public class ChatLanguageModelController {
             }
             throw new IllegalArgumentException("Unknown message type: " + m.getType());
         }).toList();
-        ChatResponse response = modelRegistry.getChatLanguageModel(input.getModel()).chat(messages);
+
+        if (input.getModel() != null) {
+            modelRegistry.setCurrentChatLanguageModel(input.getModel());
+        }
+        var model = modelRegistry.getCurrentChatLanguageModel();
+
+        ChatResponse response = model.chat(messages);
 
         return
                 Message.builder()
