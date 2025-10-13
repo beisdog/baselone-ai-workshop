@@ -26,7 +26,7 @@ public class Lesson_02IngestCVApp {
                 .baseUrl("http://localhost:1234/v1")
                 .httpClientBuilder(AbstractChat.getHttp1ClientBuilder())
                 .build();
-
+        //Alternative: EmbeddingModel embeddingModel = new AllMiniLmL6V2EmbeddingModel();
         PgVectorEmbeddingStore pg = PgVectorEmbeddingStore.builder()
                 .createTable(true)
                 .table("profile_full2")

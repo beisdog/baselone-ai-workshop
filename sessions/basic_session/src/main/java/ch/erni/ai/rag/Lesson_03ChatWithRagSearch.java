@@ -6,6 +6,7 @@ import dev.langchain4j.data.document.Metadata;
 import dev.langchain4j.data.segment.TextSegment;
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.embedding.EmbeddingModel;
+import dev.langchain4j.model.embedding.onnx.allminilml6v2.AllMiniLmL6V2EmbeddingModel;
 import dev.langchain4j.model.input.Prompt;
 import dev.langchain4j.model.input.PromptTemplate;
 import dev.langchain4j.model.openai.OpenAiEmbeddingModel;
@@ -30,7 +31,7 @@ public class Lesson_03ChatWithRagSearch extends AbstractChat {
                 .apiKey("dummy")
                 .httpClientBuilder(getHttp1ClientBuilder())
                 .build();
-
+        //Alternative: this.embeddingModel = new AllMiniLmL6V2EmbeddingModel();
         this.pg = PgVectorEmbeddingStore.builder()
                 .createTable(true)
                 .table("profile_full2")
