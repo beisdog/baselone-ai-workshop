@@ -37,11 +37,12 @@ public abstract class AbstractChat {
                 // Using the simple chat(String)
                 spinner.startSpinner("Thinking...");
                 String aiResponse = chat(userInput);
-                spinner.stopSpinner(" AI finished thinking!");
+                spinner.stopSpinner("- AI finished thinking!");
                 System.out.println("AI: " + aiResponse);
                 System.out.println(); // Empty line for readability
 
             } catch (Exception e) {
+                spinner.stopSpinner("Error occurred!");
                 System.err.println("Error: " + e.getMessage());
                 System.out.println("Please check your model configuration and try again.\n");
             }
