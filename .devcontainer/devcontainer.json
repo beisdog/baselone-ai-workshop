@@ -1,7 +1,7 @@
 {
   "name": "Baselone AI Workshop",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  
+
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
       "version": "21",
@@ -35,7 +35,24 @@
             "path": "/usr/local/sdkman/candidates/java/current",
             "default": true
           }
-        ]
+        ],
+        // Java Language Server im Standard-Modus starten
+        "java.server.launchMode": "Standard",
+
+        // Automatischer Import von Maven-Projekten
+        "java.import.maven.enabled": true,
+        "java.autobuild.enabled": true,
+
+        // Maven-Einstellungen
+        "maven.executable.preferMavenWrapper": true,
+        "java.configuration.updateBuildConfiguration": "automatic",
+
+        // Automatischer Projekt-Import beim Start
+        "java.project.importOnFirstTimeStartup": "automatic",
+        "java.completion.enabled": true,
+
+        // Optional: Verbose-Logging für Debugging
+        "java.trace.server": "messages"
       }
     }
   },
