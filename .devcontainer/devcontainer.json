@@ -26,7 +26,9 @@
         "vscjava.vscode-maven",
         "redhat.java",
         "ms-azuretools.vscode-docker",
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg"
       ],
       "settings": {
         "java.configuration.runtimes": [
