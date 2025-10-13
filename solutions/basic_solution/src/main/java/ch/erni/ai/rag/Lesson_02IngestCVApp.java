@@ -39,18 +39,7 @@ public class Lesson_02IngestCVApp {
                 .dropTableFirst(true)
                 .build();
 
-        var props = new CVConfigProps();
-        props.setSourceDir("./data/cv_data");
-        var objectMapper = new ObjectMapper()
-                .enable(
-                        SerializationFeature.INDENT_OUTPUT
-                )
-                .disable(
-                        DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES
-                )
-                ;
-
-        CVService cvService = new CVService(props, objectMapper);
+        CVService cvService = CVService.create();
         var profiles = cvService.getProfiles();
 
         for (var profile : profiles) {

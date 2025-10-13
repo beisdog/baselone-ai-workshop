@@ -24,18 +24,8 @@ public class Lesson_00ChatWithRag extends AbstractChat {
 
     public Lesson_00ChatWithRag() {
         this.chatModel = createChatModel();
-        var props = new CVConfigProps();
-        props.setSourceDir("./data/cv_data");
-        var objectMapper = new ObjectMapper()
-                .enable(
-                        SerializationFeature.INDENT_OUTPUT
-                )
-                .disable(
-                        DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES
-                )
-                ;
 
-        cvService = new CVService(props, objectMapper);
+        cvService = CVService.create();
 
         System.out.println("Choose one profile by typing its number:");
         System.out.println("----------------------------------------");

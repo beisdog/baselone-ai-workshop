@@ -4,7 +4,9 @@ package ch.erni.ai.demo.cv.service;
 import ch.erni.ai.demo.cv.config.CVConfigProps;
 import ch.erni.ai.demo.cv.model.Profile;
 import ch.erni.ai.util.FileReaderHelper;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import jakarta.annotation.PostConstruct;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -31,6 +33,32 @@ public class CVService {
     public static class CareerInfoShort {
         public String AdvertisingText;
         public String LongAdvertisingText;
+    }
+
+    /**
+     * Factory method.
+     * @return new CVService instance
+     */
+    public static CVService create() {
+        return create("./data/cv_data");
+    }
+
+    public static CVService create(String sourceDir) {
+        var props = new CVConfigProps();
+        if (sourceDir == null) {
+            props.setSourceDir("./data/cv_data");
+        } else {
+            props.setSourceDir(sourceDir);
+        }
+        var objectMapper = new ObjectMapper()
+                .enable(
+                        SerializationFeature.INDENT_OUTPUT
+                )
+                .disable(
+                        DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES
+                )
+                ;
+        return new CVService(props, objectMapper);
     }
 
     private final ObjectMapper objectMapper;
