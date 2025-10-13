@@ -6,4 +6,8 @@ public class Lesson_01BasicChat extends AbstractChat {
         var model = createChatModel();
         return model.chat(userInput);
     }
+
+    public static void main(String[] args) {
+        ChatStarter.start(new Lesson_01BasicChat());
+    }
 }

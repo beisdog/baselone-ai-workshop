@@ -15,4 +15,8 @@ public class Lesson_02ChatWithMemory extends AbstractChat{
                 .chatMemory(this.memory)
                 .build().chat(userInput);
     }
+
+    public static void main(String[] args) {
+        ChatStarter.start(new Lesson_02ChatWithMemory());
+    }
 }

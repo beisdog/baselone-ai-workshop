@@ -38,4 +38,8 @@ public class Lesson_04ChatWithDuckGoGo extends AbstractChat {
     public String chat(String userInput) {
         return assistant.chat(userInput);
     }
+
+    public static void main(String[] args) {
+        ChatStarter.start(new Lesson_04ChatWithDuckGoGo());
+    }
 }

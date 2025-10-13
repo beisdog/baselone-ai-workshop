@@ -17,4 +17,8 @@ public class Lesson_03ChatWithMarketTool extends AbstractChat{
                 .tools(new MarketDataTool("d3bm1q9r01qqg7bv6acgd3bm1q9r01qqg7bv6ad0"))
                 .build().chat(userInput);
     }
+
+    public static void main(String[] args) {
+        ChatStarter.start(new Lesson_03ChatWithMarketTool());
+    }
 }
