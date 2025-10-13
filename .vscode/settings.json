@@ -1,0 +1,15 @@
+{
+  "sqltools.connections": [
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 8432,
+      "driver": "PostgreSQL",
+      "name": "pgvector",
+      "database": "baselone",
+      "username": "baselone",
+      "password": "baselone"
+    }
+  ]
+}
