@@ -8,7 +8,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Initialize the chat Memory and also correct the BasicAssistant interface.
+ * 1. Add the messages to a list and give them to the chatmodel to have a history.
+ * 2. Try to change this to an AiService with ChatMemory using the BasicAssistant interface
+ *
+ * https://docs.langchain4j.dev/tutorials/ai-services
+ * https://docs.langchain4j.dev/tutorials/chat-memory
  */
 public class Lesson_02ChatWithMemory extends AbstractChat{
 
