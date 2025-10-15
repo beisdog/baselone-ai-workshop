@@ -10,7 +10,7 @@ mvn clean install
 * Öffne:
 * `sessions/basic_session/src/main/java/ch/erni/ai/basic/AbstractChat.java`
     * Füge die Ngrok Url des LM Studio Servers ein. Diese bekommst Du vom Referent
-      während des Workshops
+      während des Workshops: https://c33f42125701.ngrok-free.app
 * Öffne 
   * `sessions/basic_solution/src/main/java/ch/erni/ai/basic/Lesson_01BasicChat.java`
     Rechte Maustaste - Java ausführen
